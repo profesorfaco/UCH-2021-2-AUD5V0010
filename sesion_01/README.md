@@ -56,58 +56,7 @@ Esta variable es utilizada para realizar una tarea simplificada con [p5.js](http
 
 Una vez cerremos el paréntesis podremos volver a la página [index.html](https://github.com/profesorfaco/dno037-2021/blob/main/clase-01/index.html) para resolver el ejercicio de la clase de hoy.
 
-- - - - - - - - - - - - - - 
-
-### Práctica
-
-Corresponde ajustar el sitio web contenido en [esta carpeta del repositorio](https://profesorfaco.github.io/dno037-2021/clase-01/), según indicaciones que se compartan en la clase vía Zoom. 
-
-El ejercicio se completa cuando cada estudiante publica, [con GitHub Pages](https://docs.github.com/es/free-pro-team@latest/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site), su versión ajustada del sitio web.
-
-El ejercicio completo puede ser evaluado con:
-
-- **0 punto** → no logrado.
-
-- **1 punto** → logrado.
-
-- **2 puntos** → logrado, con aporte descatado.
-
-Podrán revisar el registro de los puntos obtenidos en [carpeta Drive del curso](https://drive.google.com/drive/folders/1MhBnA7gJtoxwTkYibXcP1gCyWmMKGr3k?usp=sharing). Podrán revisar todos los ejercicios aprovechando los vínculos en la siguiente tabla. Para ser incluida/o en la tabla, debe compartir las URLs correspondientes antes de las 23.59 hrs. del miércoles 17 de marzo. 
-
-| Nº   | Estudiante      | GitHub    | Ejercicio clase-01 |
-|:----:|:----------------|:----------|:-------------------|
-| 1    | DIEGO BARRIENTOS | — | — |
-| 2    | MARTÍN BENNETT | https://github.com/bennett-martin/ | https://bennett-martin.github.io/dnom-clase1-17-03/ |
-| 3    | RODRIGO CAMPUSANO | https://github.com/rodrigocampusano | https://rodrigocampusano.github.io/Clase1/ |
-| 4    | PALOMA CARRASCO | https://github.com/palomacarrasco | https://palomacarrasco.github.io/dno037-clase-1/ |
-| 5    | SOFIA CAVALLINI | https://github.com/sofiacavallinii | https://sofiacavallinii.github.io/dno037clase-1/ |
-| 6    | VICENTE ESPINOSA | https://github.com/vtespinosa | https://vtespinosa.github.io/diseno/clase-01/ |
-| 7    | FELIPE FUENTEALBA | https://github.com/leocto | https://leocto.github.io/Nuevos_Medios_Clase_1/ |
-| 8    | VERÓNICA GATICA | https://github.com/verogatica | https://verogatica.github.io/1_clase_dno037/ |
-| 9    | MIRKO GONZÁLEZ | https://github.com/mirkogonzalez | https://mirkogonzalez.github.io/clase.01_dno/ |
-| 10   | RODRIGO GUZMÁN | https://github.com/rodrigo-bot | https://rodrigo-bot.github.io/dno037-clase01/ |
-| 11   | VALENTINA HERRERA | https://github.com/vale-herrera | https://vale-herrera.github.io/dno037-clase-1/ |
-| 12   | BETINA HIP | https://github.com/bbhip | https://bbhip.github.io/dno-nuevos-medios/ |
-| 13   | MARÍA HONORATO | https://github.com/elisahonorato | https://elisahonorato.github.io/clase_01/ |
-| 14   | MARÍA IBÁÑEZ | https://github.com/franibanezm | https://franibanezm.github.io/Clase_01/ |
-| 15   | NICOLE LUNA | — | — |
-| 16   | MARGARITA MATTE | https://github.com/mar-garita1 | https://mar-garita1.github.io/clase-01/ |
-| 17   | CONSTANZA MONTERO | https://github.com/cpmontero | https://cpmontero.github.io/dno_nuevosmedios_clase1/ |
-| 18   | VALENTINA MORALES | https://github.com/lunalaffx | https://lunalaffx.github.io/DNO037-clase1/ |
-| 19   | DANIELA ORELLANA | https://github.com/dacorellana | https://dacorellana.github.io/dno-medios-clase-01/ |
-| 20   | FRANCISCA PARRA | https://github.com/frnparr | https://frnparr.github.io/dno_clase1/ |
-| 21   | YAHAIRA PEREZ | https://github.com/yahairaperez | https://yahairaperez.github.io/Ejercicio-clase-01/ |
-| 22   | JAVIER RAMÍREZ | https://github.com/rama2432 | https://rama2432.github.io/DNO-clase1/ |
-| 23   | MARIO REINIKE | https://github.com/marioreinike | https://marioreinike.github.io/dno037-clase-01/ |
-| 24   | VALENTINA REY | https://github.com/valentinarey | https://valentinarey.github.io/DNO037_Clase_1/ |
-| 25   | JAVIERA ROBLES | — | — |
-| 26   | MIRANDA SEPULVEDA | https://github.com/mirandasepulveda-la | https://mirandasepulveda-la.github.io/actividad_clase_1/ |
-| 27   | JOSEFINA TORO | https://github.com/josefinatoro | https://josefinatoro.github.io/dno_nuevos_medios_clase17-03/ |
-| 28   | ROSARIO TORRES | https://github.com/rosipilipi | https://rosipilipi.github.io/dno-clase-01/ |
-| 29   | BIANCA VALLADARES | https://github.com/bivall | https://bivall.github.io/dno037-clase-1/ |
-| 30   | MARGARITA VIAL | https://github.com/margaraitavialm | https://margaraitavialm.github.io/dno037-clase-1/ |
-| 31   | IGNACIA VIZCAYA | https://github.com/ignaviz | https://ignaviz.github.io/dno037-clase-01/ |
 
 - - - - - - - 
 
-###### [SIGUIENTE CLASE →](https://github.com/profesorfaco/dno037-2021/tree/main/clase-02)
+###### [SIGUIENTE CLASE →](https://github.com/profesorfaco/interaccion/tree/main/sesion-02)
