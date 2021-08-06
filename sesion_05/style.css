@@ -1,0 +1,96 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    background: linear-gradient(270deg, rgb(200, 235, 235), rgb(175, 200, 200));
+    color: #333;
+}
+
+a {
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgba(0, 0, 0, 0.75);
+    transition: color ease .5s;
+}
+
+div.container {
+    width: 80vw;
+    margin: 0 auto;
+}
+
+nav, footer {
+    width: 100%;
+    min-height: 10vh;
+    display: flex;
+}
+
+nav p, footer p {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin:auto;
+}
+
+.active {
+    text-decoration: underline;
+    color: black;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;    
+    height: 80vh;
+}
+
+main div {
+    width: 50%;
+    margin:auto;
+    line-height: 1.5;
+}
+
+main div:first-child h1, main div:first-child blockquote, main div:first-child p{
+    padding-right:5rem;
+}
+
+main div img{
+    max-width:100%;
+    height:auto;
+}
+
+@media (orientation:portrait){
+
+    main {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;    
+        height: auto;
+        min-height: 80vh
+    }
+
+    main div {
+        width: 100%;
+        margin:auto;
+        line-height: 1.5;
+    }
+
+    main div:first-child h1, main div:first-child blockquote, main div:first-child p{
+        padding-right:0;
+    }
+
+    main div img{
+        max-width:100%;
+        height:auto;
+        margin:3rem 0;
+    }   
+
+}

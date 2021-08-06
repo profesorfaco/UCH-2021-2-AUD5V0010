@@ -1,0 +1,75 @@
+@charset "UTF-8";
+
+:root {
+    --figura: rgb(20, 20, 20);
+    --fondo: rgb(200, 200, 200);
+    /* ¿Qué valor de contrast-ratio está utilizando? Revise en https://contrast-ratio.com/ */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    transition: color ease 0.5s;
+}
+
+body {
+    font-family: "DM Sans", sans-serif;
+    color: var(--figura);
+    background: var(--fondo);
+    line-height: 1.25;
+}
+
+a {
+    color: #666;
+    text-decoration: none;
+    margin-right: 3vw;
+}
+
+a:hover {
+    color: #000;
+}
+
+header, main, footer {
+    width: 86vw;
+    margin: 0;
+    padding: 5vh 7vw;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    color: #fff;
+    text-shadow: 3px 3px 5px rgba(100, 100, 100, 0.25);
+}
+
+header h1 {
+    font-size: 3.5rem;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+}
+
+footer div#controles{
+    background:#eee;
+    border:1px solid #ddd;
+    box-shadow: 3px 3px 5px rgba(100, 100, 100, 0.25);
+}
+
+footer div#controles input[type=color]{
+    border-radius: 0 0;
+    border:none;
+    border-right:1px solid #ddd;
+    padding:3px 5px;
+    width:2rem;
+}
+
+footer div#controles input[type=range]{
+    width:4rem;
+    margin:0 0.5rem;
+}
