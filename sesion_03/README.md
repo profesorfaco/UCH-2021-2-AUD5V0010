@@ -1,8 +1,6 @@
 # Introducción a la programación para el Diseño de interacción
 
-# HTML5 + CSS3 + p5.js
-
-### Evaluación Nº1
+# Evaluación Diagnóstica
 
 Cada estudiante cuenta con el horario de clases para publicar, [con GitHub Pages](https://docs.github.com/es/free-pro-team@latest/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site), su versión del sitio web que está contenido en [esta carpeta del repositorio](https://profesorfaco.github.io/interaccion/sesion_03/).
 
