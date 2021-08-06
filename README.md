@@ -8,7 +8,7 @@ Introducción a la programación para el Diseño de interacción es un Electivo 
 
 - con sesiones los días jueves, entre 15.00 a 18.15 hrs. 
 
-En esta versión se adapta el programa y se reemplazan actividades relacionadas con Processing y Arduino por un mayor énfasis en Web (que se apoya en [Bootrap](https://getbootstrap.com/), [p5.js](https://p5js.org/es) y otras bibliotecas de JavaScript).
+En esta versión se adapta el programa y se reemplazan actividades relacionadas con Processing y Arduino por un mayor énfasis en Web, que se apoya en [Bootrap](https://getbootstrap.com/), [p5.js](https://p5js.org/es) y otras bibliotecas de JavaScript.
 
 - - - - - - - - - -
 
