@@ -6,27 +6,27 @@ Introducción a la programación para el Diseño de interacción es un Electivo 
 
 - Curso remoto, vía Google Meet.
 
-- Jueves 15.00 a 18.15 hrs. 
+- Con sesiones los días jueves, entre 15.00 a 18.15 hrs. 
 
-En esta versión remota, se adapta el programa y se reemplazan actividades relacionadas con Processing y Arduino por un mayor énfasis en Web, que se apoya en Bootrap, p5.js y otras bibliotecas de JavaScript.
+En esta versión se adapta el programa y se reemplazan actividades relacionadas con Processing y Arduino por un mayor énfasis en Web (que se apoya en Bootrap, [p5.js](https://p5js.org/es) y otras bibliotecas de JavaScript).
 
 - - - - - - - - - -
 
 ## Materiales de trabajo
 
-Cada estudiante en este Electivo debe contar con:
+Cada estudiante en este Electivo debería contar con:
 
-- conexión a Internet
+- conexión estable a Internet
 
 - cuenta personal en [GitHub](https://github.com/join);
 
-- computador donde pueda usar
+- computador donde pueda usar:
 
-- - Google Meet
+  - Cuenta para ingresar a Google Meet;
 
-- - Un editor de código fuente: [Atom.io](https://atom.io/) o [Sublime Text](https://www.sublimetext.com/); y
+  - Navegador web: [Chrome](https://www.google.com/intl/es-419/chrome/) o [Firefox](https://www.mozilla.org/es-CL/firefox/new/). No utilizaremos Safari. Es muy necesario que desactive los traductores en su navegador, porque la traducción automática (y forzada) al español puede complicar un trabajo que se hace, principalmente, en inglés. También es necesario que sepa como "Ver el código fuente de la página", [inspeccionar elementos](https://support.hostinger.es/es/articles/2333029-como-inspeccionar-los-elementos-del-sitio-web) y [abrir consola](https://transferwise.com/es/help/articles/2954851/como-abrir-la-consola-de-tu-navegador); y
 
-- - Un navegador web: [Chrome](https://www.google.com/intl/es-419/chrome/) o [Firefox](https://www.mozilla.org/es-CL/firefox/new/). No utilizaremos Safari. Es muy necesario que desactive los traductores en su navegador, porque la traducción automática (y forzada) al español puede complicar un trabajo que se hace, principalmente, en inglés. También es necesario que sepa como "Ver el código fuente de la página", [inspeccionar elementos](https://support.hostinger.es/es/articles/2333029-como-inspeccionar-los-elementos-del-sitio-web) y [abrir consola](https://transferwise.com/es/help/articles/2954851/como-abrir-la-consola-de-tu-navegador).
+  - Editor de código fuente: [Atom.io](https://atom.io/) o [Sublime Text](https://www.sublimetext.com/).
 
 - - - - - - - - -
 
