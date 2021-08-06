@@ -83,53 +83,7 @@ Corresponde ajustar el sitio web contenido en [esta carpeta del repositorio](htt
 
 El ejercicio se completa cuando cada estudiante publica, [con GitHub Pages](https://docs.github.com/es/free-pro-team@latest/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site), su versión ajustada del sitio web.
 
-El ejercicio completo puede ser evaluado con:
-
-- **0 punto** → no logrado.
-
-- **1 punto** → logrado.
-
-- **2 puntos** → logrado con aporte destacado.
-
-El ejercicio incompleto es evaluado con 0 punto.
-
-Podrán revisar el registro de los puntos obtenidos en [carpeta Drive del curso](https://drive.google.com/drive/folders/1MhBnA7gJtoxwTkYibXcP1gCyWmMKGr3k?usp=sharing). Podrán revisar todos los ejercicios aprovechando los vínculos en la siguiente tabla. Para ser incluida/o en la tabla, debe compartir las URLs correspondientes antes de las 23.59 hrs. del miércoles 24 de marzo. 
-
-| Nº   | Estudiante      | GitHub    | Ejercicio clase-02 |
-|:----:|:----------------|:----------|:-------------------|
-| 1    | DIEGO BARRIENTOS | — | — |
-| 2    | MARTÍN BENNETT | https://github.com/bennett-martin/ | https://bennett-martin.github.io/Clase-2-dno037/ |
-| 3    | RODRIGO CAMPUSANO | https://github.com/rodrigocampusano | https://rodrigocampusano.github.io/Clase-2-dno037/ |
-| 4    | PALOMA CARRASCO | https://github.com/palomacarrasco | https://palomacarrasco.github.io/dno037-clase-2/ |
-| 5    | SOFIA CAVALLINI | https://github.com/sofiacavallinii | — |
-| 6    | VICENTE ESPINOSA | https://github.com/vtespinosa | — |
-| 7    | FELIPE FUENTEALBA | https://github.com/leocto | https://leocto.github.io/Nuevos_Medios_Clase_2/ |
-| 8    | VERÓNICA GATICA | https://github.com/verogatica | https://verogatica.github.io/2clase-dno037/ |
-| 9    | MIRKO GONZÁLEZ | https://github.com/mirkogonzalez | https://mirkogonzalez.github.io/clase_2_dno/ |
-| 10   | RODRIGO GUZMÁN | https://github.com/rodrigo-bot | https://rodrigo-bot.github.io/dno037-clase02/ |
-| 11   | VALENTINA HERRERA | https://github.com/vale-herrera | https://vale-herrera.github.io/dno037-clase-2/ |
-| 12   | BETINA HIP | https://github.com/bbhip | https://bbhip.github.io/dno-nuevos-medios-02/ |
-| 13   | MARÍA HONORATO | https://github.com/elisahonorato | https://elisahonorato.github.io/clase_02/ |
-| 14   | MARÍA IBÁÑEZ | https://github.com/franibanezm | https://franibanezm.github.io/clase_02/Clase_02/ |
-| 15   | NICOLE LUNA | — | — |
-| 16   | MARGARITA MATTE | https://github.com/mar-garita1 | — |
-| 17   | CONSTANZA MONTERO | https://github.com/cpmontero | https://cpmontero.github.io/dno_nuevosmedios_clase2/ |
-| 18   | VALENTINA MORALES | https://github.com/lunalaffx | https://lunalaffx.github.io/DNO037-clase2/ |
-| 19   | DANIELA ORELLANA | https://github.com/dacorellana | https://dacorellana.github.io/dno-medios-clase-02/ |
-| 20   | FRANCISCA PARRA | https://github.com/frnparr | — |
-| 21   | YAHAIRA PEREZ | https://github.com/yahairaperez | https://yahairaperez.github.io/Ejercicio-clase-2/ |
-| 22   | JAVIER RAMÍREZ | https://github.com/rama2432 | https://rama2432.github.io/DNO-clase2/ |
-| 23   | MARIO REINIKE | https://github.com/marioreinike | https://marioreinike.github.io/dno037/clase-02/ |
-| 24   | VALENTINA REY | https://github.com/valentinarey | https://valentinarey.github.io/DNO037_clase2/ |
-| 25   | JAVIERA ROBLES | — | — |
-| 26   | MIRANDA SEPULVEDA | https://github.com/mirandasepulveda-la | https://mirandasepulveda-la.github.io/actividad_clase_2/ |
-| 27   | JOSEFINA TORO | https://github.com/josefinatoro | https://josefinatoro.github.io/dno_nuevos_medios_clase24-03/ |
-| 28   | ROSARIO TORRES | https://github.com/rosipilipi | — |
-| 29   | BIANCA VALLADARES | https://github.com/bivall | https://bivall.github.io/DNO037_clase2-/ |
-| 30   | MARGARITA VIAL | https://github.com/margaraitavialm | https://margaraitavialm.github.io/dno037-clase-02/ |
-| 31   | IGNACIA VIZCAYA | https://github.com/ignaviz | https://ignaviz.github.io/dno037-clase-02/ |
 
 - - - - - - - 
-
-###### [← CLASE ANTERIOR](https://github.com/profesorfaco/dno037-2021/tree/main/clase-01) — [SIGUIENTE CLASE →](https://github.com/profesorfaco/dno037-2021/tree/main/clase-03)
+[← CLASE ANTERIOR](https://github.com/profesorfaco/interaccion/tree/main/sesion_01) — [SIGUIENTE CLASE →](https://github.com/profesorfaco/interaccion/tree/main/sesion_03)
 
