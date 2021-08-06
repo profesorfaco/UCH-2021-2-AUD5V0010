@@ -2,9 +2,7 @@
 
 ### Universidad de Chile
 
-Introducción a la programación para el Diseño de interacción es un Electivo de Diseño, para la mención Visualidad y Medios, a cargo del profesor [FACO](https://faco.cl/):
-
-- Curso del segundo semestre 2021.
+Introducción a la programación para el Diseño de interacción es un Electivo de Diseño, para la mención Visualidad y Medios, a cargo del profesor [FACO](https://faco.cl/). En versión de segundo semestre de 2021:
 
 - Curso remoto, vía Google Meet.
 
