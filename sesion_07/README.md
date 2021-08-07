@@ -1,8 +1,10 @@
 # Introducción a la programación para el Diseño de interacción
 
-# Bootstrap + bibliotecas de JS
+### Bootstrap + bibliotecas de JS
 
-### Lectura
+- - - - - - - - 
+
+#### Lectura
 
 Las [bibliotecas de JavaScript](https://en.wikipedia.org/wiki/List_of_JavaScript_libraries) que hemos explorado, además de [p5.js](https://p5js.org/es/), son:
 
@@ -26,7 +28,7 @@ Para entender su contexto y potencial, conviene ver los siguientes videos:
 
 - - - - - - - - 
 
-### Exploración
+#### Exploración
 
 Con Angular.js o React.js debes basar todo el desarrollo en el mismo *framework*, mientras que trabajando con [Vue.js](https://v3.vuejs.org/) puedes partir con un documento html, en tu editor de código fuente, en donde puedes escribir:
 
