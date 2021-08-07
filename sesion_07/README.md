@@ -6,25 +6,55 @@
 
 #### Lectura
 
-Las [bibliotecas de JavaScript](https://en.wikipedia.org/wiki/List_of_JavaScript_libraries) que hemos explorado, además de [p5.js](https://p5js.org/es/), son:
+**[jQuery](https://jquery.com/) es una biblioteca que nos simplifica la redacción de instrucciones en JavaScript, sobre todo cuando se busca manipular el DOM y hacer transiciones animadas**. Su primera versión estable fue lanzada el año 2006, lo que es anterior a la primera revisión importante del [estándar de JavaScript](https://en.wikipedia.org/wiki/ECMAScript), la [ES5 del 2009](https://www.w3schools.com/js/js_es5.asp), con la que se comenzó a simplificar la redacción del mismo lenguaje.
 
-- [Chart.js](https://www.chartjs.org/) – *Simple, clean and engaging HTML5 based JavaScript charts*.
+Conviene partir con un ejemplo: En una página web tenemos varios elementos con una clase a la que denominamos "media". Para afectar a todos los elementos que tienen esa clase con un cambio de color desde JavaScript, sin usar bibliotecas, hace algunos años habríamos escrito la siguiente instrucción:
 
-- [jQuery](https://jquery.com/) - *A fast, small, and feature-rich JavaScript library*.
+```
+var elementos = Array.from(document.getElementsByClassName("media"));
+elementos.forEach(function(elemento){
+  elemento.style.color="red";
+});
+```
 
-- [Leaflet.js](https://leafletjs.com/) – *The leading open-source JavaScript library for mobile-friendly interactive maps*.
+Pero con el [estándar de JavaScript actual](https://www.w3schools.com/js/js_versions.asp) se simplifica un poco:
 
-- [Papa Parse](https://www.papaparse.com/) - *The powerful, in-browser CSV parser for big boys and girls*
+```
+var elementos = document.querySelectorAll(".media");
+elementos.forEach(elemento => elemento.style.color="red");
+```
 
-**Solo nos queda por revisar [Vue.js](https://v3.vuejs.org/), un *framework* de JavaScript, tan popular como Angular.js y React.js**. A diferencia de ellos, [Vue.js](https://v3.vuejs.org/) es progresivo; nos permite aprovecharlo desde una primera capa, donde parece una humilde biblioteca de JavaScript que facilita la escritura de secuencias de instrucciones, y desde ahí podemos progresar en capas de complejidad.
+Ahora bien, usando [jQuery](https://jquery.com/), basta con escribir:
 
-Para entender su contexto y potencial, conviene ver los siguientes videos: 
+```
+$(".media").css("color","red");
+```
 
-- Es suficiente llegar al minuto 6 en: [¿Angular, Vue o React? ¿Qué debes usar en el frontend de tu app?](https://www.youtube.com/watch?v=elkCexAWX5k)
+Para la primera década del 2000, [jQuery](https://jquery.com/) ofrecía una simplificación radical en el trabajo con JavaScript. Pero en los años más recientes el mismo lenguaje ha tendido a simplificarse; no conviene perder de vista esta tendencia por prestarle mucha atención a la biblioteca, esto sería casi como olvidar el modo correcto de escribir algunas palabras por prestarle mucha atención a las abreviaciones de mensajería instantánea.
 
-- Ideal es ver completa la respuesta a: [¿Qué es Vue.js y por qué es tan especial?](https://www.youtube.com/watch?v=AqesL138vMA)
+Hecha la advertencia, agreguemos un nivel más al ejemplo para poder entender el uso de la biblioteca: 
 
-- Y sólo si tienes un poco más de media hora disponible, puedes ver: [Vue.js: El Documental](https://www.youtube.com/watch?v=OrxmtDw4pVI)
+```
+function enrojece() {
+  $(".media").css("color","red");
+}
+$("#cambio").on("click", enrojece);
+```
+
+Tal instrucción está abreviando, mediante [jQuery](https://jquery.com/), lo siguiente:
+
+```
+function enrojece(){
+  var elementos = document.querySelectorAll(".media");
+  elementos.forEach(elemento => elemento.style.color="red");  
+}
+document.querySelector("#cambio").addEventListener("click", enrojece);
+```
+
+Con la última instrucción de jQuery, el cambio de color sobre todos los elementos de clase "media" se hace al presionar el botón de identidad "cambio". Y ya resulta evidente que la clave del uso de [jQuery](https://jquery.com/) está en la concatenación de un selector y una acción: `$(selector).action()`. 
+
+Las opciones de selectores y acciones son descritas detalladamente en https://api.jquery.com/, y de manera muy abreviada en https://htmlcheatsheet.com/jquery/
+
 
 - - - - - - - - 
 
