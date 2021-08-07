@@ -42,20 +42,4 @@ Después de revisar las páginas recién vinculadas, conviene pasar al archivo `
 
 - - - - - - - 
 
-### Práctica
-
-Hoy reciclaremos: El ejercicio se completa cuando cada estudiante publique, [con GitHub Pages](https://docs.github.com/es/free-pro-team@latest/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site), un *remake* del trabajo de la [clase anterior](https://github.com/profesorfaco/dno037-2021/tree/main/clase-08#entregas), utilizando Bootstrap.
-
-El ejercicio completo puede ser evaluado con:
-
-- **0 punto** → no logrado.
-
-- **1 punto** → logrado.
-
-- **2 puntos** → logrado, con aporte descatado.
-
-El ejercicio incompleto es evaluado con 0 punto.
-
-- - - - - - - 
-
-###### [← CLASE ANTERIOR](https://github.com/profesorfaco/interaccion/tree/main/sesion_03) — [SIGUIENTE CLASE →](https://github.com/profesorfaco/interaccion/tree/main/sesion_05)
+[← CLASE ANTERIOR](https://github.com/profesorfaco/interaccion/tree/main/sesion_03) — [SIGUIENTE CLASE →](https://github.com/profesorfaco/interaccion/tree/main/sesion_05)
