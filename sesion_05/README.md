@@ -1,6 +1,6 @@
 # Introducción a la programación para el Diseño de interacción
 
-### Bootstrap + bibliotecas de JS
+### Bootstrap v5 + p5.js
 
 - - - - - - - - 
 
