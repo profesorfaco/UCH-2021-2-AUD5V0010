@@ -1,6 +1,6 @@
 # Introducción a la programación para el Diseño de interacción
 
-# HTML5 + CSS3 + p5.js
+## HTML5 + CSS3 + p5.js
 
 ### Lectura
 
@@ -83,7 +83,6 @@ Corresponde ajustar el sitio web contenido en [esta carpeta del repositorio](htt
 
 El ejercicio se completa cuando cada estudiante publica, [con GitHub Pages](https://docs.github.com/es/free-pro-team@latest/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site), su versión ajustada del sitio web.
 
-
 - - - - - - - 
-[← CLASE ANTERIOR](https://github.com/profesorfaco/interaccion/tree/main/sesion_01) — [SIGUIENTE CLASE →](https://github.com/profesorfaco/interaccion/tree/main/sesion_03)
 
+[← CLASE ANTERIOR](https://github.com/profesorfaco/interaccion/tree/main/sesion_01) — [SIGUIENTE CLASE →](https://github.com/profesorfaco/interaccion/tree/main/sesion_03)
