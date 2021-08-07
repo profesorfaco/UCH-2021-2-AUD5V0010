@@ -114,4 +114,4 @@ Llegando a la variable `h` convendría aprovechar a los octillizos Nahasapeemape
 
 - - - - - - -
 
-###### [← CLASE ANTERIOR](https://github.com/profesorfaco/interaccion/tree/main/sesion_04) — [SIGUIENTE CLASE →](https://github.com/profesorfaco/interaccion/tree/main/sesion_06)
+[← CLASE ANTERIOR](https://github.com/profesorfaco/interaccion/tree/main/sesion_04) — [SIGUIENTE CLASE →](https://github.com/profesorfaco/interaccion/tree/main/sesion_06)
