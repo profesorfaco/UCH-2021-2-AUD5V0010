@@ -72,9 +72,9 @@ La organización se basa en la modalidad de “aula invertida” (*flipped class
 
 Esta organización no aplica en tres sesiones:
 
-- [Sesión 3 → Jueves 9 de septiembre](https://github.com/profesorfaco/interaccion/tree/main/sesion_1) → Evaluación Diagnóstica
-- [Sesión 8 → 05/05/2021](https://github.com/profesorfaco/interaccion/tree/main/sesion_1) → Evaluación Nº1
-- [Sesión 12 → 09/06/2021](hhttps://github.com/profesorfaco/interaccion/tree/main/sesion_1) → Evaluación Nº2
+- [Jueves 9 de septiembre → sesion_03](https://github.com/profesorfaco/interaccion/tree/main/sesion_03) → Evaluación Diagnóstica
+- [Jueves 21 de octubre → sesion_08](https://github.com/profesorfaco/interaccion/tree/main/sesion_08) → Evaluación Nº1
+- [Jueves 25 de noviembre → sesion_12](hhttps://github.com/profesorfaco/interaccion/tree/main/sesion_12) → Evaluación Nº2
 
 La nota final del electivo resulta del promedio de evaluaciones 1 y 2.
 
