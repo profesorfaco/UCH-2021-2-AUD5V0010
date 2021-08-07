@@ -55,38 +55,6 @@ Con la última instrucción de jQuery, el cambio de color sobre todos los elemen
 
 Las opciones de selectores y acciones son descritas detalladamente en https://api.jquery.com/, y de manera muy abreviada en https://htmlcheatsheet.com/jquery/
 
-
-- - - - - - - - 
-
-#### Exploración
-
-Con Angular.js o React.js debes basar todo el desarrollo en el mismo *framework*, mientras que trabajando con [Vue.js](https://v3.vuejs.org/) puedes partir con un documento html, en tu editor de código fuente, en donde puedes escribir:
-
-```
-<main>
-    <ul>
-        <li v-for="color in colores">
-            {{ color }}
-        </li>
-    </ul>
-</main>
-<script src="https://unpkg.com/vue@next"></script>
-<script>
-    const listado = {
-        data() {
-            return {
-                colores: ["rojo", "azul", "amarillo", "verde"],
-            }
-        }
-    };
-    Vue.createApp(listado).mount("main");
-</script>
-```
-
-En el código html tenemos un ítem de lista (list item, `<li></li>`) con un atributo `v-for`, que da la siguiente instrucción: *Vue, aquí va un `for` que desplegará todos los elementos en el arreglo "colores", llamando "color" a cada elemento*. Así de simple.
-
-En el ejercicio que sigue podrán encontrar algo de Vue.js, pero la mayor parte del ejercicio servirá de repaso a lo aprendido sobre JavaScript.
-
 - - - - - - - 
 
 [← CLASE ANTERIOR](https://github.com/profesorfaco/interaccion/tree/main/sesion_06) — [SIGUIENTE CLASE →](https://github.com/profesorfaco/interaccion/tree/main/sesion_08)
