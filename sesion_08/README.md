@@ -19,12 +19,6 @@ A los puntos obtenidos en pauta de cotejo se suman los puntos obtenidos por ejer
 
 La suma de estos puntos se transforma en su [segunda evaluación del optativo](https://docs.google.com/spreadsheets/d/1y-vg8WCTgtvDP9kuXv6epljoF-FRPLGwI4gvXVUrj18/edit?usp=sharing), la que corresponde al 25% de su nota promedio final.
 
-#### Entregas
-
-| Nº   | Estudiante      | GitHub    | Evaluación Nº2 |
-|:----:|:----------------|:----------|:-------------------|
-| … | … | … |
-
 - - - - - - - - - - - - -
 
-###### [← CLASE ANTERIOR](https://github.com/profesorfaco/interaccion/tree/main/sesion_07) — [SIGUIENTE CLASE →](https://github.com/profesorfaco/interaccion/tree/main/sesion_10)
+[← CLASE ANTERIOR](https://github.com/profesorfaco/interaccion/tree/main/sesion_07) — [SIGUIENTE CLASE →](https://github.com/profesorfaco/interaccion/tree/main/sesion_10)
