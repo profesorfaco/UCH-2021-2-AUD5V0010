@@ -1,6 +1,6 @@
 # Introducción a la programación para el Diseño de interacción
 
-# HTML5 + CSS3 + p5.js
+## HTML5 + CSS3 + p5.js
 
 ### Lectura
 
@@ -55,7 +55,6 @@ Esta variable es utilizada para realizar una tarea simplificada con [p5.js](http
 - revisar [la propiedad length](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/String/length).
 
 Una vez cerremos el paréntesis podremos volver a la página [index.html](https://github.com/profesorfaco/dno037-2021/blob/main/clase-01/index.html) para resolver el ejercicio de la clase de hoy.
-
 
 - - - - - - - 
 
