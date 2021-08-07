@@ -16,11 +16,6 @@ Cada versión debe ajustarse a la siguiente pauta de cotejo:
 | D | En `locaciones.html` despliega un mapa donde se marcan los distintos lugares donde se filmó la saga (mínimo 5) + Este despliegue se resuelve con Leaftlet, sin la necesidad de importar datos (los puede agregar a mano, directamente) + En cada marca se hace evidente la película grabada | 3,0 |
 | E | En `ganancias.html` despliega un gráfico de barras que compara las cantidades de platas recaudadas por cada película de la saga + El criterio de recaudación debería ser el mismo para cada película y quedar anunciado a nivel de *label* (por ejemplo: Recaudación de la primera semana en cines de EE.UU.) + El gráfico se resuelve con Charts.js, sin la necesidad de importar datos (los puede agregar a mano, directamente) | 3,0 |
 
-
-A los puntos obtenidos en pauta de cotejo se suman los puntos obtenidos por ejercicios en clases [05](https://github.com/profesorfaco/dno037-2021/tree/main/clase-05), [06](https://github.com/profesorfaco/dno037-2021/tree/main/clase-06) y [07](https://github.com/profesorfaco/dno037-2021/tree/main/clase-07), con evaluación del ejercicio de clase [04](https://github.com/profesorfaco/dno037-2021/tree/main/clase-04) como punto extra. 
-
-La suma de estos puntos se transforma en su [segunda evaluación del optativo](https://docs.google.com/spreadsheets/d/1y-vg8WCTgtvDP9kuXv6epljoF-FRPLGwI4gvXVUrj18/edit?usp=sharing), la que corresponde al 25% de su nota promedio final.
-
 - - - - - - - - - - - - -
 
 [← CLASE ANTERIOR](https://github.com/profesorfaco/interaccion/tree/main/sesion_07) — [SIGUIENTE CLASE →](https://github.com/profesorfaco/interaccion/tree/main/sesion_10)
