@@ -8,7 +8,7 @@
 
 Existen [muchas bibliotecas de JavaScript](https://en.wikipedia.org/wiki/List_of_JavaScript_libraries), además de [p5.js](https://p5js.org/es/). 
 
-Antes de explorar algunas de ellas, nos conviene tener completa claridad respecto de los tipos de datos con los que JavaScript y sus respectivas bibliotecas pueden operar.
+Antes de explorar otras, nos conviene tener completa claridad respecto de los tipos de datos que se usan en JavaScript "a secas", porque esa es la base sobre la que operan todas las bibliotecas.
 
 Para comenzar a clarificar las cosas, partamos con el número 18261884. 
 
@@ -90,11 +90,7 @@ Las variables `g` y `h` son mezclas de las anteriores.
 
 Si necesitamos el valor de las variables `a`, `b`, `c` o `d`, basta con pedirlo directamente. Pero el caso es distinto si necesitamos un valor específico dentro de las variables  `e`, `f`, `g` o `h`.
 
-- - - - - - - - - - - 
-
-#### Exploración
-
-Para comprender de mejor manera lo recién expuesto, conviene aprovechar [p5.js Web Editor](https://editor.p5js.org/profesorfaco/sketches/55-yg0wx0) y partir por la variable `e`: 
+Para comprender de mejor manera lo recién expuesto, sigamos aprovechando el [p5.js Web Editor](https://editor.p5js.org/profesorfaco/sketches/55-yg0wx0) y partir por la variable `e`: 
 
 Digamos que necesitamos a `Marge Simpson`. Para solicitarla tenemos que escribir `e[0]`, porque se encuentra en la primera posición del arreglo asignado como valor a la variable `e`. Si escribimos `e[1]` el resultado sería `Homer Simpson`. Corresponde **recordar que la primera posición es cero, no uno**.
 
