@@ -1,8 +1,10 @@
 # Introducción a la programación para el Diseño de interacción
 
-# Bootstrap + bibliotecas de JS
+### Bootstrap + bibliotecas de JS
 
-### Lectura
+- - - - - - - - 
+
+#### Lectura
 
 Existen [muchas bibliotecas de JavaScript](https://en.wikipedia.org/wiki/List_of_JavaScript_libraries), además de [p5.js](https://p5js.org/es/). 
 
@@ -90,7 +92,7 @@ Si necesitamos el valor de las variables `a`, `b`, `c` o `d`, basta con pedirlo 
 
 - - - - - - - - - - - 
 
-### Exploración
+#### Exploración
 
 Para comprender de mejor manera lo recién expuesto, conviene aprovechar [p5.js Web Editor](https://editor.p5js.org/profesorfaco/sketches/55-yg0wx0) y partir por la variable `e`: 
 
