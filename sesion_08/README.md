@@ -4,7 +4,7 @@
 
 - - - - - - - - 
 
-Cada estudiante cuenta con el horario de clases para publicar, [con GitHub Pages](https://docs.github.com/es/free-pro-team@latest/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site), su versión del sitio web que está contenido en [esta carpeta de repositorio](https://profesorfaco.github.io/dno037-2021/clase-08/).
+Cada estudiante cuenta con el horario de clases para publicar, [con GitHub Pages](https://docs.github.com/es/free-pro-team@latest/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site), su versión del sitio web que está contenido en [esta carpeta de repositorio](https://profesorfaco.github.io/interaccion/sesion-08/).
 
 Cada versión debe ajustarse a la siguiente pauta de cotejo:
 
