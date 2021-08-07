@@ -1,6 +1,6 @@
 # Introducción a la programación para el Diseño de interacción
 
-# HTML5 + CSS3 + otras bibliotecas de JavaScript
+# Bootstrap + bibliotecas de JS
 
 ### Lectura
 
