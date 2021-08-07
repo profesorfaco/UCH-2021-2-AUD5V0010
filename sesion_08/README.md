@@ -27,4 +27,4 @@ La suma de estos puntos se transforma en su [segunda evaluación del optativo](h
 
 - - - - - - - - - - - - -
 
-###### [← CLASE ANTERIOR](https://github.com/profesorfaco/dno037-2021/tree/main/clase-07) — [SIGUIENTE CLASE →](https://github.com/profesorfaco/dno037-2021/tree/main/clase-10)
+###### [← CLASE ANTERIOR](https://github.com/profesorfaco/interaccion/tree/main/sesion_07) — [SIGUIENTE CLASE →](https://github.com/profesorfaco/interaccion/tree/main/sesion_10)
