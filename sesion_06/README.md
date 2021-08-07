@@ -168,4 +168,4 @@ Podemos abrir este ejemplo.html en Chrome o Firefox.
 
 - - - - - - -
 
-###### [← CLASE ANTERIOR](https://github.com/profesorfaco/interaccion/tree/main/sesion_05) — [SIGUIENTE CLASE →](https://github.com/profesorfaco/interaccion/tree/main/sesion_07)
+[← CLASE ANTERIOR](https://github.com/profesorfaco/interaccion/tree/main/sesion_05) — [SIGUIENTE CLASE →](https://github.com/profesorfaco/interaccion/tree/main/sesion_07)
