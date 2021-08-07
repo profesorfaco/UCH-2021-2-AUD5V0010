@@ -1,8 +1,10 @@
 # Introducción a la programación para el Diseño de interacción
 
-# Bootstrap + bibliotecas de JS
+### Bootstrap + bibliotecas de JS
 
-### Lectura
+- - - - - - - - 
+
+#### Lectura
 
 Las [bibliotecas de JavaScript](https://en.wikipedia.org/wiki/List_of_JavaScript_libraries) que nos conviene explorar, además de [p5.js](https://p5js.org/es/), son:
 
@@ -100,12 +102,9 @@ Dos maneras sencillas para encontrar las coordenadas necesarias:
 
 - A la derecha del título principal de cada artículo de Wikipedia, en letra azul y pequeña, habitualmente están las coordenadas con vínculo a GeoHack.
 
-
-
 - - - - - - -
 
-
-### Exploración
+#### Exploración
 
 La exploración estará enfocada en jQuery, por lo que conviene tener a la manos las opciones de selectores y acciones que son descritas detalladamente en https://api.jquery.com/, y de manera muy abreviada en https://htmlcheatsheet.com/jquery/
 
