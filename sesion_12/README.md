@@ -4,4 +4,4 @@
 
 - - - - - - - 
 
-###### [← CLASE ANTERIOR](https://github.com/profesorfaco/dno037-2021/tree/main/clase-12) — [SIGUIENTE CLASE →](https://github.com/profesorfaco/dno037-2021/tree/main/clase-14)
+[← CLASE ANTERIOR](https://github.com/profesorfaco/interaccion/tree/main/sesion_11)
