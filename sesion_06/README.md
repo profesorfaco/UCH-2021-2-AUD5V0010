@@ -6,160 +6,84 @@
 
 #### Lectura
 
-Las [bibliotecas de JavaScript](https://en.wikipedia.org/wiki/List_of_JavaScript_libraries) que nos conviene explorar, además de [p5.js](https://p5js.org/es/), son:
+Con [Chart.js](https://www.chartjs.org/) podemos implementar gráficos de [línea](https://www.chartjs.org/docs/latest/charts/line.html), [barra](https://www.chartjs.org/docs/latest/charts/bar.html), [radar](https://www.chartjs.org/docs/latest/charts/radar.html), [torta](https://www.chartjs.org/docs/latest/charts/doughnut.html), [área polar](https://www.chartjs.org/docs/latest/charts/polar.html), [burbujas](https://www.chartjs.org/docs/latest/charts/bubble.html) y [dispersión](https://www.chartjs.org/docs/latest/charts/scatter.html), que son los tipos de gráficos disponibles en otra biblioteca de JavaScript:
 
-- [Chart.js](https://www.chartjs.org/) – *Simple, clean and engaging HTML5 based JavaScript charts*.
+**[Chart.js](https://www.chartjs.org/) nos permite implementar gráficos con valores numéricos contenidos en arreglos de JavaScript, y su promesa, en inglés, es *Simple yet flexible JavaScript charting for designers & developers*. Al ubicarse en ese lugar intermedio puede provocar dolores de cabeza en los extremos caricaturizados: muy complejo para *designers* o muy simple para *developers*.** 
 
-- [Papa Parse](https://www.papaparse.com/) - *The powerful, in-browser CSV parser for big boys and girls*
-
-- [jQuery](https://jquery.com/) - *A fast, small, and feature-rich JavaScript library*.
-
-- [Vue.js](https://v3.vuejs.org/) - *The Progressive JavaScript Framework.*
-
-En la clase de hoy nos referiremos a las dos primera.
-
-**[jQuery](https://jquery.com/) es una biblioteca que nos simplifica la redacción de instrucciones en JavaScript, sobre todo cuando se busca manipular el DOM y hacer transiciones animadas**. Su primera versión estable fue lanzada el año 2006, lo que es anterior a la primera revisión importante del [estándar de JavaScript](https://en.wikipedia.org/wiki/ECMAScript), la [ES5 del 2009](https://www.w3schools.com/js/js_es5.asp), con la que se comenzó a simplificar la redacción del mismo lenguaje.
-
-Conviene partir con un ejemplo: En una página web tenemos varios elementos con una clase a la que denominamos "media". Para afectar a todos los elementos que tienen esa clase con un cambio de color desde JavaScript, sin usar bibliotecas, hace algunos años habríamos escrito la siguiente instrucción:
+Para evitar dolores de cabeza, corresponde reconocer sus partes: 
 
 ```
-var elementos = Array.from(document.getElementsByClassName("media"));
-elementos.forEach(function(elemento){
-  elemento.style.color="red";
-});
+var contexto = document.getElementById('nombre').getContext('2d');
+var configuracion = {type: '…', data: {…}, options: {…}}
+var chart = new Chart(contexto, configuracion);
 ```
 
-Pero con el [estándar de JavaScript actual](https://www.w3schools.com/js/js_versions.asp) se simplifica un poco:
+1. Requiere la creación del contexto 
+2. Requiere la configuración de tipo, datos y opciones para el gráfico 
+3. Contexto y configuración permiten indicar que en este script vamos a crear un `new Chart()`.
+
+Nos referimos a tres partes. No se trata de tres pasos. También sería válido escribir:
 
 ```
-var elementos = document.querySelectorAll(".media");
-elementos.forEach(elemento => elemento.style.color="red");
+new Chart(document.getElementById('nombre').getContext('2d'), {type: '…', data: {…}, options: {…}});
 ```
 
-Ahora bien, usando [jQuery](https://jquery.com/), basta con escribir:
+Antes de partir la exploración necesaria para hacer la configuración de [Chart.js](https://www.chartjs.org/docs/latest/charts/?h=type), corresponde:
 
-```
-$(".media").css("color","red");
-```
+- recordar el [método `forEach()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array/forEach);
 
-Para la primera década del 2000, [jQuery](https://jquery.com/) ofrecía una simplificación radical en el trabajo con JavaScript. Pero en los años más recientes el mismo lenguaje ha tendido a simplificarse; no conviene perder de vista esta tendencia por prestarle mucha atención a la biblioteca, esto sería casi como olvidar el modo correcto de escribir algunas palabras por prestarle mucha atención a las abreviaciones de mensajería instantánea.
+- revisar el [método `push()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array/push); y
 
-Hecha la advertencia, agreguemos un nivel más al ejemplo para poder entender el uso de la biblioteca: 
+- tener a mano la [documentación de Charts.js](https://www.chartjs.org/docs/latest/).
 
-```
-function enrojece() {
-  $(".media").css("color","red");
-}
-$("#cambio").on("click", enrojece);
-```
-
-Tal instrucción está abreviando, mediante [jQuery](https://jquery.com/), lo siguiente:
-
-```
-function enrojece(){
-  var elementos = document.querySelectorAll(".media");
-  elementos.forEach(elemento => elemento.style.color="red");  
-}
-document.querySelector("#cambio").addEventListener("click", enrojece);
-```
-
-Con la última instrucción de jQuery, el cambio de color sobre todos los elementos de clase "media" se hace al presionar el botón de identidad "cambio". Y ya resulta evidente que la clave del uso de [jQuery](https://jquery.com/) está en la concatenación de un selector y una acción: `$(selector).action()`. 
-
-Las opciones de selectores y acciones son descritas detalladamente en https://api.jquery.com/, y de manera muy abreviada en https://htmlcheatsheet.com/jquery/
-
-**Ahora podemos pasar a [Leaflet.js](https://leafletjs.com/), una biblioteca de JavasScript que ofrece una alternativa ligera para trabajar con mapas interactivos**. Para usarla necesitamos conocer las coordenadas geográficas de lo que se quiera apuntar para, primero, establecer un centro del mapa y luego hacer las marcas correspondientes. También corresponde decidir por un tipo de mapa a usar: 
-
-- [mapbox/light-v10](https://api.mapbox.com/styles/v1/mapbox/light-v10.html?title=true&access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4M29iazA2Z2gycXA4N2pmbDZmangifQ.-g_vE53SD2WrJ6tFX7QHmA#10/-33.47/-70.64); 
-- [mapbox/dark-v10](https://api.mapbox.com/styles/v1/mapbox/dark-v10.html?title=true&access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4M29iazA2Z2gycXA4N2pmbDZmangifQ.-g_vE53SD2WrJ6tFX7QHmA#10/-33.47/-70.64); 
-- [mapbox/streets-v11](https://api.mapbox.com/styles/v1/mapbox/streets-v11.html?title=true&access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4M29iazA2Z2gycXA4N2pmbDZmangifQ.-g_vE53SD2WrJ6tFX7QHmA#10/-33.47/-70.64); 
-- [mapbox/outdoors-v11](https://api.mapbox.com/styles/v1/mapbox/outdoors-v11.html?title=true&access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4M29iazA2Z2gycXA4N2pmbDZmangifQ.-g_vE53SD2WrJ6tFX7QHmA#10/-33.47/-70.64); o 
-- [mapbox/satellite-v9](https://api.mapbox.com/styles/v1/mapbox/satellite-v9.html?title=true&access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4M29iazA2Z2gycXA4N2pmbDZmangifQ.-g_vE53SD2WrJ6tFX7QHmA#10/-33.47/-70.64).
-
-La creación de un mapa con [Leaflet.js](https://leafletjs.com/) puede verse así:
-
-```
-var miMapa = L.map('aqui').setView([-33.4189754,-70.6181116], 12);
-
-L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', { 
-  maxZoom: 17, 
-  id: 'mapbox/light-v10', 
-  tileSize: 512, 
-  zoomOffset: -1 
-}).addTo(miMapa);
-
-L.marker([-33.4189754,-70.6181116]).addTo(miMapa).bindPopup("<strong>Escuela de Diseño</strong><br>Campus Lo Contador");
-```
-
-En la instrucción hay tres L de [Leaflet.js](https://leafletjs.com/), las que se usan para:
-
-1. Crear un mapa dentro del elemento con la identidad `aqui`. El mapa debe tener en su centro tal coordenada, con un zoom inicial de 12. Y corresponde referir a lo creado como `miMapa`. 
-2. Crear una capa aprovechando un mapa de [Mapbox](https://www.mapbox.com/maps/) al que se le podrá hacer un zoom máximo de 17, y agrega esta capa a `miMapa`.
-3. Crear un marcador en tal coordenada y agregarlo a `miMapa`. Tal marcador tiene que desplegar un mensaje.
-
-Dos maneras sencillas para encontrar las coordenadas necesarias: 
-
-- En la dirección de Google Maps, son los dos números que siguen después del arroba en `https://www.google.com/maps/@`
-
-- A la derecha del título principal de cada artículo de Wikipedia, en letra azul y pequeña, habitualmente están las coordenadas con vínculo a GeoHack.
-
-- - - - - - -
-
-#### Exploración
-
-La exploración estará enfocada en jQuery, por lo que conviene tener a la manos las opciones de selectores y acciones que son descritas detalladamente en https://api.jquery.com/, y de manera muy abreviada en https://htmlcheatsheet.com/jquery/
-
-
-Además, es necesario contar con un editor de código fuente; allí vamos a crear un documento nuevo, pegar el código que sigue y guardarlo con el nombre ejemplo.html:
+Es necesario contar con un editor de código fuente; vamos a crear un documento nuevo, pegar el código que sigue y guardarlo con el nombre ejemplo.html:
 
 ```
 <!DOCTYPE html>
 <html lang="es">
     <head>
-        <meta charset="utf-8">
         <title>Esto es un ejemplo</title>
-        <style>
-            select { margin: 1%; }
-            main { display: flex; flex-flow: row wrap; }
-            article { width: calc(16% - 2px); padding: 1%; margin: 1%; border: 1px solid black; }
-        </style>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.js" integrity="sha512-d9xgZrVZpmmQlfonhQUvTR7lMPtO7NkZMkA0ABN3PHCbKA5nqylQ/yWlFAyY6hYgdF1Qh6nYiuADWwKB4C2WSw==" crossorigin="anonymous"></script>
     </head>
     <body>
-        <select>
-            <option selected>Todos</option>
-            <option>Pares</option>
-            <option>Impares</option>
-        </select>
-        <main></main>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
+        <canvas id="myChart"></canvas>
         <script>
-            $(document).ready(function () {
-                for (var n = 1; n < 11; n++) {
-                    if (n % 2 == 0) {
-                        $("main").append('<article class="par">' + n + "</article>");
-                    } else {
-                        $("main").append('<article class="impar">' + n + "</article>");
-                    }
-                }
-                var v;
-                $("select").on("change", function () {
-                    v = this.value;
-                    if (v == "Pares") {
-                        $(".par").fadeTo("slow", 1);
-                        $(".impar").fadeTo("slow", 0.1);
-                    } else if (v == "Impares") {
-                        $(".par").fadeTo("slow", 0.1);
-                        $(".impar").fadeTo("slow", 1);
-                    } else {
-                        $(".par, .impar").fadeTo("slow", 1);
-                    }
-                });
-            }); //cierro ready(function(){})
+            //comunas más pobladas en la provincia de Santiago
+            var santiago = [
+                { comuna: "La Florida", habitante: 366.916, color: "#d32f2f" },
+                { comuna: "Las Condes", habitante: 294.838, color: "#7b1fa2" },
+                { comuna: "Maipú", habitante: 521.627, color: "#303f9f" },
+                { comuna: "Peñalolén", habitante: 241.599, color: "#0288d1" },
+                { comuna: "Santiago", habitante: 404.495, color: "#00796b" },
+            ];
+
+            var lasComunas = [];
+            var losHabitantes = [];
+            var losColores = [];
+
+            santiago.forEach(function (dato) {
+                lasComunas.push(dato.comuna);
+                losHabitantes.push(dato.habitante);
+                losColores.push(dato.color);
+            });
+
+            new Chart(document.getElementById("myChart").getContext("2d"), {
+                type: "bar",
+                data: {
+                    labels: lasComunas,
+                    datasets: [
+                        {
+                            data: losHabitantes,
+                            backgroundColor: losColores,
+                        },
+                    ],
+                },
+                options: {},
+            });
         </script>
     </body>
 </html>
 ```
-
-Podemos abrir este ejemplo.html en Chrome o Firefox. 
 
 - - - - - - -
 
