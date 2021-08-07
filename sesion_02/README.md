@@ -12,7 +12,14 @@ Ya pudimos reconocer la diferencia entre los lenguajes de descripción y el leng
 
 Esta biblioteca fue creada por [Lauren McCarthy](http://lauren-mccarthy.com/) y es desarrollada por una comunidad de colaboradores, con apoyo de [Processing Foundation](https://processingfoundation.org/) y [NYU ITP](https://forms.tisch.nyu.edu/page/s/itp-landing). Entre los colaboradores hay 2 chilenos, que se han encargado de la traducción de referencias, tutoriales y [un libro](https://processingfoundation.press/product/introduccion-a-p5-js/) al castellano; ellos son: [Guillermo Montecinos](https://twitter.com/guillermolooped) y [Aarón Montoya-Moraga](https://twitter.com/montoyamoraga).
 
-[p5.js](https://p5js.org/es/) es una reinterpretación de [Processing](https://processing.org/) para la web. Consideremos que cuando se trabaja en Processing cada *sketch* tiene su `void setup()` y `void draw()`. Hay un `setup` que se ejecuta una única vez, en la partida. Hay un `draw` que por defecto se ejecuta una y otra vez. Ahora, cambiemos el `void` de [Java](https://es.wikipedia.org/wiki/Java_(lenguaje_de_programaci%C3%B3n)) por el `function` de [JavaScript](https://es.wikipedia.org/wiki/JavaScript), y tenemos:
+[p5.js](https://p5js.org/es/) es una reinterpretación de [Processing](https://processing.org/) para la web. Si hay trabajado o alguna vez llegan a trabajar con Processing, en cada *sketch* encontrarán dos partes: 
+
+- `void setup()`; y 
+- `void draw()`. 
+ 
+Hay un `setup` que se ejecuta una única vez, en la partida. Y hay un `draw` que por defecto se ejecuta una y otra vez. 
+
+Ahora, cambiemos el `void` de [Java](https://es.wikipedia.org/wiki/Java_(lenguaje_de_programaci%C3%B3n)) por el `function` de [JavaScript](https://es.wikipedia.org/wiki/JavaScript), y tenemos:
 
 ```
 function setup(){
@@ -26,7 +33,7 @@ function draw(){
 
 Tal como Processing, [p5.js](https://p5js.org/es/) ofrece
 
-> un conjunto completo de funcionalidades para dibujar. Sin embargo, no estás limitado solo a dibujar en tu lienzo. Puedes tomar toda la página del navegador como tu bosquejo, incluyendo los objetos HTML5 para texto, entrada, video, cámara web y sonido.
+> un conjunto completo de funcionalidades para dibujar. Sin embargo, no estás limitado solo a dibujar. Puedes tomar toda la página del navegador como tu bosquejo, incluyendo los objetos HTML5 para texto, entrada, video, cámara web y sonido.
 
 Aquí conviene agregar una nota sobre el [Modelo de Objeto de Documento (DOM)](https://developer.mozilla.org/es/docs/Glossary/DOM): **A través del DOM, los programas escritos en JavaScript pueden acceder y modificar el contenido, estructura y estilo de la representación de la página web**.
 
@@ -66,11 +73,6 @@ También es necesario contar con un editor de código fuente; vamos a crear un d
 
 Podemos abrir este `ejemplo.html` en Chrome o Firefox. En la ventana del navegador podemos ver una página web con un recuadro negro. Si vamos a inspeccionar los elementos notaremos que ese recuadro negro es un elemento `<canvas></canvas>` dentro del elemento `<main></main>` que está, a su vez, dentro del elemento `<body></body>`. Pero en el código fuente hay un `<body></body>` vacío. Esta diferencia se debe al DOM.
 
-
-- - - - - - - - - - - - - - 
-
-#### Práctica
-
 Para familiarizanos con el trabajo con el DOM, desarrollaremos un ejercicio para el que conviene:
 
 - revisar el [método `querySelector`](https://developer.mozilla.org/es/docs/Web/API/Element/querySelector);
@@ -81,7 +83,7 @@ Para familiarizanos con el trabajo con el DOM, desarrollaremos un ejercicio para
 
 - tener a mano la [página de referencias de **p5.js**](https://p5js.org/es/reference/)
 
-Corresponde ajustar el sitio web contenido en [esta carpeta del repositorio](https://profesorfaco.github.io/dno037-2021/clase-02/), según indicaciones que se compartan en la clase vía Zoom. 
+Corresponde ajustar el sitio web contenido en [esta carpeta del repositorio](https://profesorfaco.github.io/interaccion/sesion_02/), según indicaciones que se compartan en la clase vía Zoom. 
 
 El ejercicio se completa cuando cada estudiante publica, [con GitHub Pages](https://docs.github.com/es/free-pro-team@latest/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site), su versión ajustada del sitio web.
 
