@@ -1,6 +1,8 @@
 # Introducción a la programación para el Diseño de interacción
 
-## Evaluación Diagnóstica
+### Evaluación Diagnóstica
+
+- - - - - - - - 
 
 Cada estudiante cuenta con el horario de clases para publicar, [con GitHub Pages](https://docs.github.com/es/free-pro-team@latest/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site), su versión del sitio web que está contenido en [esta carpeta del repositorio](https://profesorfaco.github.io/interaccion/sesion_03/).
 
@@ -23,14 +25,6 @@ En el criterio **A**, conviene evitar *The Biggest Mistake in Writing for the We
 En el criterio **B**, conviene considerar el *contrast ratio* - https://contrast-ratio.com/ || https://webaim.org/resources/contrastchecker/
 
 En el criterio **E**, conviene considerar la consistencia en el paso de una página a otra (y vuelta atrás) - https://www.nngroup.com/articles/menu-design/
-
-
-### Entregas
-
-| Nº   | Estudiante      | GitHub    | Evaluación Nº1 |
-|:----:|:----------------|:----------|:-------------------|
-| … | … | … |
-
 
 - - - - - - - 
 
