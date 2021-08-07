@@ -1,6 +1,6 @@
 # Introducción a la programación para el Diseño de interacción
 
-### Universidad de Chile
+## Universidad de Chile
 
 Este es el repositorio de un Electivo de Diseño, para la mención Visualidad y Medios, a cargo del profesor [FACO](https://faco.cl/profesor/). En versión de segundo semestre de 2021, será: 
 
@@ -12,7 +12,7 @@ En esta versión se adapta el programa y se reemplazan actividades relacionadas 
 
 - - - - - - - - - -
 
-## Materiales de trabajo
+### Materiales de trabajo
 
 Cada estudiante en este Electivo debería contar con:
 
@@ -66,14 +66,18 @@ Esta organización de sesiones se ajusta a la segunda versión del Calendario pr
 
 La organización se basa en la modalidad de “aula invertida” (*flipped classroom* en inglés), que permite impartir una clase interactiva y con mayor flexibilidad para adaptar la experiencia de aprendizaje a la modalidad remota. Por esto se recomienda:
 
-- adelantar la lectura; 
+- adelantar la lectura;
+ 
 - participar activdamente de la exploración que se realiza en sesiones sincrónicas breves; y 
+
 - resoler el desafío de la práctica en el horario de la clase o durante el mismo día, publicando con [GitHub Pages](https://docs.github.com/es/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site) su resultado.
 
 Esta organización no aplica en tres sesiones:
 
 - [Jueves 9 de septiembre → sesion_03](https://github.com/profesorfaco/interaccion/tree/main/sesion_03) → Evaluación Diagnóstica
+
 - [Jueves 21 de octubre → sesion_08](https://github.com/profesorfaco/interaccion/tree/main/sesion_08) → Evaluación Nº1
+
 - [Jueves 25 de noviembre → sesion_12](hhttps://github.com/profesorfaco/interaccion/tree/main/sesion_12) → Evaluación Nº2
 
 La nota final del electivo resulta del promedio de evaluaciones 1 y 2.
@@ -85,18 +89,23 @@ La nota final del electivo resulta del promedio de evaluaciones 1 y 2.
 [O'Reilly](http://shop.oreilly.com/) ofrece un par de colecciones que podrían servir de referencia: "The Good Parts" y "Pocket References". En el desarrollo del Optativo, podrían consultar: 
 
 - Crockford, D. (2008). *JavaScript: The Good Parts: Unearthing the Excellence in JavaScript*
+
 - Meyer, E.A. (2018). *CSS Pocket Reference: Visual Presentation for the Web*
+
 - Robbins, J.N. (2013). *HTML5 Pocket Reference: Quick, Comprehensive, Indispensable*
 
 [A Book Apart](https://abookapart.com/) también les puede ser útil. Su colección recomendada para el Optativo es "…for web designers":
 
 - Marquis, M. (2016). *Javascript for web designers*
+
 - Cederholm, D. (2014) *CSS3 for web designers*
+
 - Keith, J. & Andrew, R. (2010). *HTML5 for web designers*
 
 ### Referencias en línea
 
 - [Code! Programming with p5.js](https://youtube.com/playlist?list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA)
+
 - [JavaScript Para Gatos](https://jsparagatos.com/)
 
 Se agregarán más referencias en el `README.md` de cada clase.
