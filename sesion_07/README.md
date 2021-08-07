@@ -57,4 +57,4 @@ En el ejercicio que sigue podrán encontrar algo de Vue.js, pero la mayor parte 
 
 - - - - - - - 
 
-###### [← CLASE ANTERIOR](https://github.com/profesorfaco/interaccion/tree/main/sesion_06) — [SIGUIENTE CLASE →](https://github.com/profesorfaco/interaccion/tree/main/sesion_08)
+[← CLASE ANTERIOR](https://github.com/profesorfaco/interaccion/tree/main/sesion_06) — [SIGUIENTE CLASE →](https://github.com/profesorfaco/interaccion/tree/main/sesion_08)
