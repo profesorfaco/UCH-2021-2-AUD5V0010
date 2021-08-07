@@ -22,7 +22,7 @@ El editor de código fuente nos dará indicaciones para poder escribir código f
 
 #### Exploración
 
-Para reconocer los lenguajes mencionados más arriba, podemos aprovechar los documentos contenidos en esta carpeta, comenzando con la página [index.html](https://github.com/profesorfaco/dno037-2021/blob/main/clase-01/index.html):
+Para reconocer los lenguajes mencionados más arriba, podemos aprovechar los documentos contenidos en esta carpeta, comenzando con la página [index.html](https://github.com/profesorfaco/interaccion/blob/main/sesion_01/index.html):
 
 Allí podemos ver la estructura típica de toda página HTML: 
 
@@ -34,7 +34,7 @@ Allí podemos ver la estructura típica de toda página HTML:
 </html>
 ```
 
-Dentro de la cabeza (`<head></head>`), podemos ver un vínculo a un [style.css](https://github.com/profesorfaco/dno037-2021/blob/main/clase-01/style.css) que revisaremos luego:
+Dentro de la cabeza (`<head></head>`), podemos ver un vínculo a un [style.css](https://github.com/profesorfaco/interaccion/blob/main/sesion_01/style.css) que revisaremos luego:
 
 ```
 <link href="style.css" rel="stylesheet" />
@@ -56,7 +56,7 @@ Esta variable es utilizada para realizar una tarea simplificada con [p5.js](http
 
 - revisar [la propiedad length](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/String/length).
 
-Una vez cerremos el paréntesis podremos volver a la página [index.html](https://github.com/profesorfaco/dno037-2021/blob/main/clase-01/index.html) para resolver el ejercicio de la clase de hoy.
+Una vez cerremos el paréntesis podremos volver a la página [index.html](https://github.com/profesorfaco/interaccion/blob/main/sesion_01/index.html) para resolver el ejercicio de la clase de hoy.
 
 - - - - - - - 
 
