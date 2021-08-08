@@ -28,9 +28,9 @@ Esta versión del Electivo, en segundo semestre de 2021:
 
 - Jueves 30 de septiembre → [sesion_05](https://github.com/profesorfaco/interaccion/tree/main/sesion_05) → Bootstrap v5 + p5.js 
 
-- Jueves 7 de octubre → [sesion_06](https://github.com/profesorfaco/interaccion/tree/main/sesion_06) →  Bootstrap v5 + Chart.js
+- Jueves 7 de octubre → [sesion_06](https://github.com/profesorfaco/interaccion/tree/main/sesion_06) →  Bootstrap v5 + jQuery
 
-- Jueves 14 de octubre → [sesion_07](https://github.com/profesorfaco/interaccion/tree/main/sesion_07) → Bootstrap v5 + jQuery
+- Jueves 14 de octubre → [sesion_07](https://github.com/profesorfaco/interaccion/tree/main/sesion_07) → Bootstrap v5 + Charts.js
 
 - Jueves 21 de octubre → [sesion_08](https://github.com/profesorfaco/interaccion/tree/main/sesion_08) → Evaluación Nº1
 
