@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap" rel="stylesheet">
+        <link href="style.css" rel="stylesheet" />
+        <title>Introducción a la programación para el Diseño de interacción &#129302;</title>
+    </head>
+    <body>
+        <header class="container">
+            <div class="row">
+                <div class="col pt-5 pb-2">
+                    <h1>mindicador.cl</h1>
+                    <h2 class="pb-3">Indicadores económicos</h2>
+                    <p><a href="index.html">&larr; Volver</a></p>
+                </div>
+            </div>
+        </header>
+        <main class="container">
+            <section class="row">
+                <div class="col">
+                    <canvas id="grafico" width="300" height="100"></canvas>
+                </div>
+            </section>
+        </main>
+        <footer class="container fixed-bottom">
+            <div class="row">
+                <div class="col pt-4">
+                    <p class="d-flex justify-content-between align-items-center small"><a href="#">Nombre Apellido</a> <a href="#">AUD5V0010</a></p>
+                </div>
+            </div>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+        <script>
+            var codigo = new URLSearchParams(window.location.search).get("cod");
+            $.getJSON("https://mindicador.cl/api/" + codigo)
+                .then(function (consulta) {
+                    console.log(consulta.serie);
+                    let nombre = consulta.nombre;
+                    let labels = [];
+                    let data = [];
+                    consulta.serie.forEach(function (indicador) {
+                        labels.push(indicador.fecha.split("T")[0]);
+                        data.push(indicador.valor);
+                    });
+                    labels.reverse();
+                    data.reverse();
+                    new Chart(document.getElementById("grafico"), {
+                        type: "line",
+                        data: {
+                            labels: labels,
+                            datasets: [
+                                {
+                                    label: nombre,
+                                    data: data,
+                                    backgroundColor: "rgba(207, 216, 220, 0.6)",
+                                    borderColor: "rgba(107, 146, 157,1)",
+                                    borderWidth: 1,
+                                },
+                            ],
+                        },
+                        options: {
+                            scales: {
+                                yAxes: [
+                                    {
+                                        ticks: {
+                                            beginAtZero: false,
+                                        },
+                                    },
+                                ],
+                            },
+                        },
+                    });
+                })
+                .fail(function () {
+                    $("main").append("<p>Algo salió mal</p>");
+                });
+        </script>
+    </body>
+</html>

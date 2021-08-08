@@ -1,0 +1,11 @@
+@charset "UTF-8";
+:root {
+    --fondo: #eceff1;
+    --figura: #263238;
+    --bs-font-sans-serif: 'Space Grotesk', sans-serif;
+}
+
+body {
+    color: var(--figura);
+    background: var(--fondo);
+}

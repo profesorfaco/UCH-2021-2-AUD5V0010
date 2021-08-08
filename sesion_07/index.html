@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap" rel="stylesheet">
+        <link href="style.css" rel="stylesheet" />
+        <title>Introducción a la programación para el Diseño de interacción &#129302;</title>
+    </head>
+    <body>
+        <header class="container">
+            <div class="row">
+                <div class="col pt-5 pb-2">
+                    <h1>mindicador.cl</h1>
+                    <h2 class="pb-3">Indicadores económicos</h2>
+                    <p>Este es un servicio que entrega los principales indicadores económicos para Chile en formato JSON.</p>
+                </div>
+            </div>
+        </header>
+        <main class="container">
+            <section class="row">
+                <div class="col">
+                    <ul id="opciones"></ul>
+                </div>
+            </section>
+        </main>
+        <footer class="container fixed-bottom">
+            <div class="row">
+                <div class="col pt-4">
+                    <p class="d-flex justify-content-between align-items-center small"><a href="#">Nombre Apellido</a> <a href="#">AUD5V0010</a></p>
+                </div>
+            </div>
+        </footer>
+        <script>
+            const indicadores = [
+                { codigo: "uf", nombre: "Unidad de fomento (UF)", unidad_medida: "$" },
+                { codigo: "ivp", nombre: "Indice de valor promedio (IVP)", unidad_medida: "$" },
+                { codigo: "dolar", nombre: "Dólar observado", unidad_medida: "$" },
+                { codigo: "dolar_intercambio", nombre: "Dólar acuerdo", unidad_medida: "$" },
+                { codigo: "euro", nombre: "Euro", unidad_medida: "$" },
+                { codigo: "ipc", nombre: "Indice de Precios al Consumidor (IPC)", unidad_medida: "%" },
+                { codigo: "utm", nombre: "Unidad Tributaria Mensual (UTM)", unidad_medida: "$" },
+                { codigo: "imacec", nombre: "Imacec", unidad_medida: "%" },
+                { codigo: "tpm", nombre: "Tasa Política Monetaria (TPM)", unidad_medida: "%" },
+                { codigo: "libra_cobre", nombre: "Libra de Cobre", unidad_medida: "US$" },
+                { codigo: "tasa_desempleo", nombre: "Tasa de desempleo", unidad_medida: "%" },
+                { codigo: "bitcoin", nombre: "Bitcoin", unidad_medida: "US$" },
+            ];
+            const aqui = document.querySelector("#opciones");
+            indicadores.forEach(repite);
+            function repite(item) {
+                aqui.innerHTML += "<li><a href='single.html?cod=" + item.codigo + "'>" + item.nombre + " </a></li>";
+            }
+        </script>
+    </body>
+</html>
