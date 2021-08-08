@@ -38,7 +38,11 @@ Antes de continuar, es recomendable revisar:
 - Columns → https://getbootstrap.com/docs/5.0/layout/columns/
 - Gutters → https://getbootstrap.com/docs/5.0/layout/gutters/
 
-Después de revisar las páginas recién vinculadas, conviene pasar al archivo `index.html`, contenido en [esta carpeta de repositorio](https://profesorfaco.github.io/dno037-2021/clase-10/index.html). En tal archivo se aprovechan varias definiciones más; para comprenderlas, conviene tener a mano la [documentación de Bootstrap](https://getbootstrap.com/docs/5.0/getting-started/introduction/#important-globals).
+- - - - - - - 
+
+#### Práctica
+
+https://profesorfaco.github.io/interaccion/sesion_04/
 
 - - - - - - - 
 
