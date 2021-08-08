@@ -56,6 +56,8 @@ La organización se basa en la modalidad de “aula invertida” (*flipped class
 
 - resolver el desafío de la práctica en el horario de la clase o durante el mismo día, publicando con [GitHub Pages](https://docs.github.com/es/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site) su resultado.
 
+**La nota final del electivo se obtiene del promedio entre evaluaciones 1 y 2. La evaluación diagnóstica podrían llegar a reemplazar nota 1 o 2 si es más baja**.
+
 - - - - - - - - - -
 
 ### Materiales de trabajo
@@ -66,7 +68,7 @@ Cada estudiante en este Electivo debería contar con:
 
 - cuenta personal en [GitHub](https://github.com/join);
 
-- computador disponible para cada clase, donde pueda usar:
+- computador disponible en el horario de clases, donde pueda usar:
 
   - Google Meet;
 
