@@ -57,4 +57,11 @@ Las opciones de selectores y acciones son descritas detalladamente en https://ap
 
 - - - - - - -
 
+#### Práctica
+
+https://profesorfaco.github.io/interaccion/sesion_06/
+
+- - - - - - - 
+
+
 [← CLASE ANTERIOR](https://github.com/profesorfaco/interaccion/tree/main/sesion_05) — [SIGUIENTE CLASE →](https://github.com/profesorfaco/interaccion/tree/main/sesion_07)
