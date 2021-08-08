@@ -8,60 +8,34 @@
         <title>Introducción a la programación para el Diseño de interacción &#129302;</title>
     </head>
     <body class="bg-light">
-        <aside class="fixed-top container-fluid text-end py-3">
-            <form id="opciones">
-                <input type="radio" name="paises" value="todos" checked />
-                <label for="todos">All &nbsp;</label>
-                <input type="radio" name="paises" value="chile" />
-                <label for="chile">Chile</label>
-            </form>
-        </aside>
-        <header class="container">
+        <nav class="container fixed-top">
             <div class="row">
-                <div class="col py-5">
-                    <h1>USGS Earthquakes</h1>
-                    <h2>M4.5+ Earthquakes past 7 days. Updated every minute</h2>
+                <div class="col py-2">
+                    <p class="d-flex justify-content-between align-items-center"><a href="index.html" class="fw-bolder">Portada</a> <a href="page.html?n=1">Frases</a> <a href="page.html?n=2">NASA</a></p>
                 </div>
             </div>
-        </header>
+        </nav>
         <main class="container">
-            <section class="row"></section>
+            <div class="row h-100 d-flex justify-content-between align-items-center">
+                <div class="col-md-6 my-auto">
+                    <h1>Usemos SVG</h1>
+                    <p>SVG (Scalable Vector Graphics) es un dialecto que describe gráficos estáticos y animados, que pueden afectarse con CSS y JavaScript. Este dialecto se parece mucho a HTML, con sus etiquetas y atributos.</p> 
+                    <p>Por favor busca un gráfico distinto en <a href="https://www.guemil.info/icons/" target="_blank">Guemil</a> y reemplaza el código donde corresponda. También cambia este párrafo para referrirte al gráfico que selecciones.</p>
+                </div>
+                <div class="col-md-6 my-auto">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                        <title>19_Disinfectant_v15</title>
+                        <path d="M33.27,12.82H50.12v7.26L36.1,25v9.84H17.4V24.38l9.72-9.47A9.08,9.08,0,0,1,33.27,12.82ZM36.1,37.3c0,8.85,12.42,11.31,12.42,23.24v26h-17v-25H43.6v-1c0-7.62-9-11.31-11.56-18.32H22.32v47h26.2v2.22a3.07,3.07,0,0,1-3.07,2.7H20.23a2.66,2.66,0,0,1-2.83-2.58V37.3ZM47.29,23.4A40.64,40.64,0,0,0,50,38.77H47.29A45.27,45.27,0,0,1,40.4,25.86Zm5.29-10.58h3.69V20.2H52.58Zm13.28,3.44a2.71,2.71,0,1,1-2.7-2.7A2.73,2.73,0,0,1,65.86,16.26Zm9.35-3.93a2.71,2.71,0,1,1-2.7-2.71A2.73,2.73,0,0,1,75.21,12.33Zm0,7.87a2.71,2.71,0,1,1-2.7-2.71A2.73,2.73,0,0,1,75.21,20.2ZM80.13,8.39a2.71,2.71,0,1,1,2.71,2.71A2.73,2.73,0,0,1,80.13,8.39Zm5.41,7.87a2.71,2.71,0,1,1-2.7-2.7A2.73,2.73,0,0,1,85.54,16.26Zm0,8.24a2.71,2.71,0,1,1-2.7-2.7A2.73,2.73,0,0,1,85.54,24.5Z"></path>
+                    </svg>
+                </div>
+            </div>
         </main>
-        <footer class="container">
+        <footer class="container fixed-bottom small">
             <div class="row">
-                <div class="col pt-4">
-                    <p class="d-flex justify-content-between align-items-center small"><a href="#">Nombre Apellido</a> <a href="#">AUD5V0010</a></p>
+                <div class="col py-2">
+                    <p class="d-flex justify-content-between align-items-center"><a href="#">Nombre Apellido</a> <a href="#">AUD5V0010</a></p>
                 </div>
             </div>
         </footer>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
-        <script>
-            $(document).ready(function () {
-                $.getJSON("https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_week.geojson", function (data) {
-                    console.log(data);
-                    data.features.forEach(function (temblor, i) {
-                        var donde;
-                        if (temblor.properties.place.includes("Chile")) {
-                            donde = 'data-pais="aqui"';
-                        } else {
-                            donde = 'data-pais="alla"';
-                        }
-                        $("section").append(
-                            "<article class='col-6 col-sm-4 col-md-3 col-lg-2 mb-4' " + donde + "><div class='card h-100 shadow-sm bg-white'><div class='card-body'><h3>" + temblor.properties.mag + "</h3><small>" + temblor.properties.place + "</small></div><div class='card-footer'><a href='" + temblor.properties.url + "'>ver detalles</a></div></article>"
-                        );
-                    });
-                    var valor;
-                    $("#opciones").change(function () {
-                        valor = $("input[name='paises']:checked").val();
-                        if (valor == "chile") {
-                            $("[data-pais='alla']").fadeTo("slow", 0.1);
-                        } else {
-                            $("[data-pais='aqui']").fadeTo("slow", 1);
-                            $("[data-pais='alla']").fadeTo("slow", 1);
-                        }
-                    });
-                }); // cierro $.getJSON({})
-            }); //cierro ready(function(){})
-        </script>
     </body>
 </html>

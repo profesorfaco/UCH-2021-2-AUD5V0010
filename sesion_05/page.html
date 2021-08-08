@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous" />
+        <link href="style.css" rel="stylesheet" />
+        <title>Introducción a la programación para el Diseño de interacción &#129302;</title>
+    </head>
+    <body class="bg-light">
+        <nav class="container fixed-top">
+            <div class="row">
+                <div class="col py-2">
+                    <p class="d-flex justify-content-between align-items-center"><a href="index.html" class="active">Portada</a> <a href="page.html?n=1">Frases</a> <a href="page.html?n=2">NASA</a></p>
+                </div>
+            </div>
+        </nav>
+        <main class="container">
+            <div class="row h-100 d-flex justify-content-between align-items-center">
+                <div class="col-sm-6 my-auto" id="izq"></div>
+                <div class="col-sm-6 my-auto" id="der"></div>
+            </div>
+        </main>
+        <footer class="container fixed-bottom small">
+            <div class="row">
+                <div class="col py-2">
+                    <p class="d-flex justify-content-between align-items-center"><a href="#">Nombre Apellido</a> <a href="#">AUD5V0010</a></p>
+                </div>
+            </div>
+        </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/p5@1.2.0/lib/p5.min.js"></script>
+        <script>
+            var url = new URLSearchParams(window.location.search);
+            var seleccionada = url.get("n");
+            var data;
+
+            var texto = document.getElementById("izq");
+            var imagen = document.getElementById("der");
+
+            if (seleccionada == 1) {
+                function preload() {
+                    data = loadJSON("https://gist.githubusercontent.com/natebass/b0a548425a73bdf8ea5c618149fe1fce/raw/f4231cd5961f026264bb6bb3a6c41671b044f1f4/quotes.json");
+                }
+            } else if (seleccionada == 2) {
+                function preload() {
+                    // Genera tu propia API Key en https://api.nasa.gov/
+                    // Cambia "DEMO_KEY" por la API Key generada
+                    // Cambia la fecha de la consulta, puedes partir en 1995-6-16 y llegar hasta hoy mismo
+                    // Nota que la api ofrece un texto de "explanation" y la "url" de una imagen
+                    data = loadJSON("https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY&date=2000-1-1");
+                }
+            } else {
+                data = "Algo salió mal";
+            }
+            function setup() {
+                noCanvas();
+                if (seleccionada == 1) {
+                    let r = floor(random(0, 101));
+                    createElement("blockquote", data[r].quote + " ")
+                        .parent(texto)
+                        .id("cita");
+                    createElement("cite", data[r].author).parent("cita");
+                    createImg("images/thenounproject.svg", "Notebook").parent(imagen).addClass("w-100");
+                    selectAll("nav a")[1].addClass("fw-bolder");
+                } else if (seleccionada == 2) {
+                    createP(data.explanation).parent(texto);
+                    createImg(data.url, "Notebook").parent(imagen).addClass("w-100");
+                    selectAll("nav a")[2].addClass("fw-bolder");
+                } else {
+                    createP(data).parent(texto);
+                    w;
+                }
+            }
+        </script>
+    </body>
+</html>

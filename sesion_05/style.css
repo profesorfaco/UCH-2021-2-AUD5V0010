@@ -1,4 +1,10 @@
-h3{
-	font-size: calc(2rem + 3vw) ;
-	font-weight: 300;
+nav a{color: gray;}
+nav a:hover{color: black;}
+main.container{height: 100vh;}
+
+@media (max-width: 767.98px) {
+main.container{height: auto; padding-top: 10vh; padding-bottom: 10vh;}
 }
+
+footer a{color: silver;}
+footer a:hover{color: gray;}
