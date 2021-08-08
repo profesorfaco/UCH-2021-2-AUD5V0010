@@ -4,13 +4,13 @@
 
 Este es el repositorio de un Electivo para la mención Visualidad y Medios, a cargo del profesor [FACO](https://faco.cl/profesor/). 
 
-Esta versión del Electivo, en segundo semestre de 2021: 
+Esta versión del Electivo, en segundo semestre de 2021, considera:
 
-- se desarrollará de manera remota, vía Google Meet;
+- clases remotas, vía Google Meet;
 
-- con sesiones los días jueves, entre 15.00 a 18.15 hrs.; y 
+- sesiones los días jueves, entre 15.00 a 18.15 hrs.; y 
 
-- con un programa adaptado, en donde se pone mayor énfasis en la programación para Web, descartando actividades relacionadas con Arduino y electrónica.
+- un programa adaptado a 12 clases, en donde se pone mayor énfasis en la programación para Web, descartando actividades relacionadas con Processing, Arduino y electrónica.
 
 - - - - - - - - -
 
