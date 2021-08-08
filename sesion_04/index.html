@@ -3,37 +3,36 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="description" content="Diseño y nuevos medios, segunda versión remota">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous" />
+        <meta name="description" content="Diseño y nuevos medios, segunda versión remota" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous" />
         <link href="style.css" rel="stylesheet" />
         <title>Introducción a la programación para el Diseño de interacción &#127959;</title>
     </head>
     <body>
-        <header class="container-fluid">
+        <header class="container">
             <div class="row">
-                <div class="col text-center"><h1 class="fs-4 pt-4 text-white">Bootstrap</h1></div>
-                <div class="col text-center"><h2 class="fs-5 pt-4 text-white-50">Responsive</h2></div>
-                <div class="col text-center"><h2 class="fs-5 pt-4 text-white-50">Mobile-first</h2></div>
+                <div class="col text-start"><h1 class="fs-4 pt-5 text-white">Bootstrap</h1></div>
+                <div class="col text-end"><h2 class="fs-5 pt-5 text-white-50">responsive mobile-first</h2></div>
             </div>
         </header>
-        <aside class="container-fluid">
-            <div class="row pt-4 pb-5 mx-5">
-                <div class="col-sm-6 col-lg-3 p-4">
+        <aside class="container">
+            <div class="row py-5">
+                <div class="col-sm-6 col-lg-3">
                     <a target="_blank" href="https://cannesprlions.com/en/lionsnews/new-uses/" rel="noopener noreferrer">
                         <img src="images/new-uses.jpg" class="shadow img-fluid" onmousemove="primeraRevista()" onmouseleave="nada()" />
                     </a>
                 </div>
-                <div class="col-sm-6 col-lg-3 p-4">
+                <div class="col-sm-6 col-lg-3">
                     <a target="_blank" href="https://cannesprlions.com/en/lionsnews/community/" rel="noopener noreferrer">
                         <img src="images/community.jpg" class="shadow img-fluid" onmousemove="segundaRevista()" onmouseleave="nada()" />
                     </a>
                 </div>
-                <div class="col-sm-6 col-lg-3 p-4">
+                <div class="col-sm-6 col-lg-3">
                     <a target="_blank" href="https://cannesprlions.com/en/lionsnews/human-power/" rel="noopener noreferrer">
                         <img src="images/human-power.jpg" class="shadow img-fluid" onmousemove="terceraRevista()" onmouseleave="nada()" />
                     </a>
                 </div>
-                <div class="col-sm-6 col-lg-3 p-4">
+                <div class="col-sm-6 col-lg-3">
                     <a target="_blank" href="https://cannesprlions.com/en/lionsnews/mismatches/" rel="noopener noreferrer">
                         <img src="images/mismatches.jpg" class="shadow img-fluid" onmousemove="cuartaRevista()" onmouseleave="nada()" />
                     </a>
@@ -43,22 +42,111 @@
         <main class="container-fluid bg-light">
             <div class="container">
                 <div class="row">
-                    <div class="col-10 col-sm-9 col-md-8 col-lg-7 mx-auto my-5">
-                        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce quis justo non leo elementum venenatis quis vitae purus. Vivamus eget purus dolor. Suspendisse potenti. Sed imperdiet cursus dolor, nec venenatis est condimentum ut. Integer luctus, ipsum sit amet vulputate porta, mauris nulla volutpat lorem, sed sodales augue diam sit amet lectus. Donec orci est, placerat non risus nec, accumsan finibus ex. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vivamus ultricies lorem in leo auctor fringilla.</p>
-                        <p>Proin lorem leo, pretium et purus eleifend, tempor accumsan purus. Mauris commodo mollis est accumsan maximus. Praesent posuere tellus quis lacus venenatis posuere. Sed vitae iaculis arcu. Phasellus ac nunc dui. Cras posuere lacus diam, suscipit interdum sapien tempor vel. Ut at nisl ex. Pellentesque vel odio et arcu semper semper vel non diam.</p>
-                        <p>Sed ex urna, rhoncus in enim eget, vestibulum varius risus. Quisque malesuada a lorem vitae vestibulum. Phasellus volutpat lorem enim, ac facilisis sem fringilla ac. Suspendisse dignissim, massa eu vehicula luctus, leo tortor consequat magna, a consectetur quam quam quis diam. Suspendisse aliquet dolor eu cursus fringilla. Vivamus ut est tincidunt, porttitor lacus quis, suscipit tellus. Aenean lobortis est fermentum imperdiet sodales. Nullam volutpat, erat a porta malesuada, mauris diam tincidunt nibh, sed posuere mi dui auctor purus. Aenean a tincidunt nisi. Quisque augue massa, accumsan non magna eget, eleifend semper erat. In ac sapien sed turpis finibus molestie.</p>
+                    <div class="col-11 col-sm-10 col-md-9 mx-auto mt-5">
+                        <p class="lead">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam gravida, nulla sed tincidunt sollicitudin, massa eros eleifend quam, et fermentum ex est sed arcu. Nullam in turpis semper, mollis ipsum nec, congue
+                            lacus.
+                        </p>
+                        <p>
+                            Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Fusce rhoncus justo justo, euismod venenatis tellus tincidunt at. Curabitur lacinia enim tellus, sed hendrerit augue
+                            tristique vel. Duis in lacinia odio. Suspendisse id tellus hendrerit, tincidunt orci id, pharetra elit. Pellentesque tristique lacus et porta cursus. Suspendisse potenti. Vivamus laoreet non ligula quis
+                            tincidunt. Nam at pharetra augue, sit amet consequat odio. Donec nec lacus urna. Aliquam metus diam, bibendum nec quam quis, dictum volutpat neque. Mauris dictum odio cursus, interdum tortor sed, interdum mi.
+                            Morbi malesuada molestie quam, in mollis ligula malesuada id.
+                        </p>
+                    </div>
+                    <div class="col-12 my-3">
+                        <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                            </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="https://picsum.photos/900/400?random=1.webp" class="d-block w-100" alt="..." />
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="https://picsum.photos/900/400?random=2.webp" class="d-block w-100" alt="..." />
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="https://picsum.photos/900/400?random=3.webp" class="d-block w-100" alt="..." />
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="https://picsum.photos/900/400?random=4.webp" class="d-block w-100" alt="..." />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-11 col-sm-10 col-md-9 mx-auto mt-3 mb-5">
+                        <p>
+                            Praesent ac orci et ligula condimentum euismod ac at lectus. Vestibulum sagittis iaculis blandit. Nunc pretium dictum dignissim. Pellentesque dapibus eget nunc a malesuada. Morbi et semper velit, quis eleifend
+                            erat. Nulla placerat eu erat in ultricies. Vestibulum posuere sem sed egestas sagittis. Suspendisse pulvinar sit amet dolor a consequat. Donec vulputate bibendum rutrum. Sed et feugiat quam, congue pretium
+                            mauris. Vestibulum euismod imperdiet pellentesque. Nullam eget erat at erat pulvinar interdum eget a nulla. Cras vitae ornare purus, sed luctus ligula. Aenean arcu nisl, pellentesque at lobortis molestie, tempus
+                            a quam. Donec et suscipit nisi. Aliquam ac varius est.
+                        </p>
+<div class="table-responsive my-3">
+
+                        <table class="table">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">First</th>
+      <th scope="col">Last</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>New Uses</td>
+      <td>Doubt the conventional wisdom, break down customs</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Community</td>
+      <td>Know the community's character, create empathy</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>Human Power</td>
+      <td>Showing ons's face to deepen connections</td>
+    </tr>
+    <tr>
+      <th scope="row">4</th>
+      <td>Mismatches</td>
+      <td>Stimulating interest to create dialogue</td>
+    </tr>
+  </tbody>
+</table>
+</div>
                     </div>
                 </div>
             </div>
         </main>
         <footer class="container">
             <div class="row">
-                <div class="col-10 col-sm-9 col-md-8 col-lg-7 mx-auto pt-4 pb-2">
-                    <p class="text-white small d-flex justify-content-between align-items-center"><a href="#" class="link-light">Nombre Apellido</a> <a href="#" class="link-light">Diseño y nuevos medios</a></p>
+                <div class="col pt-4 pb-2">
+                    <p class="text-white small d-flex justify-content-between align-items-center"><a href="#" class="link-light">Nombre Apellido</a> <a href="#" class="link-light">AUD5V0010</a></p>
                 </div>
             </div>
         </footer>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
-        <script src="script.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+        <script>
+            function primeraRevista() {
+                document.getElementsByTagName("body")[0].style.background = "#D34145";
+            }
+            function segundaRevista() {
+                document.getElementsByTagName("body")[0].style.background = "#5790A3";
+            }
+            function terceraRevista() {
+                document.getElementsByTagName("body")[0].style.background = "#6A5D9C";
+            }
+            function cuartaRevista() {
+                document.getElementsByTagName("body")[0].style.background = "#117C60";
+            }
+            function nada() {
+                document.getElementsByTagName("body")[0].style.background = "#222";
+            }
+        </script>
     </body>
 </html>
