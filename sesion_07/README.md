@@ -89,4 +89,10 @@ Es necesario contar con un editor de código fuente; vamos a crear un documento 
 
 - - - - - - - 
 
+#### Práctica
+
+https://profesorfaco.github.io/interaccion/sesion_07/
+
+- - - - - - - 
+
 [← CLASE ANTERIOR](https://github.com/profesorfaco/interaccion/tree/main/sesion_06) — [SIGUIENTE CLASE →](https://github.com/profesorfaco/interaccion/tree/main/sesion_08)
