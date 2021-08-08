@@ -60,4 +60,10 @@ Una vez cerremos el paréntesis podremos volver a la página [index.html](https:
 
 - - - - - - - 
 
+#### Práctica
+
+https://profesorfaco.github.io/interaccion/sesion_01/
+
+- - - - - - - 
+
 [SIGUIENTE CLASE →](https://github.com/profesorfaco/interaccion/tree/main/sesion_02)
