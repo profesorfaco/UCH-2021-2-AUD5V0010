@@ -1,89 +1,59 @@
 # Introducción a la programación para el Diseño de interacción
 
-### Bootstrap v5 + Chart.js
+### Bootstrap v5 + jQuery
 
 - - - - - - - - 
 
 #### Lectura
 
-Con [Chart.js](https://www.chartjs.org/) podemos implementar gráficos de [línea](https://www.chartjs.org/docs/latest/charts/line.html), [barra](https://www.chartjs.org/docs/latest/charts/bar.html), [radar](https://www.chartjs.org/docs/latest/charts/radar.html), [torta](https://www.chartjs.org/docs/latest/charts/doughnut.html), [área polar](https://www.chartjs.org/docs/latest/charts/polar.html), [burbujas](https://www.chartjs.org/docs/latest/charts/bubble.html) y [dispersión](https://www.chartjs.org/docs/latest/charts/scatter.html), que son los tipos de gráficos disponibles en otra biblioteca de JavaScript:
+**[jQuery](https://jquery.com/) es una biblioteca que nos simplifica la redacción de instrucciones en JavaScript, sobre todo cuando se busca manipular el DOM y hacer transiciones animadas**. Su primera versión estable fue lanzada el año 2006, lo que es anterior a la primera revisión importante del [estándar de JavaScript](https://en.wikipedia.org/wiki/ECMAScript), la [ES5 del 2009](https://www.w3schools.com/js/js_es5.asp), con la que se comenzó a simplificar la redacción del mismo lenguaje.
 
-**[Chart.js](https://www.chartjs.org/) nos permite implementar gráficos con valores numéricos contenidos en arreglos de JavaScript, y su promesa, en inglés, es *Simple yet flexible JavaScript charting for designers & developers*. Al ubicarse en ese lugar intermedio puede provocar dolores de cabeza en los extremos caricaturizados: muy complejo para *designers* o muy simple para *developers*.** 
-
-Para evitar dolores de cabeza, corresponde reconocer sus partes: 
+Conviene partir con un ejemplo: En una página web tenemos varios elementos con una clase a la que denominamos "media". Para afectar a todos los elementos que tienen esa clase con un cambio de color desde JavaScript, sin usar bibliotecas, hace algunos años habríamos escrito la siguiente instrucción:
 
 ```
-var contexto = document.getElementById('nombre').getContext('2d');
-var configuracion = {type: '…', data: {…}, options: {…}}
-var chart = new Chart(contexto, configuracion);
+var elementos = Array.from(document.getElementsByClassName("media"));
+elementos.forEach(function(elemento){
+  elemento.style.color="red";
+});
 ```
 
-1. Requiere la creación del contexto 
-2. Requiere la configuración de tipo, datos y opciones para el gráfico 
-3. Contexto y configuración permiten indicar que en este script vamos a crear un `new Chart()`.
-
-Nos referimos a tres partes. No se trata de tres pasos. También sería válido escribir:
+Pero con el [estándar de JavaScript actual](https://www.w3schools.com/js/js_versions.asp) se simplifica un poco:
 
 ```
-new Chart(document.getElementById('nombre').getContext('2d'), {type: '…', data: {…}, options: {…}});
+var elementos = document.querySelectorAll(".media");
+elementos.forEach(elemento => elemento.style.color="red");
 ```
 
-Antes de partir la exploración necesaria para hacer la configuración de [Chart.js](https://www.chartjs.org/docs/latest/charts/?h=type), corresponde:
-
-- recordar el [método `forEach()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array/forEach);
-
-- revisar el [método `push()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array/push); y
-
-- tener a mano la [documentación de Charts.js](https://www.chartjs.org/docs/latest/).
-
-Es necesario contar con un editor de código fuente; vamos a crear un documento nuevo, pegar el código que sigue y guardarlo con el nombre ejemplo.html:
+Ahora bien, usando [jQuery](https://jquery.com/), basta con escribir:
 
 ```
-<!DOCTYPE html>
-<html lang="es">
-    <head>
-        <title>Esto es un ejemplo</title>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.js" integrity="sha512-d9xgZrVZpmmQlfonhQUvTR7lMPtO7NkZMkA0ABN3PHCbKA5nqylQ/yWlFAyY6hYgdF1Qh6nYiuADWwKB4C2WSw==" crossorigin="anonymous"></script>
-    </head>
-    <body>
-        <canvas id="myChart"></canvas>
-        <script>
-            //comunas más pobladas en la provincia de Santiago
-            var santiago = [
-                { comuna: "La Florida", habitante: 366.916, color: "#d32f2f" },
-                { comuna: "Las Condes", habitante: 294.838, color: "#7b1fa2" },
-                { comuna: "Maipú", habitante: 521.627, color: "#303f9f" },
-                { comuna: "Peñalolén", habitante: 241.599, color: "#0288d1" },
-                { comuna: "Santiago", habitante: 404.495, color: "#00796b" },
-            ];
-
-            var lasComunas = [];
-            var losHabitantes = [];
-            var losColores = [];
-
-            santiago.forEach(function (dato) {
-                lasComunas.push(dato.comuna);
-                losHabitantes.push(dato.habitante);
-                losColores.push(dato.color);
-            });
-
-            new Chart(document.getElementById("myChart").getContext("2d"), {
-                type: "bar",
-                data: {
-                    labels: lasComunas,
-                    datasets: [
-                        {
-                            data: losHabitantes,
-                            backgroundColor: losColores,
-                        },
-                    ],
-                },
-                options: {},
-            });
-        </script>
-    </body>
-</html>
+$(".media").css("color","red");
 ```
+
+Para la primera década del 2000, [jQuery](https://jquery.com/) ofrecía una simplificación radical en el trabajo con JavaScript. Pero en los años más recientes el mismo lenguaje ha tendido a simplificarse; no conviene perder de vista esta tendencia por prestarle mucha atención a la biblioteca, esto sería casi como olvidar el modo correcto de escribir algunas palabras por prestarle mucha atención a las abreviaciones de mensajería instantánea.
+
+Hecha la advertencia, agreguemos un nivel más al ejemplo para poder entender el uso de la biblioteca: 
+
+```
+function enrojece() {
+  $(".media").css("color","red");
+}
+$("#cambio").on("click", enrojece);
+```
+
+Tal instrucción está abreviando, mediante [jQuery](https://jquery.com/), lo siguiente:
+
+```
+function enrojece(){
+  var elementos = document.querySelectorAll(".media");
+  elementos.forEach(elemento => elemento.style.color="red");  
+}
+document.querySelector("#cambio").addEventListener("click", enrojece);
+```
+
+Con la última instrucción de jQuery, el cambio de color sobre todos los elementos de clase "media" se hace al presionar el botón de identidad "cambio". Y ya resulta evidente que la clave del uso de [jQuery](https://jquery.com/) está en la concatenación de un selector y una acción: `$(selector).action()`. 
+
+Las opciones de selectores y acciones son descritas detalladamente en https://api.jquery.com/, y de manera muy abreviada en https://htmlcheatsheet.com/jquery/
 
 - - - - - - -
 
