@@ -2,7 +2,7 @@
 
 ### Evaluación Nº2
 
-https://profesorfaco.github.io/interaccion/sesion_07/
+https://profesorfaco.github.io/interaccion/sesion_08/
 
 - - - - - - - - - - - - -
 
