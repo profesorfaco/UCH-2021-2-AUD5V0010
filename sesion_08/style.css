@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+* {
+    transition: all ease 0.5s;
+}
+
+:hover {
+    transition: all ease 0.5s;
+}
