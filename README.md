@@ -72,7 +72,7 @@ La organización se basa en la modalidad de “aula invertida” (*flipped class
  
 - participar activdamente de la exploración que se realiza en sesiones sincrónicas breves; y 
 
-- resolver el desafío de la práctica en el horario de la clase o durante el mismo día, publicando con [GitHub Pages](https://docs.github.com/es/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site) su resultado.
+- resolver el desafío de la práctica en el horario de la clase o durante el mismo día, publicando con [GitHub Pages](https://docs.github.com/es/pages/getting-started-with-github-pages/creating-a-github-pages-site) su resultado.
 
 **La nota final del electivo se obtiene del promedio entre evaluaciones 1 y 2. La evaluación diagnóstica podrían llegar a reemplazar nota 1 o 2 si es más baja**.
 
