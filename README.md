@@ -8,11 +8,29 @@ Esta versión del Electivo, en segundo semestre de 2021, considera:
 
 - clases remotas, vía Google Meet;
 
-- sesiones los días jueves, entre 15.00 a 18.15 hrs.; y 
+- sesiones los días jueves, de 15.00 a 18.15 hrs.; y 
 
-- un programa adaptado a 12 clases, en donde se pone mayor énfasis en la programación para Web, descartando actividades relacionadas con Processing, Arduino y electrónica.
+- un programa adaptado a 12 clases, en donde se pone **mayor énfasis en la programación para Web**, descartando actividades presenciales que pudieran relacionarse con Processing, Arduino y electrónica.
 
 - - - - - - - - -
+
+### Materiales de trabajo
+
+Cada estudiante en este Electivo debería contar con:
+
+- conexión estable a Internet
+
+- cuenta personal en [GitHub](https://github.com/join);
+
+- computador disponible en el horario de clases, donde pueda usar:
+
+  - Google Meet;
+
+  - Editor de código fuente: [Atom.io](https://atom.io/) o [Sublime Text](https://www.sublimetext.com/).
+
+  - Navegador web: [Chrome](https://www.google.com/intl/es-419/chrome/) o [Firefox](https://www.mozilla.org/es-CL/firefox/new/). No utilizaremos Safari. Es muy necesario que desactive los traductores en su navegador, porque la traducción automática (y forzada) al español puede complicar un trabajo que se hace, principalmente, en inglés. También es necesario que sepa como "Ver el código fuente de la página", [inspeccionar elementos](https://support.hostinger.es/es/articles/2333029-como-inspeccionar-los-elementos-del-sitio-web) y [abrir consola](https://transferwise.com/es/help/articles/2954851/como-abrir-la-consola-de-tu-navegador).
+
+- - - - - - - 
 
 ### Serán 12 sesiones:
 
@@ -59,24 +77,6 @@ La organización se basa en la modalidad de “aula invertida” (*flipped class
 **La nota final del electivo se obtiene del promedio entre evaluaciones 1 y 2. La evaluación diagnóstica podrían llegar a reemplazar nota 1 o 2 si es más baja**.
 
 - - - - - - - - - -
-
-### Materiales de trabajo
-
-Cada estudiante en este Electivo debería contar con:
-
-- conexión estable a Internet
-
-- cuenta personal en [GitHub](https://github.com/join);
-
-- computador disponible en el horario de clases, donde pueda usar:
-
-  - Google Meet;
-
-  - Editor de código fuente: [Atom.io](https://atom.io/) o [Sublime Text](https://www.sublimetext.com/).
-
-  - Navegador web: [Chrome](https://www.google.com/intl/es-419/chrome/) o [Firefox](https://www.mozilla.org/es-CL/firefox/new/). No utilizaremos Safari. Es muy necesario que desactive los traductores en su navegador, porque la traducción automática (y forzada) al español puede complicar un trabajo que se hace, principalmente, en inglés. También es necesario que sepa como "Ver el código fuente de la página", [inspeccionar elementos](https://support.hostinger.es/es/articles/2333029-como-inspeccionar-los-elementos-del-sitio-web) y [abrir consola](https://transferwise.com/es/help/articles/2954851/como-abrir-la-consola-de-tu-navegador).
-
-- - - - - - - 
 
 ### Referencias bibliográficas
 
