@@ -100,4 +100,6 @@ La organización se basa en la modalidad de “aula invertida” (*flipped class
 
 - [JavaScript Para Gatos](https://jsparagatos.com/)
 
+- [Web Demystified](https://www.youtube.com/playlist?list=PLo3w8EB99pqLEopnunz-dOOBJ8t-Wgt2g)
+
 Se agregarán más referencias en el `README.md` de cada clase.
