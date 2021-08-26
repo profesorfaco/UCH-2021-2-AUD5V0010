@@ -76,7 +76,7 @@ También es necesario contar con un editor de código fuente; vamos a crear un d
 <html lang="es">
     <head>
         <title>Esto es un ejemplo</title>
-        <script src="https://cdn.jsdelivr.net/npm/p5@1.2.0/lib/p5.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.min.js"></script>
         <script>
             function setup() {
                 createCanvas(windowWidth - 40, windowHeight - 40).position(20, 20).style('z-index',-1);
