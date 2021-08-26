@@ -38,7 +38,7 @@ function draw() {
 }
 ```
 
-El tamaño del [`createCanvas`](https://p5js.org/es/reference/#/p5/createCanvas) se indica en pixeles (son 400 x 400 pixeles en el caso recién presentado). El color del [`background`](https://p5js.org/es/reference/#/p5/background) utiliza, por defecto, el modelo RGB; cuando se indica solo un número, el programa entiende que se está definiendo algo entre negro (0,0,0) y blanco (255,255,255).
+El tamaño del [`createCanvas`](https://p5js.org/es/reference/#/p5/createCanvas) se indica en pixeles (son 400 x 400 pixeles en el caso recién presentado). El color del [`background`](https://p5js.org/es/reference/#/p5/background) utiliza, por defecto, el modelo RGB; cuando se indica solo un número, se asume que se está definiendo algo entre negro (0,0,0) y blanco (255,255,255), porque es un mismo número repitiéndose tres veces.
 
 En el mismo [editor web de p5.js](https://editor.p5js.org/) podemos hacer cambios para asegurarnos de comprender las diferencias. Podríamos crear un canvas más ancho que alto, donde la velocidad del re-dibujar no sea de 30 cuadros por segundo sino 2. Y podríamos pintar cada vez el fondo de un color distinto, dejando los valores de rojo, verde y azul al azar entre 0 y 255:
 
