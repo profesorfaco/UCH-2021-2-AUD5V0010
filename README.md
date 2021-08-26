@@ -10,7 +10,7 @@ Esta versión del Electivo, en segundo semestre de 2021, considera:
 
 - sesiones los días jueves, de 15.00 a 18.15 hrs.; y 
 
-- un programa adaptado a 12 clases, que pone **mayor énfasis en la programación para Web**, descartando actividades presenciales que pudieran relacionarse con [Processing](https://processing.org/), [Arduino](https://www.arduino.cc/) y electrónica.
+- un programa adaptado a 12 sesiones, que pone **mayor énfasis en la programación para Web**, descartando actividades presenciales que pudieran relacionarse con [Processing](https://processing.org/), [Arduino](https://www.arduino.cc/) y electrónica.
 
 - - - - - - - - -
 
