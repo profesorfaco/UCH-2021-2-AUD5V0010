@@ -82,8 +82,6 @@ La organización se basa en la modalidad de “aula invertida” (*flipped class
 
 [O'Reilly](http://shop.oreilly.com/) ofrece un par de colecciones que podrían servir de referencia: "The Good Parts" y "Pocket References". En el desarrollo del Optativo, podrían consultar: 
 
-- Crockford, D. (2008). *JavaScript: The Good Parts: Unearthing the Excellence in JavaScript*
-
 - Meyer, E.A. (2018). *CSS Pocket Reference: Visual Presentation for the Web*
 
 - Robbins, J.N. (2013). *HTML5 Pocket Reference: Quick, Comprehensive, Indispensable*
