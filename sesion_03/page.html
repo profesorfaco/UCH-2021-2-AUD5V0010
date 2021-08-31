@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Introducción a la programación para el Diseño de interacción </title>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
+        <link href="style.css" rel="stylesheet" />
+    </head>
+    <body>
+        <header><h1>Dibuja un </h1></header>
+        <footer><a href="#" id="descarga">Descarga tu </a></footer>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.min.js"></script>
+        <script>
+            var que = new URLSearchParams(window.location.search).get("dibuja");
+            document.querySelector("h1").textContent += que;
+            document.querySelector("a").textContent += que;
+            function setup() {
+                var d = select("#descarga");
+                d.mousePressed(artemania);
+                createCanvas(windowWidth, windowHeight).position(0, 0).style("z-index", -1);
+                background(255);
+            }
+            function draw() {
+                if (mouseIsPressed) {
+                    line(pmouseX, pmouseY, mouseX, mouseY);
+                }
+            }
+            function artemania() {
+                saveCanvas("mi_atacazo_artistico", "jpg");
+            }
+            function windowResized() {
+                resizeCanvas(windowWidth, windowHeight);
+            }
+        </script>
+    </body>
+</html>

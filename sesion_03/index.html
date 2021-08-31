@@ -3,62 +3,28 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Introducción a la programación para el Diseño de interacción </title>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
         <link href="style.css" rel="stylesheet" />
-        <title>&#128397; Introducción a la programación para el Diseño de interacción | Evalución Nº1</title>
     </head>
     <body>
         <header>
-            <div>
-                <h1>&#128397; <span>DibujApp</span></h1>
-            </div>
-            <div></div>
-            <div></div>
+            <h1>Nombre Apellido</h1>
         </header>
-        <main></main>
+        <main>
+            <p>Preséntate en este párrafo, compartiendo la razón por la que tomas este Electivo. Intenta ser breve. Este párrafo tiene treinta palabras. Tú puedes agregar más, pero evita superar las cincuenta.</p>
+        </main>     
+        <footer>
+        </footer>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.min.js"></script>
         <script>
-            var main = document.querySelector("main");
-            var footer = document.querySelector("footer");
-            var menuColor = document.getElementsByTagName("div")[1];
-            var menuGrosor = document.getElementsByTagName("div")[2];
-            var menuDescargar = document.getElementsByTagName("div")[3];
-            var colorido, grosor, descarga;
-
+            var alternativas = ["perro", "gato", "tigre", "elefante"];
             function setup() {
-                createCanvas(windowWidth, windowHeight).parent(main);
-                background(235);
-                colorido = createColorPicker("#FF5359").parent(menuColor);
-                createSpan("Grosor ").parent(menuGrosor);
-                grosor = createSelect().parent(menuGrosor);
-                grosor.option("Thin", 1);
-                grosor.option("Extra Light", 2);
-                grosor.option("Light", 3);
-                grosor.option("Normal", 4);
-                grosor.option("Medium", 5);
-                grosor.option("Semi Bold", 6);
-                grosor.option("Bold", 7);
-                grosor.option("Extra Bold", 8);
-                grosor.option("Black", 9);
-                grosor.selected(4);
-                descarga = createButton("Descargar").parent(main);
-                descarga.mousePressed(descargar);
-                instructivo();
-            }
-
-            function draw() {
-                stroke(colorido.color());
-                strokeWeight(grosor.value());
-                if (mouseIsPressed) {
-                    line(pmouseX, pmouseY, mouseX, mouseY);
-                }
-            }
-
-            function descargar() {
-                
-            }
-            
-            function instructivo(){
-                alert("Aquí está el texto del instructivo…")
+                var lugar = select("footer");
+                var alternativa = random(alternativas);
+                createA("page.html"+"?dibuja="+alternativa, "Dibuja un " + alternativa).parent(lugar);
+                noCanvas();
             }
         </script>
     </body>
