@@ -1,8 +1,8 @@
 @charset "UTF-8";
 
 :root {
-    --figura: rgb(20, 20, 20);
-    --fondo: rgb(200, 200, 200);
+    --figura: #333333;
+    --fondo: #DDDDDD;
     /* ¿Qué valor de contrast-ratio está utilizando? Revise en https://contrast-ratio.com/ */
 }
 
@@ -35,12 +35,6 @@ header, main, footer {
     padding: 5vh 7vw;
 }
 
-header {
-    position: absolute;
-    top: 0;
-    color: #fff;
-    text-shadow: 3px 3px 5px rgba(100, 100, 100, 0.25);
-}
 
 header h1 {
     font-size: 3.5rem;
@@ -53,23 +47,4 @@ footer {
     flex-direction: row;
     justify-content:space-between;
     align-items: center;
-}
-
-footer div#controles{
-    background:#eee;
-    border:1px solid #ddd;
-    box-shadow: 3px 3px 5px rgba(100, 100, 100, 0.25);
-}
-
-footer div#controles input[type=color]{
-    border-radius: 0 0;
-    border:none;
-    border-right:1px solid #ddd;
-    padding:3px 5px;
-    width:2rem;
-}
-
-footer div#controles input[type=range]{
-    width:4rem;
-    margin:0 0.5rem;
 }
