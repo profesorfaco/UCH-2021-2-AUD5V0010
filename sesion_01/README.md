@@ -50,11 +50,9 @@ Cada cadena de caracteres, contenida entre comillas, tiene una posición dentro 
 
 Esta variable es utilizada para realizar una tarea simplificada con [p5.js](https://p5js.org/es/get-started/), una bibliteca de JS. Para comprender tal simplificación, conviene hacer un paréntesis para:
 
-- aprovechar [el **p5.js** Web Editor](https://editor.p5js.org/profesorfaco/sketches/wBvBZ1V6n);
+- aprovechar [el **p5.js** Web Editor](https://editor.p5js.org/profesorfaco/sketches/wBvBZ1V6n); y
 
-- revisar [la página de referencias de **p5.js**](https://p5js.org/es/reference/); y
-
-- revisar [la propiedad length](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/String/length).
+- revisar [la página de referencias de **p5.js**](https://p5js.org/es/reference/).
 
 Una vez cerremos el paréntesis podremos volver a la página [index.html](https://github.com/profesorfaco/interaccion/blob/main/sesion_01/index.html) para resolver el ejercicio de la clase de hoy.
 
