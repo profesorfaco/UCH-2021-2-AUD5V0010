@@ -24,6 +24,7 @@ https://profesorfaco.github.io/interaccion/sesion_03/
 
 ![mi_atacazo_artistico](https://user-images.githubusercontent.com/7999767/132741657-faa7c76f-e130-480c-b6af-70873e169666.jpg)
 
+Este gato lo hizo mi primo de 5 años. Encontró chori la aplicación.
 
 - - - - - - -
 
