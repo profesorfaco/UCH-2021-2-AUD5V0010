@@ -48,7 +48,7 @@ Esto es todo, buena suerte; cumplir con las 6 indicaciones implican 6 puntos. Ag
 | Claudia Mansilla | https://claudia2957.github.io/Clase-02/ | https://github.com/claudia2957/Clase-02/#readme | 
 | Bastián Moncada | | |	
 | Javiera Parga | https://javiparga13.github.io/sesion-03/ | https://github.com/javiparga13/sesion-03/#readme |
-| María José Pinninghoff | https://iamcoteg.github.io/ixd_sesion_03/ | https://github.com/iamcoteg/sesion_03/#readme |
+| María José Pinninghoff | https://iamcoteg.github.io/ixd_sesion_03/ | https://github.com/iamcoteg/ixd_sesion_03/#readme |
 | Camila Poblete | https://camilapoblete.github.io/sesion_03/ | https://github.com/camilapoblete/sesion_03/#readme |
 | Catalina Rivera | https://catari02.github.io/diagnostico-sesion-03/ | https://github.com/catari02/diagnostico-sesion-03/#readme |
 | Vanessa Rodríguez | https://vanessa-rodriguez123.github.io/diagnostico/ | https://github.com/vanessa-rodriguez123/diagnostico/#readme |
