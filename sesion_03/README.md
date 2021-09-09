@@ -4,7 +4,9 @@
 
 https://profesorfaco.github.io/interaccion/sesion_03/
 
-[esto es un link](https://google.com)
+![perrin](https://user-images.githubusercontent.com/7999767/132740932-01df02cd-f40a-422c-a845-388f5e1deed4.jpeg)
+
+
 
 - - - - - - - 
 
