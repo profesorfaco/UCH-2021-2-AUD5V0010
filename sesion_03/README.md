@@ -26,6 +26,8 @@ https://profesorfaco.github.io/interaccion/sesion_03/
 
 Esto es todo, buena suerte; cumplir con las 6 indicaciones implican 6 puntos. Agrega a eso un punto base y obtienes 7.
 
+#### Trabajos ya publicados
+
 | Nombre           | GitHub Page | README.md | 
 |:-----------------|:------------|:----------|
 | Antonia Ascencio | | |
