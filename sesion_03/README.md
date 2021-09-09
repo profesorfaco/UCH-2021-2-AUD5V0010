@@ -43,7 +43,7 @@ Esto es todo, buena suerte; cumplir con las 6 indicaciones implican 6 puntos. Ag
 | Camila González | | |
 | Tomás Hernández | https://tomashernandezmarti.github.io/sesion-3-diagnostico/ | https://github.com/tomashernandezmarti/sesion-3-diagnostico/#readme |	
 | Andrea Jiménez | https://andreacjp.github.io/sesion_03/ | https://github.com/andreacjp/sesion_03/#readme |
-| Hisashi Kobayashi | | |	
+| Hisashi Kobayashi | https://h-kobaya.github.io/s2-t1/ | https://github.com/H-kobaya/s2-t1/blob/main/README.md
 | Fabián Lincopán | | |	
 | Claudia Mansilla | https://claudia2957.github.io/Clase-02/ | https://github.com/claudia2957/Clase-02/#readme | 
 | Bastián Moncada | | |	
