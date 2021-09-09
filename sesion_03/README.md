@@ -35,7 +35,7 @@ Esto es todo, buena suerte; cumplir con las 6 indicaciones implican 6 puntos. Ag
 | Fernanda Celpa | https://fcelpa.github.io/ixd_sesion_03/ | https://github.com/fcelpa/ixd_sesion_03/#readme |
 | Cristina Chamorro | https://cristinachr.github.io/ixd-sesion-03/ | https://github.com/cristinachr/ixd-sesion-03/#readme |
 | Francisca Chong | | |	
-| Raúl Contreras | https://loveoken.github.io/interaccion-con-faco/CL-03/ | https://github.com/loveoken/interaccion-con-faco/CL-03/#readme |
+| Raúl Contreras | https://loveoken.github.io/interaccion-con-faco/CL-03/ | https://github.com/LoveOken/interaccion-con-faco/tree/main/CL-03#readme |
 | Rocío Córdova | | |	
 | Valentina Flores | https://thevalushca.github.io/ixd_sesion_3/ | https://github.com/thevalushca/ixd_sesion_3/#readme |
 | Camila González | | |
