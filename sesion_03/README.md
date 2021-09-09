@@ -39,7 +39,7 @@ Esto es todo, buena suerte; cumplir con las 6 indicaciones implican 6 puntos. Ag
 | Rocío Córdova | | |	
 | Valentina Flores | https://thevalushca.github.io/ixd_sesion_3/ | https://github.com/thevalushca/ixd_sesion_3/#readme |
 | Camila González | | |
-| Tomás Hernández | | |	
+| Tomás Hernández | https://tomashernandezmarti.github.io/sesion-3-diagnostico/ | https://github.com/tomashernandezmarti/sesion-3-diagnostico/#readme |	
 | Andrea Jiménez | https://andreacjp.github.io/sesion_03/ | https://github.com/andreacjp/sesion_03/#readme |
 | Hisashi Kobayashi | | |	
 | Fabián Lincopán | | |	
