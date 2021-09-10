@@ -3,37 +3,37 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
         <link href="style.css" rel="stylesheet" />
         <title>Introducción a la programación para el Diseño de interacción &#127959;</title>
     </head>
-    <body>
+    <body class="bg-dark">
         <header class="container">
             <div class="row">
                 <div class="col text-start"><h1 class="fs-4 pt-5 text-white">Bootstrap</h1></div>
-                <div class="col text-end"><h2 class="fs-5 pt-5 text-white-50">responsive mobile-first</h2></div>
+                <div class="col text-end"><h2 class="fs-5 pt-5 text-white-50">v5.1.1</h2></div>
             </div>
         </header>
         <aside class="container">
             <div class="row py-5">
                 <div class="col-sm-6 col-lg-3">
                     <a target="_blank" href="https://cannesprlions.com/en/lionsnews/new-uses/" rel="noopener noreferrer">
-                        <img src="images/new-uses.jpg" class="shadow img-fluid" onmousemove="primeraRevista()" onmouseleave="nada()" />
-                    </a>
-                </div>
-                <div class="col-sm-6 col-lg-3">
-                    <a target="_blank" href="https://cannesprlions.com/en/lionsnews/community/" rel="noopener noreferrer">
-                        <img src="images/community.jpg" class="shadow img-fluid" onmousemove="segundaRevista()" onmouseleave="nada()" />
+                        <img src="images/new-uses.jpg" class="shadow img-fluid"/>
                     </a>
                 </div>
                 <div class="col-sm-6 col-lg-3">
                     <a target="_blank" href="https://cannesprlions.com/en/lionsnews/human-power/" rel="noopener noreferrer">
-                        <img src="images/human-power.jpg" class="shadow img-fluid" onmousemove="terceraRevista()" onmouseleave="nada()" />
+                        <img src="images/human-power.jpg" class="shadow img-fluid"/>
+                    </a>
+                </div>
+                <div class="col-sm-6 col-lg-3">
+                    <a target="_blank" href="https://cannesprlions.com/en/lionsnews/community/" rel="noopener noreferrer">
+                        <img src="images/community.jpg" class="shadow img-fluid"/>
                     </a>
                 </div>
                 <div class="col-sm-6 col-lg-3">
                     <a target="_blank" href="https://cannesprlions.com/en/lionsnews/mismatches/" rel="noopener noreferrer">
-                        <img src="images/mismatches.jpg" class="shadow img-fluid" onmousemove="cuartaRevista()" onmouseleave="nada()" />
+                        <img src="images/mismatches.jpg" class="shadow img-fluid"/>
                     </a>
                 </div>
             </div>
@@ -129,23 +129,20 @@
                 </div>
             </div>
         </footer>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
-        <script>
-            function primeraRevista() {
-                document.getElementsByTagName("body")[0].style.background = "#D34145";
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.min.js"></script>
+        <script> 
+            function setup() {
+                createCanvas(windowWidth, windowHeight).position(0, 0).style("z-index", -1).style("position","fixed");
             }
-            function segundaRevista() {
-                document.getElementsByTagName("body")[0].style.background = "#5790A3";
+            function draw(){
+                colorMode(HSB,360,100,100);
+                background(map(mouseX, 0, width, 360, 120), 50, 75);
             }
-            function terceraRevista() {
-                document.getElementsByTagName("body")[0].style.background = "#6A5D9C";
-            }
-            function cuartaRevista() {
-                document.getElementsByTagName("body")[0].style.background = "#117C60";
-            }
-            function nada() {
-                document.getElementsByTagName("body")[0].style.background = "#222";
-            }
+            function windowResized() {
+                resizeCanvas(windowWidth, windowHeight);
+            }            
+
         </script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
     </body>
 </html>

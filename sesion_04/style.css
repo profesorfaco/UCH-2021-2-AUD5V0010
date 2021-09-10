@@ -7,7 +7,10 @@
     transition: all ease 0.5s;
 }
 body {
-    background: #222;
+    overflow-x: hidden;
+}
+header, aside{
+    cursor: crosshair;
 }
 aside img {
     transform: rotate(5deg) scale(0.9);
