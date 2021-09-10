@@ -30,20 +30,20 @@ Esto es todo, buena suerte; cumplir con las 6 indicaciones implican 6 puntos. Ag
 
 | Nombre           | GitHub Page | README.md | 
 |:-----------------|:------------|:----------|
-| Antonia Ascencio | | |
+| Antonia Ascencio | https://antoniaascencio.github.io/sesion-2/ | https://github.com/antoniaascencio/sesion-2/#readme |
 | Raúl Berríos	| https://raulgabrielb.github.io/Sesion3/ | https://github.com/raulgabrielb/Sesion3/#readme |
 | Francisco	Cabrera | https://toomanypanchos.github.io/sesion_03/ | https://github.com/toomanypanchos/sesion_03/#readme |
 | Susan Castro | https://susancastroc.github.io/seccion_03/ | https://github.com/susancastroc/seccion_03/#readme |
 | Fernanda Celpa | https://fcelpa.github.io/ixd_sesion_03/ | https://github.com/fcelpa/ixd_sesion_03/#readme |
 | Cristina Chamorro | https://cristinachr.github.io/ixd-sesion-03/ | https://github.com/cristinachr/ixd-sesion-03/#readme |
-| Francisca Chong | | |	
+| Francisca Chong | https://mochuse.github.io/intro-progra-dis-int-03/ | https://github.com/mochuse/intro-progra-dis-int-03/#readme |	
 | Raúl Contreras | https://loveoken.github.io/interaccion-con-faco/CL-03/ | https://github.com/LoveOken/interaccion-con-faco/tree/main/CL-03#readme |
-| Rocío Córdova | | |	
+| Rocío Córdova | https://rcio99.github.io/s03/ | https://github.com/rcio99/s03/#readme |	
 | Valentina Flores | https://thevalushca.github.io/ixd_sesion_3/ | https://github.com/thevalushca/ixd_sesion_3/#readme |
-| Camila González | | |
+| Camila González | https://camilagonzalezga.github.io/clase-3/ | https://github.com/camilagonzalezga/clase-3/#readme |
 | Tomás Hernández | https://tomashernandezmarti.github.io/sesion-3-diagnostico/ | https://github.com/tomashernandezmarti/sesion-3-diagnostico/#readme |	
 | Andrea Jiménez | https://andreacjp.github.io/sesion_03/ | https://github.com/andreacjp/sesion_03/#readme |
-| Hisashi Kobayashi | | |	
+| Hisashi Kobayashi | https://h-kobaya.github.io/s2-t1/ | https://github.com/h-kobaya/s2-t1/#readme |	
 | Fabián Lincopán | | |	
 | Claudia Mansilla | https://claudia2957.github.io/Clase-02/ | https://github.com/claudia2957/Clase-02/#readme | 
 | Bastián Moncada | | |	
@@ -55,7 +55,6 @@ Esto es todo, buena suerte; cumplir con las 6 indicaciones implican 6 puntos. Ag
 | Roberto Rojas | https://robertred-a.github.io/sesion-03/ | https://github.com/robertred-a/sesion-03/#readme |
 | Daniel Salas | https://dsalas1234.github.io/diagnostico/ | https://github.com/dsalas1234/diagnostico/#readme |
 | Kai Smith | https://lilk4i.github.io/ixd_sesion_3/ | https://github.com/lilk4i/ixd_sesion_3/#readme |
-
 
 
 - - - - - - - 
