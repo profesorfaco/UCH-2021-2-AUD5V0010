@@ -12,7 +12,7 @@ Con [Bootstrap](https://getbootstrap.com/) puedes implementar tanto prototipos r
 
 ### Exploración
 
-Hay distintas maneras de comenzar a trabajar con Boostrap. Nosotros vamos a partir con una adaptación de la [Starter template](https://getbootstrap.com/docs/5.0/getting-started/introduction/#starter-template), con un documento HTML que debe verse así: 
+Hay distintas maneras de comenzar a trabajar con Boostrap. Nosotros vamos a partir con una adaptación de la [Starter template](https://getbootstrap.com/docs/5.1/getting-started/introduction/#starter-template), con un documento HTML que debe verse así: 
 
 ```
 <!doctype html>
@@ -20,11 +20,12 @@ Hay distintas maneras de comenzar a trabajar con Boostrap. Nosotros vamos a part
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-    <title>DNO037</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <title>Hola mundo!</title>
   </head>
   <body>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <h1>Cómo estás?</h1>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
   </body>
 </html>
 ```
@@ -33,10 +34,10 @@ En el cuerpo de tal documento HTML (`<body></body>`) podemos comenzar a utilizar
 
 Antes de continuar, es recomendable revisar:
 
-- Containers → https://getbootstrap.com/docs/5.0/layout/containers/
-- Grid system → https://getbootstrap.com/docs/5.0/layout/grid/
-- Columns → https://getbootstrap.com/docs/5.0/layout/columns/
-- Gutters → https://getbootstrap.com/docs/5.0/layout/gutters/
+- Containers → https://getbootstrap.com/docs/5.1/layout/containers/
+- Grid system → https://getbootstrap.com/docs/5.1/layout/grid/
+- Columns → https://getbootstrap.com/docs/5.1/layout/columns/
+- Gutters → https://getbootstrap.com/docs/5.1/layout/gutters/
 
 - - - - - - - 
 
