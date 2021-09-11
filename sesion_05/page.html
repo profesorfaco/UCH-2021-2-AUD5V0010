@@ -8,28 +8,48 @@
         <title>Introducción a la programación para el Diseño de interacción &#129302;</title>
     </head>
     <body class="bg-light">
-        <nav class="container fixed-top">
-            <div class="row">
-                <div class="col py-2">
-                    <p class="d-flex justify-content-between align-items-center"><a href="index.html" class="active">Portada</a> <a href="page.html?n=1">Frases</a> <a href="page.html?n=2">NASA</a></p>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">Hola</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#elMenu" aria-controls="elMenu" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="elMenu">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Portada</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="page.html?n=1">Frases</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="page.html?n=2">NASA</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </nav>
         <main class="container">
             <div class="row h-100 d-flex justify-content-between align-items-center">
-                <div class="col-sm-6 my-auto" id="izq"></div>
-                <div class="col-sm-6 my-auto" id="der"></div>
+                <div class="col-md-7 my-auto" id="izq">
+                    <!--nada por aquí-->
+                </div>
+                <div class="col-md-5 my-auto" id="der">
+                    <!--nada por acá-->
+                </div>
             </div>
         </main>
         <footer class="container fixed-bottom small">
             <div class="row">
                 <div class="col py-2">
-                    <p class="d-flex justify-content-between align-items-center"><a href="#">Nombre Apellido</a> <a href="#">AUD5V0010</a></p>
+                    <!--reemplaza los # por las direcciones correspondientes-->
+                    <p class="d-flex justify-content-between align-items-center"><a href="#" class="link-secondary">Nombre Apellido</a> <a href="#" class="link-secondary">AUD5V0010</a></p>
                 </div>
             </div>
         </footer>
 
-        <script src="https://cdn.jsdelivr.net/npm/p5@1.2.0/lib/p5.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.min.js" integrity="sha512-N4kV7GkNv7QR7RX9YF/olywyIgIwNvfEe2nZtfyj73HdjCUkAfOBDbcuJ/cTaN04JKRnw1YG1wnUyNKMsNgg3g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
         <script>
             var url = new URLSearchParams(window.location.search);
             var seleccionada = url.get("n");
@@ -57,21 +77,20 @@
                 noCanvas();
                 if (seleccionada == 1) {
                     let r = floor(random(0, 101));
-                    createElement("blockquote", data[r].quote + " ")
-                        .parent(texto)
-                        .id("cita");
+                    createElement("blockquote", data[r].quote + " ").parent(texto).id("cita");
                     createElement("cite", data[r].author).parent("cita");
-                    createImg("images/thenounproject.svg", "Notebook").parent(imagen).addClass("w-100");
-                    selectAll("nav a")[1].addClass("fw-bolder");
+                    createImg("images/quote.svg", "Notebook").parent(imagen).addClass("w-100");
+                    selectAll(".nav-item a")[1].addClass("active");
                 } else if (seleccionada == 2) {
                     createP(data.explanation).parent(texto);
                     createImg(data.url, "Notebook").parent(imagen).addClass("w-100");
-                    selectAll("nav a")[2].addClass("fw-bolder");
+                    selectAll(".nav-item a")[2].addClass("active");
                 } else {
                     createP(data).parent(texto);
                     w;
                 }
             }
         </script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>        
     </body>
 </html>

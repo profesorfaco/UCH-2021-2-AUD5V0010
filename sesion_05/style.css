@@ -1,10 +1,40 @@
-nav a{color: gray;}
-nav a:hover{color: black;}
-main.container{height: 100vh;}
+@import url("https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&display=swap");
 
-@media (max-width: 767.98px) {
-main.container{height: auto; padding-top: 10vh; padding-bottom: 10vh;}
+:root {
+    --bs-font-sans-serif: "Atkinson Hyperlegible", sans-serif;
 }
 
-footer a{color: silver;}
-footer a:hover{color: gray;}
+nav {
+    backdrop-filter: blur(3px);
+}
+
+@media (max-width: 768px) {
+    nav {
+        background: rgba(248, 249, 250, 0.75);
+    }
+}
+
+main.container {
+    height: 100vh;
+}
+
+@media (max-width: 767.98px) {
+    main.container {
+        height: auto;
+        padding-top: 10vh;
+        padding-bottom: 10vh;
+    }
+}
+
+blockquote {
+    font-style: italic;
+    font-size: 120%;
+}
+
+blockquote cite {
+    font-style: normal;
+    font-weight: bold;
+    letter-spacing: 0.05rem;
+    color: #aaa;
+    padding-left: 0.5rem;
+}
