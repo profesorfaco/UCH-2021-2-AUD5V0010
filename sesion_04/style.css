@@ -1,5 +1,4 @@
 @charset "UTF-8";
-
 * {
     transition: all ease 0.5s;
 }
@@ -9,7 +8,8 @@
 body {
     overflow-x: hidden;
 }
-header, aside{
+aside,
+header {
     cursor: crosshair;
 }
 aside img {
