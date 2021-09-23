@@ -4,7 +4,7 @@
 
 ### Lectura
 
-**Existen marcos de trabajo de código abierto que nos pueden ayudar a avanzar más rápido desde relaciones predefinidas de HTML y CSS**. Por su popularidad, corresponde mencionar a:
+**Existen marcos de trabajo de código abierto que nos permitirán a avanzar más rápido desde relaciones predefinidas de HTML y CSS**. Por su popularidad, corresponde mencionar a:
 
 - [Bootstrap](https://getbootstrap.com/): *The world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.*
 
@@ -66,7 +66,7 @@ En el sitio web oficial de Bootstrap encontrarán [documentación detallada](htt
 
 - Cheatsheet → https://getbootstrap.com/docs/5.1/examples/cheatsheet/
 
-Pero hay una cosa que no conviene descuidar al usar Bootstrap: **Ofrece un estilo CSS muy grande, de 11.222 líneas**, que el navegador revisa antes de mostrar la página. Pero rara vez usaremos más de 1.222 líneas entre las ofrecidas (le pedimos al navegador leer 10.000 líneas de más en cada carga de página creada con Boostrap). Por ello, si queremos limitar la lectura a lo estrictamente necesario, y con ello mejorar el rendimiento de lo preparado con Boostrap, conviene aplicar algunos trucos: https://css-tricks.com/how-do-you-remove-unused-css-from-a-site/ 
+Pero hay una cosa que no conviene descuidar al usar Bootstrap: **Ofrece un estilo CSS muy grande, de 11.222 líneas**, que el navegador revisa antes de mostrar la página. Pero rara vez usaremos más de 1.222 líneas entre las ofrecidas (le pedimos al navegador leer 10.000 líneas de más en cada carga de página creada con Boostrap). Por ello, si queremos limitar la lectura a lo estrictamente necesario, y con ello mejorar el rendimiento de lo preparado con Bootstrap, conviene aplicar algunos trucos: https://css-tricks.com/how-do-you-remove-unused-css-from-a-site/ 
 
 Entre los trucos del artículo se menciona https://purifycss.online/ en donde podemos poner a prueba el archivo preparado para la práctica, para ver cuánto CSS del que se vincula está siendo realmente utilizado.
 
