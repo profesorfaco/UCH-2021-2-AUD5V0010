@@ -9,11 +9,11 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.min.js"></script>
         <script>
             var favoritismo = [
-                { lugar: 1, nombre: "Nombre del curso", motivo: "Lorem ipsum dolor sit amet, consectetur adipiscing elit." },
-                { lugar: 2, nombre: "Nombre del curso", motivo: "Suspendisse sit amet diam quis tortor dictum tempus vitae vitae tortor." },
-                { lugar: 3, nombre: "Nombre del curso", motivo: "Sed dignissim luctus erat eu scelerisque." },
-                { lugar: 4, nombre: "Nombre del curso", motivo: "Donec blandit ac lectus ac luctus." },
-                { lugar: 5, nombre: "Nombre del curso", motivo: "Praesent tristique lorem a mauris pharetra." },
+                { lugar: 1, nombre: "Nombre del curso", motivo: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.", valor:79  },
+                { lugar: 2, nombre: "Nombre del curso", motivo: "Suspendisse sit amet diam quis tortor dictum tempus vitae vitae tortor." , valor:50 },
+                { lugar: 3, nombre: "Nombre del curso", motivo: "Sed dignissim luctus erat eu scelerisque.", valor:35  },
+                { lugar: 4, nombre: "Nombre del curso", motivo: "Donec blandit ac lectus ac luctus." , valor:22 },
+                { lugar: 5, nombre: "Nombre del curso", motivo: "Praesent tristique lorem a mauris pharetra.", valor:12 }
             ];
             function setup() {
                 createCanvas(windowWidth, windowHeight).position(0, 0).style("z-index", -1).style("position", "fixed");
@@ -28,7 +28,7 @@
             }
             function tabla() {
                 favoritismo.forEach(function (e) {
-                    createElement("tr", '<th scope="row">' + e.lugar + "</th><td>" + e.nombre + "</td><td>" + e.motivo + "</td>").parent("pongale");
+                    createElement('tr', '<th scope="row">' + e.lugar + '</th><td>' + e.nombre + '</td><td>' + e.motivo + '</td><td><div class="progress"><div class="progress-bar" role="progressbar" style="width: '+e.valor+'%;" aria-valuenow="'+e.valor+'" aria-valuemin="0" aria-valuemax="100">'+e.valor+'%</div></div></td>').parent("pongale");
                 });
             }
         </script>
@@ -117,6 +117,7 @@
                                         <th scope="col">#</th>
                                         <th scope="col">Asignatura</th>
                                         <th scope="col">Motivo</th>
+                                        <th scope="col">Progress</th>
                                     </tr>
                                 </thead>
                                 <tbody id="pongale"></tbody>
