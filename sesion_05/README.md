@@ -110,6 +110,12 @@ Llegando a la variable `h` convendría aprovechar a los octillizos Nahasapeemape
 
 - el [método `includes()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/String/includes).
 
+Uno de los métodos recién mencionados puede encontrarse entre [las *Top 10 Must Know JavaScript Functions*](https://www.thedailytechtalk.com/top-10-must-know-javascript-functions/).
+
+#### Exploración
+
+Pendiente, hasta el jueves 30.
+
 - - - - - - -
 
 #### Práctica
