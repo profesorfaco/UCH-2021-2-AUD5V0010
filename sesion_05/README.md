@@ -116,7 +116,7 @@ Uno de los métodos recién mencionados puede encontrarse entre [las *Top 10 Mus
 
 #### Exploración
 
-Volvamos a la variable `h`, que contiene un arreglo de objetos. Comparémosla con http://myjson.dit.upm.es/api/bins/1wo6
+Volvamos a la variable `h`, que contiene un arreglo de objetos. Comparémosla con https://myjson.dit.upm.es/api/bins/1wo6
 
 Para hacer "más legible" lo del vínculo, podemos instalar en el navegador una extensión como JSON Formatter (disponible para [Chrome](https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa?hl=es) y [Firefox](https://addons.mozilla.org/es/firefox/addon/json-formatter/)). 
 
