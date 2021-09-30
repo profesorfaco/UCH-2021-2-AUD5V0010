@@ -24,13 +24,13 @@ var elementos = document.querySelectorAll(".media");
 elementos.forEach(elemento => elemento.style.color="red");
 ```
 
-Ahora bien, usando [jQuery](https://jquery.com/), basta con escribir:
+Usando [jQuery](https://jquery.com/), por años ha sido suficiente escribir:
 
 ```
 $(".media").css("color","red");
 ```
 
-Para la primera década del 2000, [jQuery](https://jquery.com/) ofrecía una simplificación radical en el trabajo con JavaScript. Pero en los años más recientes el mismo lenguaje ha tendido a simplificarse; no conviene perder de vista esta tendencia por prestarle mucha atención a la biblioteca, esto sería casi como olvidar el modo correcto de escribir algunas palabras por prestarle mucha atención a las abreviaciones de mensajería instantánea.
+Para la primera década del 2000, [jQuery](https://jquery.com/) ofrecía una simplificación radical en el trabajo con JavaScript. Pero en la segunda década, no conviene perder de vista el lenguaje original en su evolución, que va de la mano a las complejidades de las tecnologías de interacción. Por quedarnos "muy pegados" en jQuery, podríamos obligar a cada navegador a leer [90kb de código fuente](https://code.jquery.com/jquery-3.6.0.min.js) para interpretar una instrucción que ya se resuelve con 1kb de puro JavaScript, o podríamos tener muchas dificultades dando el primer paso a una biblioteca de JavaScript actual, para construir interfaces de usuario ([Vue.js](https://v3.vuejs.org/) o [React.js](https://es.reactjs.org/)).
 
 Hecha la advertencia, agreguemos un nivel más al ejemplo para poder entender el uso de la biblioteca: 
 
