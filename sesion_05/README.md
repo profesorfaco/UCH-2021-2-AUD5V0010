@@ -112,9 +112,27 @@ Llegando a la variable `h` convendría aprovechar a los octillizos Nahasapeemape
 
 Uno de los métodos recién mencionados puede encontrarse entre [las *Top 10 Must Know JavaScript Functions*](https://www.thedailytechtalk.com/top-10-must-know-javascript-functions/).
 
+- - - - - - -
+
 #### Exploración
 
-Pendiente, hasta el jueves 30.
+Volvamos a la variable `h`, que contiene un arreglo de objetos. Comparémosla con http://myjson.dit.upm.es/api/bins/1wo6
+
+Para hacer "más legible" lo del vínculo, podemos instalar en el navegador una extensión como JSON Formatter (disponible para [Chrome](https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa?hl=es) y [Firefox](https://addons.mozilla.org/es/firefox/addon/json-formatter/)). 
+
+Lo que se hace "más legible" con tal extensión es [JSON](https://www.json.org/json-es.html) (JavaScript Object Notation), un formato ligero de intercambio de datos. Como indica su nombre, se debe a la notación de objetos de JavaScript: La única diferencia con la notación original es el uso de comillas antes y después de los dos puntos (:) que separan al par nombre y valor. Por eso `mon`, `dad` y `children` en la variable `h` tiene algo distinto en el [JSON ya referido](http://myjson.dit.upm.es/api/bins/1wo6)
+
+En línea se pueden intercambiar datos sobre: 
+
+- Personajes de StarWars: https://swapi.dev/api/people/?format=json
+- Tiempo atmosférico: https://openweathermap.org/current#current_JSON
+- Movimientos telúricos: https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php
+- Datos públicos: https://github.com/juanbrujo/listado-apis-publicas-en-chile
+- Y un larguísimo etcéctera de [APIs](https://es.wikipedia.org/wiki/Interfaz_de_programaci%C3%B3n_de_aplicaciones) y cuanto dato se disponga en tal formato.
+
+Y la bibliteca p5.js ofrece la función https://p5js.org/es/reference/#/p5/loadJSON, que es lo vamos a explorar tan pronto podamos leer y escribir JSON:
+
+Tomando algunos datos de tres personajes presentados en [SWAPI](https://swapi.dev/api/people/?format=json) vamos a escribir un JSON origintal. Revisaremos el resultado escrito con [JSONLint](https://jsonlint.com/). Publicaremos tal resultado con [MyJSON](https://myjson.dit.upm.es/) y luego vamos a hacer algunas pruebas con el [editor en línea de p5.js](https://editor.p5js.org/) y la función [loadJSON()](https://p5js.org/es/reference/#/p5/loadJSON).
 
 - - - - - - -
 
