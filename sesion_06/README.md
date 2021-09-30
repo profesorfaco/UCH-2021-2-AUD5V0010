@@ -57,6 +57,12 @@ Las opciones de selectores y acciones son descritas detalladamente en https://ap
 
 - - - - - - -
 
+#### Exploración
+
+Pendiente hasta el jueves 7.
+
+- - - - - - -
+
 #### Práctica
 
 https://profesorfaco.github.io/interaccion/sesion_06/
