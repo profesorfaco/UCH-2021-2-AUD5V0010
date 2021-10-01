@@ -3,11 +3,11 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous" />
         <link href="style.css" rel="stylesheet" />
-        <title>Introducción a la programación para el Diseño de interacción &#129302;</title>
+        <title>La USGS avisó el tsunami en 2010 &#129302;</title>
     </head>
-    <body class="bg-light">
+    <body class="bg-secondary bg-gradient" style="--bs-bg-opacity: 0.5;">
         <aside class="fixed-top container-fluid text-end py-3">
             <form id="opciones">
                 <input type="radio" name="paises" value="todos" checked />
@@ -17,8 +17,13 @@
             </form>
         </aside>
         <header class="container">
-            <div class="row">
-                <div class="col py-5">
+            <div class="row pt-5 pb-3">
+                <div class="col-5 col-sm-3 align-self-center">
+                    <!--Busquen otro en https://visualpharm.com/ o https://openmoji.org/library/-->
+                    <object type="image/svg+xml" data="grito.svg" class="w-100">
+                    </object>                   
+                </div>
+                <div class="col-7 col-sm-9 align-self-center">
                     <h1>USGS Earthquakes</h1>
                     <h2>M4.5+ Earthquakes past 7 days. Updated every minute</h2>
                 </div>
@@ -46,15 +51,29 @@
                         } else {
                             donde = 'data-pais="alla"';
                         }
+                        var omg;
+                        if (temblor.properties.mag < 4.91){
+                            omg = '<h3>'
+                        } else {
+                            omg = '<h3 class="movido">'
+                        }
                         $("section").append(
-                            "<article class='col-6 col-sm-4 col-md-3 col-lg-2 mb-4' " + donde + "><div class='card h-100 shadow-sm bg-white'><div class='card-body'><h3>" + temblor.properties.mag + "</h3><small>" + temblor.properties.place + "</small></div><div class='card-footer'><a href='" + temblor.properties.url + "'>ver detalles</a></div></article>"
+                            "<article class='col-6 col-sm-4 col-md-3 col-lg-2 mb-4' " +
+                                donde +
+                                "><div class='card h-100 shadow-sm bg-white'><div class='card-body'>" + omg +
+                                temblor.properties.mag +
+                                "</h3><small>" +
+                                temblor.properties.place +
+                                "</small></div><div class='card-footer'><a href='" +
+                                temblor.properties.url +
+                                "'>ver detalles</a></div></article>"
                         );
                     });
                     var valor;
                     $("#opciones").change(function () {
                         valor = $("input[name='paises']:checked").val();
                         if (valor == "chile") {
-                            $("[data-pais='alla']").fadeTo("slow", 0.1);
+                            $("[data-pais='alla']").fadeTo("slow", 0.2);
                         } else {
                             $("[data-pais='aqui']").fadeTo("slow", 1);
                             $("[data-pais='alla']").fadeTo("slow", 1);
