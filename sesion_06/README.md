@@ -61,7 +61,35 @@ Las opciones de selectores y acciones son descritas detalladamente en https://ap
 
 #### Exploración
 
-Pendiente hasta el jueves 7.
+Pendiente hasta el jueves 7. Un adelanto: 
+
+```
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>jQuery y JSON</title>
+    </head>
+    <body>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script>
+            $(document).ready(function () {
+                $.getJSON("https://myjson.dit.upm.es/api/bins/1wo6", function (data) {
+                    console.log(data);
+                    var singularplural;
+                    data.forEach(function (d) {
+                        if (d.children.length > 1) {
+                            singularplural = "bendiciones";
+                        } else {
+                            singularplural = "bendición";
+                        }
+                        $("body").append("<p>" + d.mom + " y " + d.dad + " tienen " + d.children.length + " " + singularplural + ".</p>");
+                    });
+                });
+            });
+        </script>
+    </body>
+</html>
+```
 
 - - - - - - -
 
