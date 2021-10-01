@@ -6,12 +6,14 @@
 
 #### Lectura
 
-**[jQuery](https://jquery.com/) es una biblioteca que nos simplifica la redacción de instrucciones en JavaScript, sobre todo cuando se busca manipular el DOM y hacer transiciones animadas**. Su primera versión estable fue lanzada el año 2006, lo que es anterior a la primera revisión importante del [estándar de JavaScript](https://en.wikipedia.org/wiki/ECMAScript), la [ES5 del 2009](https://www.w3schools.com/js/js_es5.asp), con la que se comenzó a simplificar la redacción del mismo lenguaje.
+En esta sesión pasaremos a otra biblioteca de JavaScript. Partimos por [p5.js](https://p5js.org/es/), una biblioteca que busca hacer que programar sea accesible e inclusivo para artistas, diseñadores, educadores, principiantes y cualquier otra persona. Ahora vamos a "un clásico": [jQuery](https://jquery.com/). 
 
-Conviene partir con un ejemplo: En una página web tenemos varios elementos con una clase a la que denominamos "media". Para afectar a todos los elementos que tienen esa clase con un cambio de color desde JavaScript, sin usar bibliotecas, hace algunos años habríamos escrito la siguiente instrucción:
+**[jQuery](https://jquery.com/) es una biblioteca que por muchos años ha simplificado la redacción de instrucciones en JavaScript, sobre todo cuando se busca manipular el DOM y hacer transiciones animadas**. Su primera versión estable fue lanzada el año 2006, lo que es anterior a la primera revisión importante del [estándar de JavaScript](https://en.wikipedia.org/wiki/ECMAScript), la [ES5 del 2009](https://www.w3schools.com/js/js_es5.asp), con la que se comenzó a simplificar la redacción del mismo lenguaje.
+
+Para entender la utilidad de [jQuery](https://jquery.com/), conviene partir con un ejemplo: En una página web tenemos varios elementos con una clase a la que denominamos `tal`. Para afectar a todos los elementos que tienen esa clase con un cambio de color desde JavaScript, sin usar bibliotecas, hace algunos años habríamos escrito la siguiente instrucción:
 
 ```
-var elementos = Array.from(document.getElementsByClassName("media"));
+var elementos = Array.from(document.getElementsByClassName("tal"));
 elementos.forEach(function(elemento){
   elemento.style.color="red";
 });
@@ -20,23 +22,23 @@ elementos.forEach(function(elemento){
 Pero con el [estándar de JavaScript actual](https://www.w3schools.com/js/js_versions.asp) se simplifica un poco:
 
 ```
-var elementos = document.querySelectorAll(".media");
+var elementos = document.querySelectorAll(".tal");
 elementos.forEach(elemento => elemento.style.color="red");
 ```
 
 Usando [jQuery](https://jquery.com/), por años ha sido suficiente escribir:
 
 ```
-$(".media").css("color","red");
+$(".tal").css("color","red");
 ```
 
-Para la primera década del 2000, [jQuery](https://jquery.com/) ofrecía una simplificación radical en el trabajo con JavaScript. Pero en la segunda década, no conviene perder de vista el lenguaje original en su evolución, que va de la mano a las complejidades de las tecnologías de interacción. Por quedarnos "muy pegados" en jQuery, podríamos obligar a cada navegador a leer [90kb de código fuente](https://code.jquery.com/jquery-3.6.0.min.js) para interpretar una instrucción que ya se resuelve con 1kb de puro JavaScript, o podríamos tener muchas dificultades dando el primer paso a una biblioteca de JavaScript actual, para construir interfaces de usuario ([Vue.js](https://v3.vuejs.org/) o [React.js](https://es.reactjs.org/)).
+Para la primera década del 2000, [jQuery](https://jquery.com/) ofrecía una simplificación radical en el trabajo con JavaScript. Pero ya en la segunda década, no conviene perder de vista al lenguaje original que ha evolucionado en su simplificación y la complejización de las tecnologías de interacción; por quedarnos "muy pegados" en jQuery, podríamos obligar a cada navegador a leer [90kb de código fuente](https://code.jquery.com/jquery-3.6.0.min.js) para interpretar una instrucción que ya se resuelve con 1kb de puro JavaScript, o podríamos tener muchas dificultades dando el primer paso a una biblioteca de JavaScript actual, para construir interfaces de usuario ([Vue.js](https://v3.vuejs.org/) o [React.js](https://es.reactjs.org/)).
 
 Hecha la advertencia, agreguemos un nivel más al ejemplo para poder entender el uso de la biblioteca: 
 
 ```
 function enrojece() {
-  $(".media").css("color","red");
+  $(".tal").css("color","red");
 }
 $("#cambio").on("click", enrojece);
 ```
@@ -45,13 +47,13 @@ Tal instrucción está abreviando, mediante [jQuery](https://jquery.com/), lo si
 
 ```
 function enrojece(){
-  var elementos = document.querySelectorAll(".media");
+  var elementos = document.querySelectorAll(".tal");
   elementos.forEach(elemento => elemento.style.color="red");  
 }
 document.querySelector("#cambio").addEventListener("click", enrojece);
 ```
 
-Con la última instrucción de jQuery, el cambio de color sobre todos los elementos de clase "media" se hace al presionar el botón de identidad "cambio". Y ya resulta evidente que la clave del uso de [jQuery](https://jquery.com/) está en la concatenación de un selector y una acción: `$(selector).action()`. 
+Con la última instrucción redactada, el cambio de color sobre todos los elementos de clase `tal` se hace al presionar el botón de identidad `cambio`. Y con este segundo ejemplo ya resulta evidente que la clave del uso de [jQuery](https://jquery.com/) está en la concatenación de un selector y una acción, antecedida de un signo peso: `$(selector).action()`. 
 
 Las opciones de selectores y acciones son descritas detalladamente en https://api.jquery.com/, y de manera muy abreviada en https://htmlcheatsheet.com/jquery/
 
