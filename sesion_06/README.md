@@ -19,14 +19,14 @@ elementos.forEach(function(elemento){
 });
 ```
 
-Pero con el [estándar de JavaScript actual](https://www.w3schools.com/js/js_versions.asp) se simplifica un poco:
+Con el [estándar de JavaScript actual](https://www.w3schools.com/js/js_versions.asp) se simplifica un poco:
 
 ```
 var elementos = document.querySelectorAll(".tal");
 elementos.forEach(elemento => elemento.style.color="red");
 ```
 
-Usando [jQuery](https://jquery.com/), por años ha sido suficiente escribir:
+Pero usando [jQuery](https://jquery.com/), por años ha sido suficiente escribir:
 
 ```
 $(".tal").css("color","red");
