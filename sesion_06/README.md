@@ -63,8 +63,6 @@ Las opciones de selectores y acciones son descritas detalladamente en https://ap
 
 #### Exploración
 
-Pendiente hasta el jueves 7. Un adelanto: 
-
 Con jQuery puedo ir a buscar datos a un JSON. A partir de los datos encontrados, puedo agregar párrafos al cuerpo del documento:
 
 ```
