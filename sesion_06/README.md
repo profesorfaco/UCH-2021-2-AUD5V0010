@@ -63,6 +63,8 @@ Las opciones de selectores y acciones son descritas detalladamente en https://ap
 
 Pendiente hasta el jueves 7. Un adelanto: 
 
+Con jQuery voy a buscar datos a un JSON. A partir de los datos encontrados, puedo crear párrafos.
+
 ```
 <!DOCTYPE html>
 <html lang="es">
@@ -90,6 +92,38 @@ Pendiente hasta el jueves 7. Un adelanto:
     </body>
 </html>
 ```
+
+Sin jQuery puedo hacer lo mismo: 
+
+```
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>JavaScript y JSON (sin bibliotecas)</title>
+    </head>
+    <body>
+        <script>
+            fetch("https://myjson.dit.upm.es/api/bins/1wo6")
+                .then(response => response.json())
+                .then(data => {
+                    console.log(data);
+                    var singularplural;
+                    data.forEach(function (d) {
+                        if (d.children.length > 1) {
+                            singularplural = "bendiciones";
+                        } else {
+                            singularplural = "bendición";
+                        }
+                        document.body.innerHTML += "<p>" + d.mom + " y " + d.dad + " tienen " + d.children.length + " " + singularplural + ".</p>";
+                    });
+                })
+                .catch((error) => console.log("Algo está mal.", error));
+        </script>
+    </body>
+</html>
+```
+
+Sin usar jQuery me quedé en las 25 líneas, eso porque JavaScript tiene su [Fetch API](https://levelup.gitconnected.com/using-the-fetch-api-in-javascript-1de7c2fe673b).
 
 - - - - - - -
 
