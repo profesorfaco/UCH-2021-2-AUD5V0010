@@ -45,7 +45,7 @@ function enrojece() {
 $("#cambio").on("click", enrojece);
 ```
 
-Tal instrucción está abreviando, mediante [jQuery](https://jquery.com/), lo que se podría escribir así en JavaScript puro:
+Tal instrucción está abreviando, mediante [jQuery](https://jquery.com/), lo que se podría escribir en JavaScript puro de la siguiente manera:
 
 ```
 function enrojece(){
