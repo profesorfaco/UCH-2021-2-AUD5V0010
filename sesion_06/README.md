@@ -43,7 +43,7 @@ function enrojece() {
 $("#cambio").on("click", enrojece);
 ```
 
-Tal instrucción está abreviando, mediante [jQuery](https://jquery.com/), lo siguiente:
+Tal instrucción está abreviando, mediante [jQuery](https://jquery.com/), lo que se podría escribir así en JavaScript puro:
 
 ```
 function enrojece(){
@@ -53,7 +53,7 @@ function enrojece(){
 document.querySelector("#cambio").addEventListener("click", enrojece);
 ```
 
-Con la última instrucción redactada, el cambio de color sobre todos los elementos de clase `tal` se hace al presionar el botón de identidad `cambio`. Y con este segundo ejemplo ya resulta evidente que la clave del uso de [jQuery](https://jquery.com/) está en la concatenación de un selector y una acción, antecedida de un signo peso: `$(selector).action()`. 
+Con la última instrucción redactada, el cambio de color sobre todos los elementos de clase `tal` se aplica con el click en aquello que tenga identidad `cambio`. Y con este segundo ejemplo ya resulta evidente que la clave del uso de [jQuery](https://jquery.com/) está en la concatenación de un selector y una acción, antecedida de un signo peso: `$(selector).action()`. 
 
 Las opciones de selectores y acciones son descritas detalladamente en https://api.jquery.com/, y de manera muy abreviada en https://htmlcheatsheet.com/jquery/
 
