@@ -10,7 +10,9 @@ En esta sesión pasaremos a otra biblioteca de JavaScript. Partimos por [p5.js](
 
 **[jQuery](https://jquery.com/) es una biblioteca que por muchos años ha simplificado la redacción de instrucciones en JavaScript, sobre todo cuando se busca manipular el DOM y hacer transiciones animadas**. Su primera versión estable fue lanzada el año 2006, lo que es anterior a la primera revisión importante del [estándar de JavaScript](https://en.wikipedia.org/wiki/ECMAScript), la [ES5 del 2009](https://www.w3schools.com/js/js_es5.asp), con la que se comenzó a simplificar la redacción del mismo lenguaje.
 
-Para entender la utilidad de [jQuery](https://jquery.com/), conviene partir con un ejemplo: En una página web tenemos varios elementos con una clase a la que denominamos `tal`. Para afectar a todos los elementos que tienen esa clase con un cambio de color desde JavaScript, sin usar bibliotecas, hace algunos años habríamos escrito la siguiente instrucción:
+La versión más reciente de [jQuery es la 3.6.0](https://blog.jquery.com/2021/03/02/jquery-3-6-0-released/) fue lanzada en marzo de 2021.
+
+Para entender la utilidad de [jQuery](https://jquery.com/), conviene partir con un ejemplo: En una página web podríamos tener varios elementos con una clase a la que denominamos `tal`. Para afectar a todos los elementos que tienen esa clase con un cambio de color desde JavaScript, sin usar bibliotecas, hace algunos años habríamos escrito la siguiente instrucción:
 
 ```
 var elementos = Array.from(document.getElementsByClassName("tal"));
@@ -123,7 +125,7 @@ Sin jQuery puedo hacer lo mismo:
 </html>
 ```
 
-Sin usar jQuery me quedé en las 25 líneas, eso porque JavaScript tiene su [Fetch API](https://levelup.gitconnected.com/using-the-fetch-api-in-javascript-1de7c2fe673b).
+Sin usar jQuery me quedé en las 25 líneas (y le ahorré al navegador la lectura de [90kb de código fuente](https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js)), eso porque JavaScript tiene su [Fetch API](https://levelup.gitconnected.com/using-the-fetch-api-in-javascript-1de7c2fe673b). 
 
 - - - - - - -
 
