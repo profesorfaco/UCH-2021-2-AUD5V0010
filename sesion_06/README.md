@@ -125,7 +125,7 @@ Sin jQuery puedo hacer lo mismo:
 </html>
 ```
 
-Sin usar jQuery me quedé en las 25 líneas (y le ahorré al navegador la lectura de [90kb de código fuente](https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js)), eso porque JavaScript tiene su [Fetch API](https://levelup.gitconnected.com/using-the-fetch-api-in-javascript-1de7c2fe673b). 
+Sin usar jQuery me quedé en las 25 líneas, y le ahorré al navegador la lectura de [90kb de código fuente](https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js)). Esto porque cada vez más navegadores soportan la [Fetch API](https://levelup.gitconnected.com/using-the-fetch-api-in-javascript-1de7c2fe673b) de [JavaScript](https://developer.mozilla.org/es/docs/Web/API/Fetch_API/Using_Fetch), que vino a reemplazar otras formas más complejas (tanto que convenía mucho más usar jQuery). 
 
 - - - - - - -
 
