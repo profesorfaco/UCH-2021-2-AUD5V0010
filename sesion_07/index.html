@@ -4,32 +4,38 @@
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous" />
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap" rel="stylesheet">
         <link href="style.css" rel="stylesheet" />
         <title>Introducción a la programación para el Diseño de interacción &#129302;</title>
     </head>
-    <body>
-        <header class="container">
+    <body class="bg-secondary bg-gradient" style="--bs-bg-opacity: 0.3;">
+        <header class="container border-bottom border-secondary">
             <div class="row">
-                <div class="col pt-5 pb-2">
-                    <h1>mindicador.cl</h1>
-                    <h2 class="pb-3">Indicadores económicos</h2>
-                    <p>Este es un servicio que entrega los principales indicadores económicos para Chile en formato JSON.</p>
+                <div class="col">
+                    <h1 class="pt-3 pb-1 fs-5 d-flex justify-content-between align-items-center">
+                        <span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-graph-down" viewBox="0 0 16 16">
+                                <path
+                                    fill-rule="evenodd"
+                                    d="M0 0h1v15h15v1H0V0zm10 11.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-4a.5.5 0 0 0-1 0v2.6l-3.613-4.417a.5.5 0 0 0-.74-.037L7.06 8.233 3.404 3.206a.5.5 0 0 0-.808.588l4 5.5a.5.5 0 0 0 .758.06l2.609-2.61L13.445 11H10.5a.5.5 0 0 0-.5.5z"
+                                />
+                            </svg>
+                            mindicador.cl
+                        </span>
+                        <span>indicadores económicos</span>
+                    </h1>
                 </div>
             </div>
         </header>
         <main class="container">
             <section class="row">
-                <div class="col">
-                    <ul id="opciones"></ul>
+                <div class="col py-5">
+                    <ul id="opciones" class="list-unstyled"></ul>
                 </div>
             </section>
         </main>
-        <footer class="container fixed-bottom">
+        <footer class="container fixed-bottom border-top border-secondary">
             <div class="row">
-                <div class="col pt-4">
+                <div class="col pt-3">
                     <p class="d-flex justify-content-between align-items-center small"><a href="#">Nombre Apellido</a> <a href="#">AUD5V0010</a></p>
                 </div>
             </div>
@@ -50,10 +56,9 @@
                 { codigo: "bitcoin", nombre: "Bitcoin", unidad_medida: "US$" },
             ];
             const aqui = document.querySelector("#opciones");
-            indicadores.forEach(repite);
-            function repite(item) {
-                aqui.innerHTML += "<li><a href='single.html?cod=" + item.codigo + "'>" + item.nombre + " </a></li>";
-            }
+            indicadores.forEach(i => {
+                aqui.innerHTML += "<li><a href='single.html?cod=" + i.codigo + "'>" + i.nombre + " </a></li>"
+            });
         </script>
     </body>
 </html>
