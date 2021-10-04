@@ -125,10 +125,9 @@ Sin jQuery puedo hacer lo mismo:
 </html>
 ```
 
-Sin usar jQuery me quedé en las 25 líneas, y le ahorré al navegador la lectura de [90kb de código fuente](https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js). Esto porque los navegadores actuales soportan la [Fetch API](https://levelup.gitconnected.com/using-the-fetch-api-in-javascript-1de7c2fe673b) de [JavaScript](https://developer.mozilla.org/es/docs/Web/API/Fetch_API/Using_Fetch), que vino a reemplazar [formas más complejas](https://stackoverflow.com/questions/1973140/parsing-json-from-xmlhttprequest-responsejson).
+Sin usar jQuery, me quedé en las 25 líneas y le ahorré al navegador la lectura de [90kb de código fuente](https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js). Esto porque los navegadores actuales soportan la [Fetch API](https://levelup.gitconnected.com/using-the-fetch-api-in-javascript-1de7c2fe673b) de [JavaScript](https://developer.mozilla.org/es/docs/Web/API/Fetch_API/Using_Fetch), que vino a reemplazar [formas más complejas](https://stackoverflow.com/questions/1973140/parsing-json-from-xmlhttprequest-responsejson).
 
-Ya podrían estar preguntándose: ¿Por qué seguir insistiendo con jQuery? La respuesta es sencilla: Porque los [efectos `Hide/Show` y `Fade`](https://htmlcheatsheet.com/jquery/) aún son útiles útiles.
-
+Ya podrían estar preguntándose: ¿Por qué seguir insistiendo con jQuery? La respuesta es sencilla: Porque los [efectos `Hide/Show` y `Fade`](https://htmlcheatsheet.com/jquery/) aún son útiles útiles, y la manera en que pueden manipular el DOM puede mejorarse en el tiempo.
 
 - - - - - - -
 
