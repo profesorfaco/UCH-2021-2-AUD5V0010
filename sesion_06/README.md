@@ -119,7 +119,7 @@ Sin jQuery puedo hacer lo mismo:
                         document.body.innerHTML += "<p>" + d.mom + " y " + d.dad + " tienen " + d.children.length + " " + singularplural + ".</p>";
                     });
                 })
-                .catch((error) => console.log("Algo está mal.", error));
+                .catch((error) => console.log("¡PLW!", error));
         </script>
     </body>
 </html>
