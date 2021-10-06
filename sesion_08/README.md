@@ -19,7 +19,7 @@ Para ello, cada estudiante debe desarrollar una página donde:
 Por ejemplo, en la siguiente página se utiliza Bootstrap para mostrar una pequeña reseña de Curicó como ciudad ciclista:
 https://profesorfaco.github.io/interaccion/sesion_08/
 
-Tal página, con textos completos (no un *loren ipsum*) tendría un 7.0 porque está demostrando un muy buen dominio de cada indicación en la pauta.
+Tal página, con textos completos (no un *loren ipsum*) y un despliegue que permitiera la mejor lectura y comprensión del asunto: Tendría un 7.0 porque está demostrando un muy buen dominio de cada indicación en la pauta.
 
 - - - - - - - - - - - - -
 
