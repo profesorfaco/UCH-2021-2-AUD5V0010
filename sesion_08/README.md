@@ -8,7 +8,7 @@ La Evaluación Nº1 busca ponerle número al aprovechamiento de las clases en qu
 
 Para ello, cada estudiante debe desarrollar una página donde: 
 
-| Ítem | Muy bueno | Bueno | Suficiente | No tan malo | Malo |
+| Ítem | :grin: | :slightly_smiling_face: | :no_mouth: | :cry: | :sob: |
 |:--------|:------:|:-------:|:-------:|:-----:|:-----:|
 | Demuestre el dominio de Boostrap para definir la diagramación (*layout*) de su página | 1.5 | 1.0 | 0.75 | 0.5 | 0 |
 | Demuestre el dominio de SVG para presentar una ilustración en su página | 1.5 | 1.0 | 0.75 | 0.5 | 0 |
