@@ -17,7 +17,7 @@ Para ello, cada estudiante debe desarrollar una página donde:
 | Punto base | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |
 
 Por ejemplo, en la siguiente página se utiliza Bootstrap para mostrar una pequeña reseña de Curicó como ciudad ciclista:
-https://profesorfaco.github.io/interaccion/sesion_08/ - Esa página tendría un 7.0 porque demuestra muy bien cada dominio considerado en la pauta.
+https://profesorfaco.github.io/interaccion/sesion_08/ - Esa página, con textos completos (no un *loren ipsum*) tendría un 7.0 porque demuestra muy bien cada dominio considerado en la pauta.
 
 - - - - - - - - - - - - -
 
