@@ -12,7 +12,7 @@ En esta sesión pasaremos a otra biblioteca de JavaScript. Partimos por [p5.js](
 
 La versión más reciente de [jQuery es la 3.6.0](https://blog.jquery.com/2021/03/02/jquery-3-6-0-released/); versión lanzada en marzo de 2021.
 
-Para entender la utilidad de [jQuery](https://jquery.com/), conviene partir con un ejemplo: En una página web podríamos tener varios elementos con una clase a la que denominamos `tal`. Para afectar a todos los elementos que tienen esa clase con un cambio de color desde JavaScript, sin usar bibliotecas, hace algunos años habríamos escrito la siguiente instrucción:
+Para entender la utilidad de [jQuery](https://jquery.com/), conviene partir con un ejemplo: En una página web podríamos tener varios elementos con una clase a la que denominamos `tal`. Para afectar a todos los elementos que tienen esa clase con un cambio de color desde JavaScript hace algunos años habríamos escrito la siguiente instrucción:
 
 ```
 var elementos = Array.from(document.getElementsByClassName("tal"));
@@ -45,7 +45,7 @@ function enrojece() {
 $("#cambio").on("click", enrojece);
 ```
 
-Tal instrucción está abreviando, mediante [jQuery](https://jquery.com/), lo que se podría escribir en JavaScript puro de la siguiente manera:
+Tal instrucción está abreviando, mediante [jQuery](https://jquery.com/), lo que se podría escribir en JavaScript actual y puro de la siguiente manera:
 
 ```
 function enrojece(){
@@ -127,7 +127,7 @@ Sin jQuery puedo hacer lo mismo:
 
 Sin usar jQuery, me quedé en las 25 líneas y le ahorré al navegador la lectura de [90kb de código fuente](https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js). Esto porque los navegadores actuales soportan la [Fetch API](https://levelup.gitconnected.com/using-the-fetch-api-in-javascript-1de7c2fe673b) de [JavaScript](https://developer.mozilla.org/es/docs/Web/API/Fetch_API/Using_Fetch), que vino a reemplazar [formas más complejas](https://stackoverflow.com/questions/1973140/parsing-json-from-xmlhttprequest-responsejson).
 
-Ya podrían estar preguntándose: ¿Por qué seguir insistiendo con jQuery? La respuesta es sencilla: Porque los [efectos `Hide/Show` y `Fade`](https://htmlcheatsheet.com/jquery/) aún son útiles útiles, y la manera en que pueden manipular el DOM puede mejorarse en el tiempo.
+Ya podrían estar preguntándose: ¿Por qué seguir insistiendo con jQuery? La respuesta es sencilla: Porque los [efectos `Hide/Show` y `Fade`](https://htmlcheatsheet.com/jquery/) aún son útiles útiles, y si ya estoy obligando al navegador a leer 90kb para hacer sólo eso, bien viene aprovecharse de lo demás. Pero no perdamos de vista las maneras más "puristas" y actuales de manipular el DOM, para no quedarnos atrapados en el pasado.
 
 - - - - - - -
 
