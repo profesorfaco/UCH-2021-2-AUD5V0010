@@ -111,7 +111,7 @@ Aquello que pueden tener a mano se aplica en lo que sigue:
                     plugins: {
                         title: {
                             display: true,
-                            text: "POBLACIÓN: POR SEXO Y REGiONES",
+                            text: "POBLACIÓN: POR SEXO Y REGIONES",
                         },
                     },
                 },
