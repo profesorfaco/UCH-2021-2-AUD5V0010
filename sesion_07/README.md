@@ -75,7 +75,7 @@ Aquello que pueden tener a mano se aplica en lo que sigue:
 
             var lasRegiones = [], losHombres = [], lasMujeres = [];
 
-            poblacion.forEach((d) => {
+            poblacion.forEach(d => {
                 lasRegiones.push(d.region);
                 losHombres.push(d.hombres);
                 lasMujeres.push(d.mujeres);
