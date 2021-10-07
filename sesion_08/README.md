@@ -12,7 +12,7 @@ Para ello, cada estudiante debe desarrollar una página donde:
 |:--------|:------:|:-------:|:-------:|:-----:|:-----:|
 | Demuestre el dominio de Boostrap para definir la diagramación (*layout*) de su página | 1.5 | 1.0 | 0.75 | 0.5 | 0 |
 | Demuestre el dominio de SVG para presentar una ilustración en su página | 1.5 | 1.0 | 0.75 | 0.5 | 0 |
-| Demuestre el dominio de jQuery o Bootstrap.js para el despliegue de un efecto pertinente en la página | 1.5 | 1.0 | 0.75 | 0.5 | 0 |
+| Demuestre el dominio de p5.js, jQuery o Bootstrap.js para el despliegue de un efecto pertinente en la página | 1.5 | 1.0 | 0.75 | 0.5 | 0 |
 | Demuestre el dominio de Charts.js para el despliegue de una visualización de datos pertinente | 1.5 | 1.0 | 0.75 | 0.5 | 0 |
 | Punto base | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |
 
