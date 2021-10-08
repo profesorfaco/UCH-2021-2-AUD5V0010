@@ -36,7 +36,7 @@ Esto es lo mismo que decir:
 
 - Y tal será su configuración: `{type: '…', data: {…}, options: {…}}`
 
-En la configuración se decide el tipo de gráfico ([línea](https://www.chartjs.org/docs/latest/charts/line.html), [barra](https://www.chartjs.org/docs/latest/charts/bar.html), [radar](https://www.chartjs.org/docs/latest/charts/radar.html), [torta](https://www.chartjs.org/docs/latest/charts/doughnut.html), [área polar](https://www.chartjs.org/docs/latest/charts/polar.html), [burbujas](https://www.chartjs.org/docs/latest/charts/bubble.html) o [dispersión](https://www.chartjs.org/docs/latest/charts/scatter.html)) y los datos para el gráfico, además de opciones de presentación.
+En la configuración se decide el tipo de gráfico y los datos para el gráfico, además de opciones de presentación.
 
 - - - - - - - - - - - - - - - 
 
