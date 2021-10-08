@@ -14,7 +14,7 @@ Con [Chart.js](https://www.chartjs.org/) podemos implementar gráficos de [líne
  
 Hay muchas alternativas de *JavaScript charting*. Por nombrar algunas: [Apache ECharts](https://echarts.apache.org/en/index.html), [d3.js](https://d3js.org/) (que [tuvo su cuarto de hora](https://medium.com/@PepsRyuu/why-i-no-longer-use-d3-js-b8288f306c9a)), [dygraph](https://dygraphs.com/). 
 
-Usaremos [Chart.js](https://www.chartjs.org/) porque permite resolver gráficos simples (gráficos de línea, barra, radar, etc.) con una estructura clara:
+Usaremos [Chart.js](https://www.chartjs.org/) porque permite resolver gráficos simples (de línea, barra, torta, etc.) con una estructura clara:
 
 ```
 var contexto = document.getElementById('nombre').getContext('2d');
@@ -22,7 +22,7 @@ var configuracion = {type: '…', data: {…}, options: {…}}
 var chart = new Chart(contexto, configuracion);
 ```
 
-La estructura también pueden escribirse así:
+La estructura también puede escribirse así:
 
 ```
 new Chart(document.getElementById('nombre').getContext('2d'), {type: '…', data: {…}, options: {…}});
@@ -34,7 +34,7 @@ Esto es lo mismo que decir:
 
 - Tal será su contexto `(document.getElementById('nombre').getContext('2d')`
 
-- Tal será su configuración: `{type: '…', data: {…}, options: {…}}`
+- Y tal será su configuración: `{type: '…', data: {…}, options: {…}}`
 
 En la configuración se decide el tipo de gráfico ([línea](https://www.chartjs.org/docs/latest/charts/line.html), [barra](https://www.chartjs.org/docs/latest/charts/bar.html), [radar](https://www.chartjs.org/docs/latest/charts/radar.html), [torta](https://www.chartjs.org/docs/latest/charts/doughnut.html), [área polar](https://www.chartjs.org/docs/latest/charts/polar.html), [burbujas](https://www.chartjs.org/docs/latest/charts/bubble.html) o [dispersión](https://www.chartjs.org/docs/latest/charts/scatter.html)) y los datos para el gráfico, además de opciones de presentación.
 
