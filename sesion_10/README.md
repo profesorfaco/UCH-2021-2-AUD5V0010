@@ -4,4 +4,4 @@
 
 - - - - - - - 
 
-[← CLASE ANTERIOR](https://github.com/profesorfaco/interaccion/tree/main/sesion_09) — [SIGUIENTE CLASE →](https://github.com/profesorfaco/interaccion/tree/main/sesion_11)
+[← CLASE ANTERIOR](https://github.com/profesorfaco/interaccion/tree/main/sesion_08) — [SIGUIENTE CLASE →](https://github.com/profesorfaco/interaccion/tree/main/sesion_11)
