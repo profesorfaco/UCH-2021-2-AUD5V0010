@@ -3,131 +3,137 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="description" content="Diseño y nuevos medios, segunda versión remota" />
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
         <link href="style.css" rel="stylesheet" />
-        <title>Introducción a la programación para el Diseño de interacción &#127959;</title>
+        <title>Evaluación Nº1</title>
     </head>
-    <body class="bg-light">
-        <header class="container fixed-top bg-light">
+    <body>
+        <nav class="fixed-top container">
+            <div class="row pt-2">
+                <div class="col">
+                    <h3 class="fs-6 d-flex justify-content-between align-items-center"><span>Evaluación</span> <span>Nº1</span></h3>
+                </div>
+            </div>
+        </nav>
+        <header class="container-fluid" id="fondo-con-imagen">
             <div class="row h-100">
-                <div class="col-11 col-sm-10 col-md-9 mx-auto border-bottom">
-                    <h1 class="d-flex justify-content-between align-items-center fs-5 pt-4 pb-2"><span>Curicó</span> <span class="text-muted">Región del Maule</span> <span class="text-muted">Chile</span></h1>
+                <div class="div text-center my-auto">
+                    <h1>Este es el título de primer nivel</h1>
+                    <h2>Esto es un título de segundo nivel</h2>
                 </div>
             </div>
         </header>
-        <main class="container-fluid pt-5">
-            <div class="container pt-5">
-                <div class="row">
-                    <div class="col-11 col-sm-10 col-md-9 mx-auto">
-                        <p class="lead">
-                            El nombre de esta ciudad y capital de la Provincia de Curicó deriva del mapudungún Agua (ko) Oscura (curi). Está ubicada en la Región del Maule, en la zona central de Chile. La provincia incluye a las comunas de
-                            Teno, Romeral, Rauco, Molina, Sagrada Familia, Vichuquén, Licantén y Hualañé.
-                        </p>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer consectetur nisl posuere tellus luctus rutrum. Nulla viverra a dui vel eleifend. Morbi vel ultrices tellus. Aliquam vitae venenatis diam. Etiam eu
-                            hendrerit odio. Duis ac ex lacinia, mattis nisi vel, elementum sem. Pellentesque dapibus pellentesque lectus, at feugiat sem sollicitudin vel. Pellentesque cursus feugiat quam, ut efficitur tellus auctor id. Ut
-                            tincidunt suscipit velit vel vehicula. Duis augue elit, porttitor a sollicitudin nec, luctus quis mi. Maecenas iaculis orci libero, in pulvinar nulla malesuada et.
-                        </p>
-                        <object type="image/svg+xml" data="images/maule.svg" class="w-100 my-4">
-                            Kiwi Logo
-                            <!-- fallback image in CSS -->
-                        </object>
-                        <p>
-                            El ciclismo ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Fusce rhoncus justo justo, euismod venenatis tellus tincidunt at. Curabitur lacinia enim tellus, sed hendrerit augue tristique
-                            vel. Duis in lacinia odio. Suspendisse id tellus hendrerit, tincidunt orci id, pharetra elit. Pellentesque tristique lacus et porta cursus. Suspendisse potenti. Vivamus laoreet non ligula quis tincidunt.
-                        </p>
+        <section class="container py-3">
+            <div class="row py-4">
+                <div class="col-sm-10 col-md-8 mx-auto">
+                    <p>A condición de demostrar su dominio de Bootstrap v5.1.3, el orden de contenidos que siguen en esta plantilla puede ser modificado. Entre los contenidos no deberían faltar aquellos que se solicitan en la <a href="https://github.com/profesorfaco/interaccion/tree/main/sesion_08#readme">pauta de evaluación</a>: un <strong>SVG</strong>, un <strong>gráfico resuelto con Charts.js</strong>, además de <strong>un "efecto de interacción"</strong> que ustedes pueden resolver mediante el uso de p5.js, jQuery o Bootstrap.js (bibliotecas de JavaScript que hemos usado en las sesiones pasadas).</p>
 
-                        <div id="carouselExampleIndicators" class="carousel slide carousel-fade my-4" data-bs-ride="carousel">
-                            <div class="carousel-indicators">
-                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
-                            </div>
-                            <div class="carousel-inner">
-                                <div class="carousel-item active">
-                                    <img src="images/curico-1.jpg" class="d-block w-100" alt="..." />
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="images/curico-2.jpg" class="d-block w-100" alt="..." />
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="images/curico-3.jpg" class="d-block w-100" alt="..." />
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="images/curico-4.jpg" class="d-block w-100" alt="..." />
-                                </div>
-                            </div>
-                        </div>
+                    <canvas id="misBarritas" width="100" height="70" class="my-5"></canvas>
+                    
+                    <p><strong>Como se trata de una plantilla, me permito usar "Lorem ipsum dolor sit amet", pero ustedes no deberían utilizarlo porque afectarían negativamente la exposición clara de su tema</strong>. Quisque tempor lacinia vulputate. Vestibulum felis est, semper sit amet lorem rutrum, luctus dapibus ipsum. Sed id condimentum quam. Sed non arcu risus. Quisque nec euismod dolor. Proin egestas mauris consectetur luctus laoreet. Sed ut massa et arcu pulvinar pellentesque eget vel odio. Aenean ultricies risusdolor odio, eget pretium ipsum placerat sit amet.</p>
+                    
+                    <!--En el siguiente SVG me aprovecho del "clip path", fíjense en los dos últimos dígitos del viewBox y los valores en width y height de la imagen que se recorta con el path: Deben ser los mismos. Pero la imagen originalmente vinculada tendría que ser más grande por asuntos de resolución -->
 
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer consectetur nisl posuere tellus luctus rutrum. Nulla viverra a dui vel eleifend. Morbi vel ultrices tellus. Aliquam vitae venenatis diam. Etiam eu
-                            hendrerit odio. Duis ac ex lacinia, mattis nisi vel, elementum sem. Pellentesque dapibus pellentesque lectus, at feugiat sem sollicitudin vel. Pellentesque cursus feugiat quam, ut efficitur tellus auctor id. Ut
-                            tincidunt suscipit velit vel vehicula. Duis augue elit, porttitor a sollicitudin nec, luctus quis mi. Maecenas iaculis orci libero, in pulvinar nulla malesuada et.
-                        </p>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="my-5">
+                        <defs>
+                            <clipPath id="recorte">
+                                <path d="M91.7,94.34H86.16a4,4,0,0,1-3.69-2.7L74.85,70.85,69.93,70l-.74,5.9a3.19,3.19,0,0,1-3.08,3h-13L51,72.45H61.32l.61-3.82L53.69,67c-2.95-.62-3.69-4.31-1.84-6.89L55,55.84a22.88,22.88,0,0,0,4.06-9l3.45-16c-3.32,0-5.91,3-6.89,7.75l-1.72,8.24a3.13,3.13,0,0,1-3.08,2.83h-.12a9.47,9.47,0,0,1-2.59-.49L42.5,47.48,41.27,55.1,55.53,94.34H49.88a4.42,4.42,0,0,1-3.69-2.7L33.89,60.52h-2V75.77a3,3,0,0,1-3.08,3H8.3V74.91a2.83,2.83,0,0,1,3.08-2.71H23.8V56.33a17.22,17.22,0,0,1,.37-3.56l4.67-21.9c-3.32,0-6,3-7,7.75l-1.72,8.24A3.12,3.12,0,0,1,17,49.69a3.22,3.22,0,0,1-3-4.06l1.73-8C17.9,28,23.43,23.86,34.38,23.86c7.26,0,11.56,3.32,10.21,11.2l-1,5.78,5,1.47,1-4.67c2.09-9.47,7.63-13.78,18.45-13.78,6.27,0,11.69,3.32,10.09,11.2l-1.48,6.76,12.06,3.32a3.4,3.4,0,0,1,2.58,3.2,3.3,3.3,0,0,1-3.08,3.44,9.47,9.47,0,0,1-2.58-.49l-9.35-2.7ZM34.62,19.56c-.73-1.48-1.1-6.52-1.1-9.47a3,3,0,0,1,.74-2.46,6.82,6.82,0,0,1,9.59,0c.62.49.62,1.35.62,2.7,0,2.95-.25,7.75-.87,9.23-.37.61-1.84,1.6-4.55,1.6C36.59,21.16,35,20.17,34.62,19.56Zm32.6.37c-.74-1.48-1.11-6.65-1.11-9.72A2.71,2.71,0,0,1,67,7.75a6.83,6.83,0,0,1,9.84,0c.5.49.5,1.23.5,2.71,0,3.07-.13,8-.87,9.47-.36.73-1.84,1.72-4.55,1.72S67.59,20.66,67.22,19.93Z"></path>
+                            </clipPath>
+                        </defs>
+                        <image width="100" height="100" clip-path="url(#recorte)" xlink:href="https://picsum.photos/id/223/500/500" >
+                    </svg>
 
-                        <canvas id="myChart" class="mb-5" style="width: 100%; height: 60vh;"></canvas>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed congue dolor id felis placerat, at laoreet massa accumsan. Quisque tempor lacinia vulputate. Vestibulum felis est, semper sit amet lorem rutrum, luctus dapibus ipsum. Sed id condimentum quam. Sed non arcu risus. Quisque nec euismod dolor. Proin egestas mauris consectetur luctus laoreet. Sed ut massa et arcu pulvinar pellentesque eget vel odio. Aenean ultricies risus dolor odio, eget pretium ipsum placerat sit amet.</p>
+                    
+                    <p class="fw-bold">Lo que estaría faltando en esta plantilla es un "efecto de interacción", que se pueden implementar con una de las siguientes bibliotecas: <a href="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.min.js">p5.js</a>, <a href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js">jQuery</a> o <a href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js">la de Bootstrap</a>.
+                    </p>
 
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer consectetur nisl posuere tellus luctus rutrum. Nulla viverra a dui vel eleifend. Morbi vel ultrices tellus. Aliquam vitae venenatis diam. Etiam eu
-                            hendrerit odio. Duis ac ex lacinia, mattis nisi vel, elementum sem. Pellentesque dapibus pellentesque lectus, at feugiat sem sollicitudin vel. Pellentesque cursus feugiat quam, ut efficitur tellus auctor id. Ut
-                            tincidunt suscipit velit vel vehicula. Duis augue elit, porttitor a sollicitudin nec, luctus quis mi. Maecenas iaculis orci libero, in pulvinar nulla malesuada et.
-                        </p>
-                    </div>
+                    <p>Puede agregar más contenidos para la exposición clara de su tema; no hay puntos en la pauta que pongan un techo, sólo se exige el piso mínimo de contenidos ya referidos más arriba y en la misma <a href="https://github.com/profesorfaco/interaccion/tree/main/sesion_08#readme">pauta de evaluación</a>.</p>
+
                 </div>
             </div>
-        </main>
-        <footer class="container">
-            <div class="row">
-                <div class="col-11 col-sm-10 col-md-9 mt-5 py-3 mx-auto border-top">
-                    <p class="small d-flex justify-content-between align-items-center"><a href="#">Nombre Apellido</a> <a href="#">AUD5V0010</a></p>
+        </section>
+        <footer class="container border-top">
+            <div class="row pt-3">
+                <div class="col">
+                    <!--recuerden cambiar el "#" por los vínculos correspondientes-->
+                    <p class="d-flex justify-content-between align-items-center small"><a href="#">Nombre Apellido</a> <a href="#">AUD5V0010</a></p>
                 </div>
             </div>
         </footer>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
-        <script
-            src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.4.1/chart.min.js"
-            integrity="sha512-5vwN8yor2fFT9pgPS9p9R7AszYaNn0LkQElTXIsZFCL7ucT8zDCAqlQXDdaqgA1mZP47hdvztBMsIoFxq/FyyQ=="
+        <!--con el siguiente script escondo el nav fijo según avance del scroll -->
+        <script>
+            var altura = document.getElementById("fondo-con-imagen").offsetHeight;
+            window.addEventListener("scroll", (event) => {
+                let scroll = this.scrollY;
+                console.log(scroll);
+                var element = document.getElementsByTagName("nav")[0];
+                if (scroll > altura) {
+                    element.classList.add("d-none");
+                } else {
+                    element.classList.remove("d-none");
+                }
+            });
+        </script>
+        <!--con el siguiente script voy a buscar la biblioteca Chart.js-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.5.1/chart.min.js"
+            integrity="sha512-Wt1bJGtlnMtGP0dqNFH1xlkLBNpEodaiQ8ZN5JLA5wpc1sUlk/O5uuOMNgvzddzkpvZ9GLyYNa8w2s7rqiTk5Q=="
             crossorigin="anonymous"
             referrerpolicy="no-referrer"
         ></script>
+        <!--con el siguiente script voy a buscar datos a un JSON y con ellos construyo un gráfico de barras-->
         <script>
-            const maximas = [29.2, 28.4, 25.5, 20.3, 15.6, 12.4, 12.1, 14.1, 17.1, 20.4, 24.1, 27.5];
-            const minimas = [12.7, 12.0, 9.7, 7.2, 6.0, 4.8, 3.9, 4.4, 5.9, 7.7, 9.6, 11.6];
-            const meses = ["Ene.", "Feb.", "Mar.", "Abr.", "May.", "Jun.", "Jul.", "Ago.", "Sep.", "Oct.", "Nov.", "Dic."];
-            // gráfico portada
-            const data = {
-                labels: meses,
-                datasets: [
-                    {
-                        label: "Maxima promedio",
-                        backgroundColor: "#f57f17",
-                        data: maximas,
-                    },
-                    {
-                        label: "Mínima promedio",
-                        backgroundColor: "#29b6f6",
-                        data: minimas,
-                    },
-                ],
-            };
-            const config = {
-                type: "line",
-                data,
-            };
-            new Chart(document.getElementById("myChart"), config);
-            //para ver datos
-            for (x = 0; x < 18; x++) {
-                document.getElementById("myData").innerHTML += "<tr><th scope='row'>" + data.labels[x] + "</td><td class='text-center'>" + data.datasets[0].data[x] + "</td><td class='text-center'>" + data.datasets[1].data[x] + "</td></tr>";
-            }
-            //para descargar la imagen
-            function laImagen() {
-                var url_base64 = document.getElementById("myChart").toDataURL("image/png");
-                var a = document.getElementById("descargaImagen");
-                a.href = url_base64;
-                a.download = "grafico.png";
-            }
+            fetch("https://myjson.dit.upm.es/api/bins/1wn3")
+                .then((response) => response.json())
+                .then((poblacion) => {
+                    console.log(poblacion);
+                    var lasRegiones = [],
+                        losHombres = [],
+                        lasMujeres = [];
+
+                    poblacion.forEach((d) => {
+                        lasRegiones.push(d.region);
+                        losHombres.push(d.hombres);
+                        lasMujeres.push(d.mujeres);
+                    });
+
+                    new Chart(document.getElementById("misBarritas").getContext("2d"), {
+                        type: "bar",
+                        data: {
+                            labels: lasRegiones,
+                            datasets: [
+                                {
+                                    data: losHombres,
+                                    backgroundColor: "#f1a340",
+                                    label: "Hombres",
+                                },
+                                {
+                                    data: lasMujeres,
+                                    backgroundColor: "#645294",
+                                    label: "Mujeres",
+                                },
+                            ],
+                        },
+                        options: {
+                            scales: {
+                                y: {
+                                    ticks: {
+                                        callback: function (numero) {
+                                            return numero.toLocaleString("es-CL");
+                                        },
+                                    },
+                                },
+                            },
+                            plugins: {
+                                title: {
+                                    display: true,
+                                    text: "POBLACIÓN: POR SEXO Y REGIONES, CENSO 2017",
+                                },
+                            },
+                        },
+                    });
+                })
+                .catch((error) => console.log("¡PLW!", error));
         </script>
     </body>
 </html>

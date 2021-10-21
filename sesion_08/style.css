@@ -1,9 +1,57 @@
-@charset "UTF-8";
+/*
+Por favor busque su propia fuente en Google Fonts
+*/
 
-* {
-    transition: all ease 0.5s;
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;500&display=swap");
+
+/*
+Modifique un mínimo de tres variables dentro de :root{} 
+Para seleccionarlas, revise: https://getbootstrap.com/docs/5.1/customize/css-variables/
+*/
+
+:root {
+    --bs-body-font-family: "Rubik", sans-serif;
+    --bs-body-font-size: 0.9rem;
+    --bs-body-font-weight: 300;
 }
 
-:hover {
-    transition: all ease 0.5s;
+/*
+Si el peso de la fuente para sus títulos y negrita es distinto de 600, 
+indique cuál sería (ver pesos de fuente importada)
+*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+strong {
+    font-weight: 500;
 }
+
+/*
+En #fondo-con-imagen, defina una imagen para el encabezado, cuidando: 
+
+- pertinencia (sirve para introducir su tema);
+- legibilidad de títulos en contraste (que no se pierdan h1, h2 ni h3);
+- extensión (JPG o PNG, según corresponda a la imagen); y
+- peso (menor a 250kb, sin sacrificar resolución)
+
+Referencia útil: https://www.adslzone.net/como-se-hace/photoshop/guardar-imagen-para-web/
+En tal referencia se mencionan las alternativas https://squoosh.app/ y https://tinypng.com/
+*/
+
+#fondo-con-imagen {
+    height: 70vh;
+    background-image: url("img/define-una-imagen.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/*
+Una vez hecho los ajustes indicados como comentarios, por favor bórrelos. 
+Su lectura de los comentarios será considerada en el primer ítem de la pauta de evaluación.
+En lo que sigue, puede agregar más ajustes.
+*/
