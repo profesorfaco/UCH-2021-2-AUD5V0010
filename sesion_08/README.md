@@ -16,6 +16,10 @@ Para ello, cada estudiante debe desarrollar una página donde:
 | Demuestre el dominio de Charts.js para el despliegue de una visualización de datos pertinente | 1.5 | 1.0 | 0.75 | 0.5 | 0 |
 | Punto base | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |
 
+Para desarrollar su página, use la plantilla en esta carpeta: 
+
+https://profesorfaco.github.io/interaccion/sesion_08/
+
 ~~Por ejemplo, en la siguiente página se utiliza Bootstrap para mostrar una pequeña reseña de Curicó como ciudad ciclista:
 https://profesorfaco.github.io/interaccion/sesion_08/~~
 
