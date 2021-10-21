@@ -23,4 +23,4 @@ Tal página, con textos completos (no un *loren ipsum*) y un despliegue que perm
 
 - - - - - - - - - - - - -
 
-[← CLASE ANTERIOR](https://github.com/profesorfaco/interaccion/tree/main/sesion_07) — [SIGUIENTE CLASE →](https://github.com/profesorfaco/interaccion/tree/main/sesion_10)
+[← CLASE ANTERIOR](https://github.com/profesorfaco/interaccion/tree/main/sesion_07) — [SIGUIENTE CLASE →](https://github.com/profesorfaco/interaccion/tree/main/sesion_09)
