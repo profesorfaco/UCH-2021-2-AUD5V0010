@@ -16,10 +16,10 @@ Para ello, cada estudiante debe desarrollar una página donde:
 | Demuestre el dominio de Charts.js para el despliegue de una visualización de datos pertinente | 1.5 | 1.0 | 0.75 | 0.5 | 0 |
 | Punto base | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |
 
-Por ejemplo, en la siguiente página se utiliza Bootstrap para mostrar una pequeña reseña de Curicó como ciudad ciclista:
-https://profesorfaco.github.io/interaccion/sesion_08/
+~~Por ejemplo, en la siguiente página se utiliza Bootstrap para mostrar una pequeña reseña de Curicó como ciudad ciclista:
+https://profesorfaco.github.io/interaccion/sesion_08/~~
 
-Tal página, con textos completos (no un *loren ipsum*) y un despliegue que permitiera la mejor lectura y comprensión del asunto: Tendría un 7.0 porque está demostrando un muy buen dominio de cada indicación en la pauta.
+~~Tal página, con textos completos (no un *loren ipsum*) y un despliegue que permitiera la mejor lectura y comprensión del asunto: Tendría un 7.0 porque está demostrando un muy buen dominio de cada indicación en la pauta.~~
 
 - - - - - - - - - - - - -
 
