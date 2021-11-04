@@ -4,9 +4,9 @@
 
 **¿Para qué?** → Refiera al beneficio que se obtiene al interactuar con su propuesta.
 
-**¿Para quiénes?** → Caracterice tres usuarios, dos en lados extremos y uno entre ellos.
+**¿Para quiénes?** → Caracterice tres usuarixs, dos en lados extremos y uno entre ellos.
 
-**¿Qué antecedentes corresponde considerar?** → Recopilación de aquello que se ha hecho antes buscando mismo beneficio para mismos usuarios.
+**¿Qué antecedentes corresponde considerar?** → Recopilación de aquello que se ha hecho antes buscando mismo beneficio para mismxs usuarixs.
 
 **¿Qué referentes podrían aportar novedad?** → Recopilación de material diverso que pueda inspirar un *look & feel* único.
 
