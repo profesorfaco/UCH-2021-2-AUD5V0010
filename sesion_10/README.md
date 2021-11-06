@@ -32,7 +32,7 @@
 | 24 | Kai Smith | https://lilk4i.github.io/ixd_sesion_09/ |
 | 25 | Matias Vivanco | https://matiasvivancob.github.io/propuesta/ |
 
-En este nuevo `index.html` deben comenzar a implementar su trabajo final. Se recomienda que aquellos trabajos agrupados como *blogs*, aprovechen los documentas en esta carpeta para hacer pruebas, esto es: enfocarse en la estructura de una "base de datos" antes que la estructura de cada página.
+En este nuevo `index.html` deben comenzar a implementar su trabajo final. Se recomienda que aquellos trabajos agrupados como *blogs*, aprovechen los documentos en esta carpeta para enfocarse en la estructura de una "base de datos" antes que la estructura de cada página.
 
 - - - - - - - 
 
