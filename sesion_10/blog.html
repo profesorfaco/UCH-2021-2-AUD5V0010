@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+        <title>Blog</title>
+    </head>
+    <body>
+        <div class="container">
+            <header class="row border-bottom">
+                <div class="col pt-3 pb-2">
+                    <h1 class="fs-6 d-flex justify-content-between align-items-center"><span>UN BLOG</span> <span>MUY BÁSICO</span></h1>
+                </div>
+            </header>
+            <main class="row text-center py-5"></main>
+            <footer class="row border-top">
+                <div class="col py-2">
+                    <p class="d-flex justify-content-between align-items-center small">
+                        <a href="https://github.com/profesorfaco" class="link-secondary">FACO</a> <a href="https://github.com/profesorfaco/interaccion" class="link-secondary">AUD5V0010</a>
+                    </p>
+                </div>
+            </footer>
+        </div>
+        <script>
+            fetch("https://sheet.best/api/sheets/e4a7fe38-8bda-4ef3-843b-b7cd406deab6")
+                .then((response) => response.json())
+                .then((datos) => {
+                    console.log(datos);
+                    var aqui = document.getElementsByTagName("main")[0];
+                    datos.reverse();
+                    datos.forEach((d) => {
+                        //el siguiente truco es necesario para desarmar una URL y crear otra
+                        foto_id = d.foto.split("=").pop();
+                        foto_util = "https://drive.google.com/uc?export=view&id=" + foto_id;
+                        //con lo que sigue creamos los "post" de nuestro "blog"
+                        aqui.innerHTML += '<div class="col-md-8 mx-auto mb-5"><h2>' + d.titular + '</h2><img src="' + foto_util + '" class="w-50 mx-auto my-3 shadow"><p class="lead">' + d.bajada + "</p><p>" + d.historia + "</p></div>";
+                    });
+                })
+                .catch((error) => console.log("¡PLW!", error));
+        </script>
+    </body>
+</html>
