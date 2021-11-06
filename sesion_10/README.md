@@ -2,6 +2,8 @@
 
 ### Trabajo final: Prototipo interactivo rápido
 
+**Vamos a cambiar el nombre del `index.html` por `base.html`, para subir un nuevo `index.html` al mismo repositorio:**
+
 | Nº  | Nombre         |   URL                                       |
 |:---:|:---------------|:--------------------------------------------|
 | 1 | Antonia Ascencio | https://antoniaascencio.github.io/clase-9-/ |
@@ -29,6 +31,8 @@
 | 23 | Daniel Salas | https://dsalas1234.github.io/sesion_09/ |
 | 24 | Kai Smith | https://lilk4i.github.io/ixd_sesion_09/ |
 | 25 | Matias Vivanco | https://matiasvivancob.github.io/propuesta/ |
+
+En este nuevo `index.html` deben comenzar a implementar su trabajo final. Se recomienda que aquellos trabajos agrupados como *blogs*, aprovechen los documentas en esta carpeta para hacer pruebas, esto es: enfocarse en la estructura de una "base de datos" antes que la estructura de cada página.
 
 - - - - - - - 
 
