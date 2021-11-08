@@ -37,7 +37,7 @@ En este nuevo `index.html` deben comenzar a implementar su trabajo final. Se rec
 - https://profesorfaco.github.io/interaccion/sesion_10/blog.html
 - https://profesorfaco.github.io/interaccion/sesion_10/blog_alternativo.html
 
-¡Pero el blog alternativo tiene un problema! https://support.google.com/docs/thread/56845119/getting-new-cors-errors-on-querying-published-google-csv-sheet?hl=en 
+¡Pero el blog alternativo tiene un problema! Google… https://support.google.com/docs/thread/56845119/getting-new-cors-errors-on-querying-published-google-csv-sheet?hl=en 
 
 - - - - - - - 
 
