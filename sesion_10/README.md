@@ -44,7 +44,7 @@ En este nuevo `index.html` deben comenzar a implementar su trabajo final. Se rec
 
 Google, como "buen monopolio", cambia sus políticas según su conveniencia. Y lo más conveniente para Google es que se usen sólo sus herramientas, bajo sus condiciones; en este caso pasa algo como lo que sigue: *¡no me gusta nada eso de que anden usando drive como base de datos, así que les ofreceré mi API mientras bloqueo tal uso!*. 
 
-La solución parche en `blog.html` es usar https://sheet.best/, a la que dejamos lidiar con las condiciones de Google bajo la condición de [pocas consultas si no se paga por más](https://sheet.best/#pricing); la solución parche en `blog-alternativo.html` es usar https://cors-anywhere.herokuapp.com/corsdemo… un parche que tiene "muy poco pegamento". Una solución más lenta, pero definitiva: exportar un nuevo CSV con cada actualización y dejarlo en un lugar donde no se cambien las reglas (como GitHub). 
+La solución parche en `blog.html` es usar https://sheet.best/, a la que dejamos lidiar con las condiciones de Google bajo la condición de [pocas consultas si no pagamos por más](https://sheet.best/#pricing); la solución parche en `blog-alternativo.html` es usar https://cors-anywhere.herokuapp.com/corsdemo… un parche que tiene "muy poco pegamento". Habría más trucos. Pero la solución lenta y segura es exportar un nuevo CSV con cada actualización y dejarlo en un lugar donde no se cambien las reglas (como GitHub). 
 
 - - - - - - - 
 
