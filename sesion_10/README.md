@@ -46,7 +46,13 @@ Se recomienda que aquellos trabajos agrupados como *blogs*, aprovechen los docum
 
 Google, como "buen monopolio", cambia sus políticas según su conveniencia. Y lo más conveniente para Google es que se usen sólo sus herramientas, bajo sus condiciones; en este caso pasa algo como lo que sigue: *¡no me gusta nada eso de que anden usando drive como base de datos, así que les ofreceré mi súper API mientras bloqueo tal uso!*. 
 
-La solución parche en `blog.html` es usar https://sheet.best/, a la que dejamos lidiar con las condiciones de Google bajo la condición de [pocas consultas si no pagamos por más](https://sheet.best/#pricing); la solución parche en `blog-alternativo.html` es usar https://cors-anywhere.herokuapp.com/corsdemo… un parche que tiene "muy poco pegamento". Habría más trucos. Pero la solución lenta y segura es exportar un nuevo CSV con cada actualización y dejarlo en un lugar donde no se cambien las reglas (como GitHub). 
+La solución parche en `blog.html` es usar https://sheet.best/, a la que dejamos lidiar con las condiciones de Google bajo la condición de [pocas consultas si no pagamos por más](https://sheet.best/#pricing); la solución parche en `blog-alternativo.html` es usar https://cors-anywhere.herokuapp.com/corsdemo… un parche que tiene "muy poco pegamento". 
+
+Hay más posibilidades, más allá de los parches: 
+
+- La más simple y segura, pero lenta, es exportar un nuevo CSV con cada actualización de su Base de Datos, y reemplazar la versión anterior en línea (puede ser en GitHub).
+
+- Aun más seguro, pero complejo y lento por el aprendizaje que exige, es decidirse a usar tecnologías tales como https://strapi.io/ u otras que necesitan de programación del lado del servidor. Esto último suma otra complicación: [*GitHub Pages does not support server-side languages such as PHP, Ruby, or Python.*](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages)
 
 - - - - - - - 
 
