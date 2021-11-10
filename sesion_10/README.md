@@ -46,7 +46,7 @@ Se recomienda que aquellos trabajos agrupados como *blogs*, aprovechen los docum
 
 Google, como "buen monopolio", cambia sus políticas según su conveniencia. Y lo más conveniente para Google es que se usen sólo sus herramientas, bajo sus condiciones; en este caso pasa algo como lo que sigue: *¡no me gusta nada eso de que anden usando drive como base de datos, así que les ofreceré mi súper API mientras bloqueo tal uso!*. 
 
-La solución parche en [`blog.html`](https://profesorfaco.github.io/interaccion/sesion_10/blog.html) es usar https://sheet.best/, a la que dejamos lidiar con las condiciones de Google bajo la condición de [pocas consultas si no pagamos por más](https://sheet.best/#pricing); la solución parche en [`blog-alternativo.html`](https://profesorfaco.github.io/interaccion/sesion_10/blog_alternativo.html) es usar https://cors-anywhere.herokuapp.com/corsdemo… un parche que tiene "muy poco pegamento". 
+La solución parche en [`blog.html`](https://profesorfaco.github.io/interaccion/sesion_10/blog.html) es usar https://sheet.best/, a la que dejamos lidiar con las condiciones de Google a cambio de [muy pocas consultas si no pagamos por más](https://sheet.best/#pricing); la solución parche en [`blog-alternativo.html`](https://profesorfaco.github.io/interaccion/sesion_10/blog_alternativo.html) es usar https://cors-anywhere.herokuapp.com/corsdemo… un parche que tiene "muy poco pegamento". 
 
 Hay más posibilidades, más allá de los parches: 
 
