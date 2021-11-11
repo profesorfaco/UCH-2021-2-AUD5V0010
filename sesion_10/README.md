@@ -37,6 +37,7 @@
 Se recomienda que aquellos trabajos agrupados como *blogs*, aprovechen los documentos en esta carpeta para enfocarse en la estructura de una "base de datos" para crear páginas: 
 
 - https://profesorfaco.github.io/interaccion/sesion_10/blog.html
+- https://profesorfaco.github.io/interaccion/sesion_10/blog_varias_paginas.html
 - https://profesorfaco.github.io/interaccion/sesion_10/blog_alternativo.html
 
 ¡Pero esos documentos tienen un problema! Sí. El problema es Google… 
