@@ -105,13 +105,3 @@ La organización se basa en la modalidad de “aula invertida” (*flipped class
 - [Web Demystified](https://www.youtube.com/playlist?list=PLo3w8EB99pqLEopnunz-dOOBJ8t-Wgt2g)
 
 Se agregarán más referencias en el `README.md` de cada clase.
-
-
-# Entrega
-
-![Tapir Amazónico](https://user-images.githubusercontent.com/7999767/144524115-8fe61127-499c-411c-8c7c-190bd081cdb9.jpeg)
-
-Dejar comentarios, lalalal
-
-
-
