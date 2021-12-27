@@ -4,7 +4,7 @@
 
 | Nº   | Nombre | GitHub | Entrega | Comentario |
 |:----:|:-------|:-------|:--------|:-----------|
-| 1 | Antonia Ascencio | https://github.com/antoniaascencio | https://antoniaascencio.github.io/Evaluacion-Final/ | Pendiente |
+| 1 | Antonia Ascencio | https://github.com/antoniaascencio | https://antoniaascencio.github.io/Evaluacion-Final/ | Recomiendo no dejar artículo con vínculo a este aviso: "Este articulo aún no se encuentra disponible, ¡Espero seas paciente :)!" |
 | 2 | Raúl Berríos | https://github.com/raulgabrielb | Pendiente | Pendiente |
 | 3 | Francisco Cabrera | https://github.com/Toomanypanchos | Pendiente | Pendiente |
 | 4 | Susan Castro | https://github.com/susancastroc | Pendiente | Pendiente |
