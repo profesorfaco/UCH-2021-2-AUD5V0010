@@ -9,7 +9,7 @@
 | Francisco Cabrera | [Toomanypanchos](https://github.com/Toomanypanchos) | Pendiente | Pendiente |
 | Susan Castro | [susancastroc](https://github.com/susancastroc) | Pendiente | Pendiente |
 | Fernanda Celpa | [Celpa](https://github.com/FCelpa) | https://fcelpa.github.io/ixd_entrega_final/ | Hay dos "logos", uno en Instagram y otro en Facebook. Pero en ambos se mantienen 3 ideas: Una [handwriting](https://fonts.google.com/?category=Handwriting&preview.text=Bazar%20vintage%20Laurita&preview.text_type=custom), con una "z" muy sans-serif y una L con chasquilla y colita (uso términos tipográficos muy malos, adrede); con esa base, busca una mejor tipografía para el logo en la página web, podría ser una Locorice, Dancing Script, Satisfy, etc. |
-| Cristina Chamorro | [cristinachr](https://github.com/cristinachr) | https://cristinachr.github.io/entrega-final/ | En los datos curiosos la página se desarma, revisar cierre de divisiones |
+| Cristina Chamorro | [cristinachr](https://github.com/cristinachr) | https://cristinachr.github.io/entrega-final/ | En los "Datos curiosos" la página se desarma, revisar cierre de divisiones. Puedes usar https://webformatter.com/html |
 | Francisca Chong | [mochuse](https://github.com/mochuse) | Pendiente | Pendiente |
 | Raúl Contreras | [LoveOken](https://github.com/LoveOken) | https://loveoken.github.io/pafstore/ | Buscar mayor protagonismo para la indicación: "Envía un mensaje a nuestra página de Instagram para realizar tu pedido. 💖". Podría ser a través de un "sticky", algo que deje tal instrucción y acción siempre cerca de un click con el pulgar en un celular |
 | Rocío Córdova | [rcio99](https://github.com/rcio99) | Pendiente | Pendiente |
