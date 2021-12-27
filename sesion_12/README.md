@@ -25,7 +25,7 @@
 | Camila Poblete | [camilapoblete](https://github.com/camilapoblete) | Pendiente | Pendiente |
 | Catalina Rivera  | [Catari02](https://github.com/Catari02) | https://catari02.github.io/trabajo-final/ | En la bajada del título, te recomiendo un texto que diga: "Bucando cómo integrar Ilustración con Diseño editorial / Diseño UI / Branding". Luego, en las habilidades (sacando Áreas de desempeño), la primera sería la Ilustración, luego Diseño editorial, Diseño UI y finalmente Branding. Creo que tu portafolio es mucho más valioso que las habilidades en software (enrocaría sus posiciones). Para cerrar: Recomiendo nunca-jamás presentar lo que te apasiona (ilustración) como algo a lo que dedicas el tiempo libre. Intégralo a tu tiempo productivo. |
 | Vanessa Rodríguez | [vanessa-rodriguez123](https://github.com/vanessa-rodriguez123) | Pendiente | Pendiente |
-| Roberto Rojas | [RobertRed-a](https://github.com/RobertRed-a) | Pendiente | Pendiente |
+| Roberto Rojas | [RobertRed-a](https://github.com/RobertRed-a) | https://robertred-a.github.io/ixd-final/ | Pronto |
 | Daniel Salas | [dsalas1234](https://github.com/dsalas1234) | Pendiente | Pendiente |
 | Kai Smith | [lilK4i](https://github.com/lilK4i) | Pendiente | Pendiente |
 | Matías Vivanco | [matiasvivancob](https://github.com/matiasvivancob) | Pendiente | Pendiente |
