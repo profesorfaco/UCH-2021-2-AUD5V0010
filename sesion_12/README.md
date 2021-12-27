@@ -9,7 +9,7 @@
 | 3 | Francisco Cabrera | https://github.com/Toomanypanchos | Pendiente | Pendiente |
 | 4 | Susan Castro | https://github.com/susancastroc | Pendiente | Pendiente |
 | 5 | Fernanda Celpa | https://github.com/FCelpa | Pendiente | Pendiente |
-| 6 | Cristina Chamorro | https://github.com/cristinachr | Pendiente | Pendiente |
+| 6 | Cristina Chamorro | https://github.com/cristinachr | https://cristinachr.github.io/entrega-final/ | Pendiente |
 | 7 | Francisca Chong | https://github.com/mochuse | Pendiente | Pendiente |
 | 8 | Raúl Contreras | https://github.com/LoveOken | Pendiente | Pendiente |
 | 9 | Rocío Córdova | https://github.com/rcio99 | Pendiente | Pendiente |
