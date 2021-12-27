@@ -15,7 +15,7 @@
 | Rocío Córdova | [rcio99](https://github.com/rcio99) | Pendiente | Pendiente |
 | Valentina Flores | [TheValushca](https://github.com/TheValushca) | Pendiente | Pendiente |
 | Camila González | [camilagonzalezga](https://github.com/camilagonzalezga) | Pendiente | Pendiente |
-| Tomás Hernández | [TomasHernandezMarti](https://github.com/TomasHernandezMarti) | Pendiente | Pendiente |
+| Tomás Hernández | [TomasHernandezMarti](https://github.com/TomasHernandezMarti) | https://tomashernandezmarti.github.io/pre-entrega/ | Pendiente |
 | Andrea Jiménez  | [andreacjp](https://github.com/andreacjp) | Pendiente | Pendiente |
 | Bensu Karamustafa | ? | ? | ? |
 | Hisashi Kobayashi | [H-kobaya](https://github.com/H-kobaya) | Pendiente | Pendiente |
