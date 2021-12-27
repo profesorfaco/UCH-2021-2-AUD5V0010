@@ -23,7 +23,7 @@
 | 17 | Javiera Parga | https://github.com/javiparga13 | Pendiente | Pendiente |
 | 18 | María José Pinninghoff | https://github.com/iamcoteg | Pendiente | Pendiente |
 | 19 | Camila Poblete | https://github.com/camilapoblete | Pendiente | Pendiente |
-| 20 | Catalina Rivera  | https://github.com/Catari02 | Pendiente | Pendiente |
+| 20 | Catalina Rivera  | https://github.com/Catari02 | https://catari02.github.io/trabajo-final/ | Pendiente |
 | 21 | Vanessa Rodríguez | https://github.com/vanessa-rodriguez123 | Pendiente | Pendiente |
 | 22 | Roberto Rojas | https://github.com/RobertRed-a | Pendiente | Pendiente |
 | 23 | Daniel Salas | https://github.com/dsalas1234 | Pendiente | Pendiente |
