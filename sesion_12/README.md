@@ -12,7 +12,7 @@
 | Cristina Chamorro | [cristinachr](https://github.com/cristinachr) | https://cristinachr.github.io/entrega-final/ | En los "Datos curiosos" la página se desarma, recomiendo revisar cierre de divisiones. Puedes usar https://webformatter.com/html |
 | Francisca Chong | [mochuse](https://github.com/mochuse) | Pendiente | Pendiente |
 | Raúl Contreras | [LoveOken](https://github.com/LoveOken) | https://loveoken.github.io/pafstore/ | Buscar mayor protagonismo para la indicación: "Envía un mensaje a nuestra página de Instagram para realizar tu pedido. 💖". Podría ser a través de un "sticky", algo que deje tal instrucción y acción siempre cerca de un click con el pulgar en un celular |
-| Rocío Córdova | [rcio99](https://github.com/rcio99) | Pendiente | Pendiente |
+| Rocío Córdova | [rcio99](https://github.com/rcio99) | https://rcio99.github.io/entrega-final/ | Pronto |
 | Valentina Flores | [TheValushca](https://github.com/TheValushca) | Pendiente | Pendiente |
 | Camila González | [camilagonzalezga](https://github.com/camilagonzalezga) | Pendiente | Pendiente |
 | Tomás Hernández | [TomasHernandezMarti](https://github.com/TomasHernandezMarti) | https://tomashernandezmarti.github.io/pre-entrega/ | Hay varios "problemas semánticos". Los señalo como preguntas: (1) Si es entrega final: ¿por qué llamarle pre-entrega? (2) Si lo más importante es conocer para quién va dirigido y cuáles son las necesidades: ¿por qué "fome"? (3) Si queremos mostrar habilidades: ¿por qué saludar desde la dimensión limitada de un tatuador malote, uno que sería incapaz de ofrecer la versatilidad que ofreces en identificadores de marca como los del guatón de la ropa, Everness lofi radio y Gonzalo Martí?  |
