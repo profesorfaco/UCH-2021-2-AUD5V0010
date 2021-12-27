@@ -15,7 +15,7 @@
 | Rocío Córdova | [rcio99](https://github.com/rcio99) | Pendiente | Pendiente |
 | Valentina Flores | [TheValushca](https://github.com/TheValushca) | Pendiente | Pendiente |
 | Camila González | [camilagonzalezga](https://github.com/camilagonzalezga) | Pendiente | Pendiente |
-| Tomás Hernández | [TomasHernandezMarti](https://github.com/TomasHernandezMarti) | https://tomashernandezmarti.github.io/pre-entrega/ | Hay varios "problemas semánticos". Lo pongo como preguntas: (1) Si es entrega final, por qué llamarle pre-entrega. (2) Si lo más importante es conocer para quién va dirigido y cuáles son las necesidades, porqué "fome". (3) Si queremos mostrar habilidades, para qué saludar desde la dimensión limitada lo tatuador malote, uno que sería incapaz de ofrecer algo tan pertinente y entretenido como los identificadores de marca del guatón de la ropa, Everness lofi radio, Gonzalo Martí, etc.  |
+| Tomás Hernández | [TomasHernandezMarti](https://github.com/TomasHernandezMarti) | https://tomashernandezmarti.github.io/pre-entrega/ | Hay varios "problemas semánticos". Lo pongo como preguntas: (1) Si es entrega final: ¿por qué llamarle pre-entrega? (2) Si lo más importante es conocer para quién va dirigido y cuáles son las necesidades: ¿por qué "fome"? (3) Si queremos mostrar habilidades: ¿para qué saludar desde la dimensión limitada lo tatuador malote, uno que sería incapaz de ofrecer la versatilidad que ofreces en identificadores de marca como los del guatón de la ropa, Everness lofi radio y Gonzalo Martí?  |
 | Andrea Jiménez  | [andreacjp](https://github.com/andreacjp) | Pendiente | Pendiente |
 | Bensu Karamustafa | ? | ? | ? |
 | Hisashi Kobayashi | [H-kobaya](https://github.com/H-kobaya) | Pendiente | Pendiente |
