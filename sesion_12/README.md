@@ -6,7 +6,7 @@
 
 | Nombre | GitHub | Entrega | Comentario |
 |:-------|:-------|:--------|:-----------|
-| Antonia Ascencio | [antoniaascencio](https://github.com/antoniaascencio) | https://antoniaascencio.github.io/Evaluacion-Final/ | Recomiendo no dejar artículos con vínculo a este aviso: "Este articulo aún no se encuentra disponible, ¡Espero seas paciente :)!". En web tienes que cumplir con cada clic, el "pronto nuevo contenido" nunca tiene clic. |
+| Antonia Ascencio | [antoniaascencio](https://github.com/antoniaascencio) | https://antoniaascencio.github.io/Evaluacion-Final/ | Recomiendo no dejar artículos con vínculo a este aviso: "Este articulo aún no se encuentra disponible, ¡Espero seas paciente :)!". En web tienes que cumplir con cada clic, el "pronto nuevo contenido" nunca tiene un segundo clic. |
 | Raúl Berríos | [raulgabrielb](https://github.com/raulgabrielb) | https://raulgabrielb.github.io/TrabajoFinal/ | Podrías ofrecer una selección más amplia de trabajos, donde evites reacciones como "mapuche ya es plural" o "tu helicóptero es un avión de hélice, no es helicóptero"; es importante revisar varias veces cada descripción de lo que uno ofrece al presentar su trabajo; esa presentación es la primera impresión que se debe cuidar. |
 | Francisco Cabrera | [Toomanypanchos](https://github.com/Toomanypanchos) | Pendiente | Pendiente |
 | Susan Castro | [susancastroc](https://github.com/susancastroc) | Pendiente | Pendiente |
