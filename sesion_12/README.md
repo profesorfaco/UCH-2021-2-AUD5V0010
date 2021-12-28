@@ -2,6 +2,8 @@
 
 ### Evaluación Nº2
 
+#### ENTREGAS Y COMENTARIOS
+
 | Nombre | GitHub | Entrega | Comentario |
 |:-------|:-------|:--------|:-----------|
 | Antonia Ascencio | [antoniaascencio](https://github.com/antoniaascencio) | https://antoniaascencio.github.io/Evaluacion-Final/ | Recomiendo no dejar artículos con vínculo a este aviso: "Este articulo aún no se encuentra disponible, ¡Espero seas paciente :)!". En web tienes que cumplir con cada clic, el "pronto nuevo contenido" nunca tiene clic. |
@@ -29,6 +31,21 @@
 | Daniel Salas | [dsalas1234](https://github.com/dsalas1234) | Pendiente | Pendiente |
 | Kai Smith | [lilK4i](https://github.com/lilK4i) | Pendiente | Pendiente |
 | Matías Vivanco | [matiasvivancob](https://github.com/matiasvivancob) | Pendiente | Pendiente |
+
+#### PAUTA DE EVALUACIÓN
+
+| DESCRIPTOR | PUNTAJE MÁXIMO |
+|:------------|:------:|
+| Cuida los contenidos ofrecidos, dejando todo en un mismo idioma y respondiendo a cada clic con lo que podría esperarse; no ofrece ningún "coming soon", porque es consciente de que habiendo tanto por visitar en la Web, difícilmente se vuelve al lugar donde algo no estaba disponible | 1.0 |
+| Cuida los contrastes de colores figura-fondo para asegurar la legibilidad (se revisa con [LightHouse](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk) y se complementa con [la Color Tool](https://material.io/resources/color/) de Material Design) | 1.0 |
+| Cuida la optimización de las imágenes en los formatos PNG, JPG o WEBP, según corresponda, para obtener el menor peso con la mejor resolución (se revisa con [LightHouse](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk)) | 1.0 |
+| Cuida el código fuente, sin dejar elementos abiertos (se revisa con [HTML Formatter](https://webformatter.com/html)) | 1.0 |
+| Cuida el acceso permanente a los elementos de interacción clave para cada página web y/o el negocio que se presenta en el sitio web (puede usar [helpers > position](https://getbootstrap.com/docs/5.1/helpers/position/#sticky-top), [components > toast](https://getbootstrap.com/docs/5.1/components/toasts/) o [components > offcanvas](https://getbootstrap.com/docs/5.1/components/offcanvas/) de Bootstrap) | 1.0 |
+| Ofrece una consistencia cromática, formal y semántica que solo puede ofrecerse desde el diseño (hay coherencia entre lo que dice y cómo lo dice, incluso en los aspectos más abstractos del color y formas en uso) | 1.0 |
+| Punto base | 1.0 |
+| TOTAL | 7.0 |
+
+
 
 - - - - - - - 
 
