@@ -43,7 +43,7 @@
 | Cuida la optimización de las imágenes en los formatos PNG, JPG o WEBP, según corresponda, para obtener el menor peso con la mejor resolución (se revisa con [LightHouse](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk)) | 1.0 |
 | Cuida el código fuente, sin dejar elementos abiertos (se revisa con [HTML Formatter](https://webformatter.com/html)) | 1.0 |
 | Cuida el acceso permanente a los elementos de interacción clave para cada página web y/o el negocio que se presenta en el sitio web (puede usar [helpers > position](https://getbootstrap.com/docs/5.1/helpers/position/#sticky-top), [components > toast](https://getbootstrap.com/docs/5.1/components/toasts/) o [components > offcanvas](https://getbootstrap.com/docs/5.1/components/offcanvas/) de Bootstrap) | 1.0 |
-| Cuida la consistencia cromática, formal y semántica como especialista en diseño (hay coherencia entre lo que dice y cómo lo dice, incluso en los aspectos más abstractos del color y formas en uso) | 1.0 |
+| Cuida la consistencia cromática, formal y semántica como especialista en diseño (hay coherencia entre lo que dice y cómo lo dice, incluso en los aspectos más abstractos del color y formas en uso, y en los aspectos que parecen irrelevantes, como la URL) | 1.0 |
 | Punto base | 1.0 |
 | TOTAL | 7.0 |
 
