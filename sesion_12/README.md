@@ -32,6 +32,8 @@
 | Kai Smith | [lilK4i](https://github.com/lilK4i) | Pendiente | Pendiente |
 | Matías Vivanco | [matiasvivancob](https://github.com/matiasvivancob) | Pendiente | Pendiente |
 
+- - - - - - - 
+
 #### PAUTA DE EVALUACIÓN
 
 | DESCRIPTOR | PUNTAJE MÁXIMO |
